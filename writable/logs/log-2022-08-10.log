@@ -1,0 +1,10 @@
+CRITICAL - 2022-08-10 08:43:01 --> syntax error, unexpected '$result' (T_VARIABLE)
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(790): class_exists()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,43 @@
+CRITICAL - 2022-05-26 03:16:24 --> syntax error, unexpected ')'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(790): class_exists()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-26 05:08:15 --> Call to undefined method App\Models\Mediafilesmodel::order_by
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Models/Mediafilesmodel.php(42): CodeIgniter\Model->__call()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Media.php(202): App\Models\Mediafilesmodel->getallmediafilesbycat()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Media->listmedia()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-26 05:08:23 --> Call to undefined method App\Models\Mediafilesmodel::order_by
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Models/Mediafilesmodel.php(42): CodeIgniter\Model->__call()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Media.php(202): App\Models\Mediafilesmodel->getallmediafilesbycat()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Media->listmedia()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-26 06:11:37 --> syntax error, unexpected '$finalresponse' (T_VARIABLE)
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(790): class_exists()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-26 07:16:19 --> Call to undefined method App\Models\Mediafilesmodel::allmediatags
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Media.php(8): CodeIgniter\Model->__call()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,163 @@
+<?php 
+namespace App\Controllers;
+class Addgroup extends BaseController
+{
+
+    public function addgroup()
+    {
+        $data = array();
+        if (isset($_POST["submit"])) {
+            $validationRule["groupname"] = array('label' => 'Group Name', 'rules' => 'required|is_unique[tbl_groupname.groupname]');
+            if (!$this->validate($validationRule)) {
+                $data["error"] = $this->validator->getErrors();
+            }
+            else {
+                $session = Session();
+                $adminid = $session->get('adminid');
+                $data = [
+                    "groupname" => ucfirst($this->request->getPost('groupname')),
+                    "created_by" => $adminid,
+                    "created_at" => date("Y-m-d"),
+                    "updated_on" => "",
+                ];
+                if ($this->addgroupmodel->insert($data)) {
+                    $msg = array("result" => "success", "message" => "Group Add Successfully");
+                    $this->customsetflash("groupmsg", $msg);
+                    return redirect()->to('listgroups');
+                }
+                else {
+                    $msg = array("result" => "error", "message" => "Group Not Added");
+                    $this->customsetflash("groupmsg", $msg);
+                }
+            }
+        }
+        echo view('includes/head', array("thiscontrol" => $this));
+        echo view('includes/header', array("thiscontrol" => $this, "menuactive" => "codes", "submenuactive" => "addgroup"));
+        echo view("addgroup", $data);
+        echo view("includes/footer");
+    }
+
+
+
+    public function listgroups()
+    {
+        echo view('includes/head', array("thiscontrol" => $this));
+        echo view('includes/header', array("thiscontrol" => $this, "menuactive" => "codes", "submenuactive" => "listgroups"));
+        echo view("listgroups");
+        echo view("includes/footer");
+    }
+
+
+
+
+    public function loaddataforgrouptbl()
+    {
+        $params['draw'] = $_REQUEST['draw'];
+        $start = $_REQUEST['start'];
+        $length = $_REQUEST['length'];
+        $orderby = (isset($_REQUEST['order'][0]['dir']) && !empty($_REQUEST['order'][0]['dir'])) ? $_REQUEST['order'][0]['dir'] : "desc";
+
+
+        /* Value we will get from typing in search */
+        $search_value = $_REQUEST['search']['value'];
+
+        if (!empty($search_value)) {
+           
+            // If we have value in search, searching by id, name, email, mobile
+            $total_count = $data = $this->addgroupmodel->totalcountforgroup($search_value, $orderby);
+        }
+        else {
+
+            $total_count = $this->addgroupmodel->dataifsearchforgroup($orderby);
+            $data = $this->addgroupmodel->perpagedataifsearchforgroup($orderby, $start, $length);
+        }
+
+        $json_data = array(
+            "draw" => intval($params['draw']),
+            "recordsTotal" => count($total_count),
+            "recordsFiltered" => count($total_count),
+            "data" => $data // total data array
+        );
+
+        echo json_encode($json_data);
+        die();
+    }
+
+
+
+    public function editgroup($id){
+        $data = array();
+        $data["groupdata"] = $this->addgroupmodel->where("id", $id)->get()->getResult();
+        
+        if(isset($_POST["submit"])){
+            $validationRule["groupname"] = array('label' => 'Group Name', 'rules' => 'required|is_unique[tbl_groupname.groupname]');
+            if (!$this->validate($validationRule)) {
+                $data["error"] = $this->validator->getErrors();
+               
+            }else{
+                $posdata = [
+                    "groupname" => ucfirst($this->request->getPost("groupname")),
+                    "updated_on" => date("Y-m-d"),
+                ];
+                $query = $this->addgroupmodel->where("id",$id)->set($posdata)->update();
+                if ($query){
+                    $msg = array("result" => "success", "message" => "Group Updated Successfully");
+                    $this->customsetflash("groupmsg", $msg);
+                    return redirect()->to('listgroups');
+                }
+                else {
+                    $msg = array("result" => "error", "message" => "Group Not Updated");
+                    $this->customsetflash("groupmsg", $msg);
+                    return redirect()->to('editgroup/'.$id);
+                }
+            }  
+        }
+        echo view('includes/head', array("thiscontrol" => $this));
+        echo view('includes/header', array("thiscontrol" => $this, "menuactive" => "codes", "submenuactive" => "listgroups"));
+        echo view("editgroup",$data);
+        echo view("includes/footer");
+    }
+
+    public function checkgroupexitsbeforedelete(){
+        $postdata = $this->request->getPost();
+        $groupid = $postdata["rowid"];
+        $checkcount = $this->filedatamodel->checkgroupexistsinanyfile($groupid);
+        if($checkcount > 0)
+        {
+            $returnData["result"] = "error";
+            $returnData["data"] = "You cannot delete a group that contains files.";
+            echo json_encode($returnData);
+            die();
+        }
+        else
+        {
+            $returnData["result"] = "success";
+            $returnData["data"] = "Can go for delete";
+            echo json_encode($returnData);
+            die();
+        }
+        die();
+    }
+
+    public function deletefilegroupdata(){
+        $postdata = $this->request->getPost();
+        $groupid = $postdata["rowid"];
+        $deledata = $this->addgroupmodel->where("id", $groupid)->delete();
+        if($deledata)
+        {
+            $returnData["result"] = "success";
+            $returnData["message"] = "Group deleted successfully";
+            echo json_encode($returnData);
+            die();
+        }
+        else
+        {
+            $returnData["result"] = "error";
+            $returnData["message"] = "Unable to delete the group";
+            echo json_encode($returnData);
+            die();
+        }
+        die();
+    }
+}
+?>

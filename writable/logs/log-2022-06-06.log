@@ -1,0 +1,8 @@
+CRITICAL - 2022-06-06 05:25:54 --> Could not move file phpZq1Ypg to /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend2/public/uploads/media/ ()
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend2/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend2/app/Controllers/Media.php(124): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend2/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

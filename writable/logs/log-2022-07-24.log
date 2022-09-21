@@ -1,0 +1,30 @@
+CRITICAL - 2022-07-24 06:31:26 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-24 06:36:39 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getName()
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(825): App\Controllers\Settings->generalsettings()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-24 06:37:41 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-24 06:38:00 --> Undefined index: logopath
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Controllers/Settings.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(825): App\Controllers\Settings->generalsettings()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-24 07:05:25 --> Undefined variable: mainlogo
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Views/login.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Controllers/Login.php(178): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

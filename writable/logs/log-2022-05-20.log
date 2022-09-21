@@ -1,0 +1,244 @@
+CRITICAL - 2022-05-20 00:32:47 --> Undefined variable: mainlogo
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Views/login.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Login.php(220): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 00:33:44 --> Invalid file: includes/header.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Dashboard.php(9): view()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Dashboard->dashboard()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-20 00:47:11 --> Undefined offset: 5
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Views/includes/sidebar.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Dashboard.php(10): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Dashboard->dashboard()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 00:47:28 --> Undefined variable: val
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Views/includes/sidebar.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Dashboard.php(10): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Dashboard->dashboard()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-20 01:23:30 --> Undefined variable: bgpath
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Views/errors/html/pages-error-404.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Config/Routes.php(25): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(842): CodeIgniter\CodeIgniter->Config\{closure}()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(334): CodeIgniter\CodeIgniter->display404errors()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 01:57:13 --> Class 'App\Models\Smtpmodel' not found
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(803): App\Controllers\BaseController->initController()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-20 01:58:27 --> Class 'App\Models\Mediafilesmodel' not found
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(803): App\Controllers\BaseController->initController()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-20 02:18:52 --> Invalid file: includes/sidbar.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Settings.php(143): view()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Settings->generalsettings()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-20 02:57:45 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/HTTP/Files/UploadedFile.php(176): mkdir()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Media.php(124): CodeIgniter\HTTP\Files\UploadedFile->move()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 02:57:45 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/HTTP/Files/UploadedFile.php(176): mkdir()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Media.php(124): CodeIgniter\HTTP\Files\UploadedFile->move()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 02:57:45 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/HTTP/Files/UploadedFile.php(176): mkdir()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Media.php(124): CodeIgniter\HTTP\Files\UploadedFile->move()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 02:58:00 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/HTTP/Files/UploadedFile.php(176): mkdir()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Media.php(124): CodeIgniter\HTTP\Files\UploadedFile->move()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 02:58:00 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/HTTP/Files/UploadedFile.php(176): mkdir()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Media.php(124): CodeIgniter\HTTP\Files\UploadedFile->move()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 02:58:00 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/HTTP/Files/UploadedFile.php(176): mkdir()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Media.php(124): CodeIgniter\HTTP\Files\UploadedFile->move()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 03:03:36 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/HTTP/Files/UploadedFile.php(176): mkdir()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Media.php(124): CodeIgniter\HTTP\Files\UploadedFile->move()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 03:03:36 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/HTTP/Files/UploadedFile.php(176): mkdir()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Media.php(124): CodeIgniter\HTTP\Files\UploadedFile->move()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 03:06:11 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/HTTP/Files/UploadedFile.php(176): mkdir()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Media.php(124): CodeIgniter\HTTP\Files\UploadedFile->move()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 03:14:34 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Images/Handlers/GDHandler.php(255): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Media.php(113): CodeIgniter\Images\Handlers\GDHandler->save()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-20 03:18:13 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/HTTP/Files/UploadedFile.php(176): mkdir()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Media.php(124): CodeIgniter\HTTP\Files\UploadedFile->move()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 03:30:53 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/HTTP/Files/UploadedFile.php(176): mkdir()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Media.php(124): CodeIgniter\HTTP\Files\UploadedFile->move()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 03:32:01 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/HTTP/Files/UploadedFile.php(176): mkdir()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Media.php(124): CodeIgniter\HTTP\Files\UploadedFile->move()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 03:32:50 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/HTTP/Files/UploadedFile.php(176): mkdir()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Media.php(124): CodeIgniter\HTTP\Files\UploadedFile->move()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 04:33:38 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/HTTP/Files/UploadedFile.php(176): mkdir()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Media.php(124): CodeIgniter\HTTP\Files\UploadedFile->move()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-20 05:36:13 --> Class 'App\Controllers\apimodel' not found
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Generateapi->generateapi()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-20 05:37:47 --> Call to undefined method App\Controllers\Generateapi::apimodel()
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Generateapi->generateapi()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-05-20 05:51:01 --> Email: sendWithSmtp throwed fsockopen() expects parameter 2 to be int, string given
+ERROR - 2022-05-20 06:07:36 --> Email: sendWithSmtp throwed A non well formed numeric value encountered
+CRITICAL - 2022-05-20 08:05:14 --> Invalid file: include/header.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Profile.php(112): view()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Profile->profile()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

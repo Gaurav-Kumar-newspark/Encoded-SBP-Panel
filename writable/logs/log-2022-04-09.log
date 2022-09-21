@@ -1,0 +1,22 @@
+CRITICAL - 2022-04-09 23:02:10 --> Call to a member function getClientMimeType() on null
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->uploadfile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-09 23:03:51 --> Call to a member function getClientMimeType() on null
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->uploadfile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-09 23:05:57 --> syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ','
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(790): class_exists()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

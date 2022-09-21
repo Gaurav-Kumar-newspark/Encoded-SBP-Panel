@@ -1,0 +1,58 @@
+CRITICAL - 2022-05-22 23:51:37 --> Invalid file: adminaccess.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Adminconfiguration.php(84): view()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Adminconfiguration->adminconfiguration()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-22 23:53:50 --> Invalid file: adminaccess.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Adminconfiguration.php(84): view()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Adminconfiguration->adminconfiguration()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-22 23:56:37 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-05-22 23:56:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/Config.php(105): CodeIgniter\Database\Database->loadForge()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/BaseController.php(66): CodeIgniter\Database\Config::forge()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(803): App\Controllers\BaseController->initController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-22 23:58:23 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-05-22 23:58:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/Config.php(105): CodeIgniter\Database\Database->loadForge()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/BaseController.php(66): CodeIgniter\Database\Config::forge()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(803): App\Controllers\BaseController->initController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-22 23:58:35 --> Invalid file: adminaccess.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Adminconfiguration.php(84): view()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Adminconfiguration->adminconfiguration()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-22 23:59:56 --> Invalid file: adminaccess.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Adminconfiguration.php(84): view()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Adminconfiguration->adminconfiguration()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

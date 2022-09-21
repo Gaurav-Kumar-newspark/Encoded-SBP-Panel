@@ -1,0 +1,44 @@
+CRITICAL - 2022-05-19 01:56:03 --> Array to string conversion
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(361): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->onclickshowmediadetails()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 01:57:02 --> Cannot use object of type stdClass as array
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->onclickshowmediadetails()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-19 02:48:30 --> Class 'App\Models\Generalmodalsettings' not found
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(803): App\Controllers\BaseController->initController()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-19 02:48:52 --> Class 'App\Models\Generalmodalsettings' not found
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(803): App\Controllers\BaseController->initController()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-19 02:48:53 --> Class 'App\Models\Generalmodalsettings' not found
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(803): App\Controllers\BaseController->initController()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-19 02:49:15 --> Class 'App\Models\Generalsettingsmodel' not found
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(803): App\Controllers\BaseController->initController()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-19 02:49:52 --> Undefined property: App\Controllers\Settings::$generalmodalsettings
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Settings.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Settings->generalsettings()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

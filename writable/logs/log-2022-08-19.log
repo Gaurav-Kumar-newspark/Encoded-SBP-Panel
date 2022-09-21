@@ -1,0 +1,442 @@
+CRITICAL - 2022-08-19 00:06:02 --> syntax error, unexpected '$advertisementmodel' (T_VARIABLE)
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(790): class_exists()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-19 00:06:48 --> There is no data to update.
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Model.php(651): CodeIgniter\BaseModel->update()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Advertisement.php(377): CodeIgniter\Model->update()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Advertisement->editadvertisement()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-19 00:07:16 --> There is no data to update.
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Model.php(651): CodeIgniter\BaseModel->update()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Advertisement.php(366): CodeIgniter\Model->update()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Advertisement->editadvertisement()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-19 00:07:58 --> There is no data to update.
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Model.php(651): CodeIgniter\BaseModel->update()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Advertisement.php(366): CodeIgniter\Model->update()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Advertisement->editadvertisement()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-19 00:13:02 --> There is no data to update.
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Model.php(651): CodeIgniter\BaseModel->update()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Advertisement.php(366): CodeIgniter\Model->update()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Advertisement->editadvertisement()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-19 00:13:26 --> There is no data to update.
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Model.php(651): CodeIgniter\BaseModel->update()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Advertisement.php(366): CodeIgniter\Model->update()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Advertisement->editadvertisement()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-19 00:19:24 --> There is no data to update.
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Model.php(651): CodeIgniter\BaseModel->update()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Advertisement.php(366): CodeIgniter\Model->update()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Advertisement->editadvertisement()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-19 00:19:43 --> There is no data to update.
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Model.php(651): CodeIgniter\BaseModel->update()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Advertisement.php(366): CodeIgniter\Model->update()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Advertisement->editadvertisement()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-19 00:20:03 --> There is no data to update.
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Model.php(651): CodeIgniter\BaseModel->update()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Advertisement.php(366): CodeIgniter\Model->update()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Advertisement->editadvertisement()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-19 00:20:48 --> There is no data to update.
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Model.php(651): CodeIgniter\BaseModel->update()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Advertisement.php(366): CodeIgniter\Model->update()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Advertisement->editadvertisement()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-19 00:26:00 --> There is no data to update.
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Model.php(651): CodeIgniter\BaseModel->update()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Advertisement.php(366): CodeIgniter\Model->update()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Advertisement->editadvertisement()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-19 00:26:04 --> There is no data to update.
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Model.php(651): CodeIgniter\BaseModel->update()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Advertisement.php(366): CodeIgniter\Model->update()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Advertisement->editadvertisement()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-19 00:26:12 --> There is no data to update.
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Model.php(651): CodeIgniter\BaseModel->update()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Advertisement.php(366): CodeIgniter\Model->update()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Advertisement->editadvertisement()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-19 00:54:50 --> Undefined offset: 0
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Views/editannouncements.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Manageannouncements.php(84): view()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Manageannouncements->editannouncements()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-19 00:56:04 --> Undefined index: id
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Manageannouncements.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Manageannouncements->editannouncements()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-19 00:56:24 --> Undefined variable: data
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Manageannouncements.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Manageannouncements->editannouncements()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-19 00:57:00 --> Undefined variable: data
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Manageannouncements.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Manageannouncements->editannouncements()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-19 00:57:54 --> Undefined variable: returndata
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Views/editannouncements.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Manageannouncements.php(85): view()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Manageannouncements->editannouncements()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-19 00:58:32 --> Undefined offset: 0
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Views/editannouncements.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Manageannouncements.php(77): view()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Manageannouncements->editannouncements()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-19 02:08:24 --> Undefined variable: notifcationdata
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Notifications.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Notifications->addnotifications()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-19 02:08:27 --> Undefined variable: notifcationdata
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Notifications.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Notifications->addnotifications()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-19 02:20:55 --> Undefined variable: totalTime
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar.php(501): include('/var/www/vhosts...')
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(302): CodeIgniter\Events\Events::trigger()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-19 02:26:35 --> unlink(/var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/writable/debugbar/debugbar_1660893750.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar/Collectors/History.php(74): unlink()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(302): CodeIgniter\Events\Events::trigger()
+#7 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-19 02:34:06 --> unlink(/var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/writable/debugbar/debugbar_1660894183.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar/Collectors/History.php(74): unlink()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(302): CodeIgniter\Events\Events::trigger()
+#7 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-19 02:35:04 --> unlink(/var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/writable/debugbar/debugbar_1660894403.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar/Collectors/History.php(74): unlink()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(302): CodeIgniter\Events\Events::trigger()
+#7 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-19 02:56:23 --> Call to undefined method App\Controllers\Notifications::getInsertID()
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Notifications->addnotifications()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-19 02:58:08 --> Call to a member function getInsertID() on int
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Notifications->addnotifications()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-19 03:03:42 --> unlink(/var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/writable/debugbar/debugbar_1660896050.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar/Collectors/History.php(74): unlink()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(302): CodeIgniter\Events\Events::trigger()
+#7 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-19 03:19:52 --> unlink(/var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/writable/debugbar/debugbar_1660896929.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar/Collectors/History.php(74): unlink()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(302): CodeIgniter\Events\Events::trigger()
+#7 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-19 03:25:00 --> Undefined variable: validationRule
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Advertisement.php(316): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Advertisement->editadvertisement()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-19 03:25:41 --> Undefined variable: validationRule
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Advertisement.php(323): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Advertisement->editadvertisement()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-19 04:19:47 --> Illegal string offset 'imagepath'
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Notifications.php(207): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Notifications->editnotifications()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-19 04:20:23 --> Undefined index: imagepath
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Notifications.php(207): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Notifications->editnotifications()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-19 04:24:53 --> syntax error, unexpected 'if' (T_IF)
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(790): class_exists()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-19 04:25:03 --> syntax error, unexpected 'if' (T_IF)
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(790): class_exists()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-19 04:25:26 --> syntax error, unexpected ';'
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(790): class_exists()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-19 04:26:39 --> Undefined variable: returndata
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Notifications.php(196): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Notifications->editnotifications()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-19 04:31:46 --> Undefined variable: totalTime
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar.php(501): include('/var/www/vhosts...')
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(302): CodeIgniter\Events\Events::trigger()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-19 05:05:40 --> Undefined variable: totalTime
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar.php(501): include('/var/www/vhosts...')
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(302): CodeIgniter\Events\Events::trigger()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-19 05:20:17 --> unlink(/var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/writable/debugbar/debugbar_1660904167.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar/Collectors/History.php(74): unlink()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(302): CodeIgniter\Events\Events::trigger()
+#7 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-19 05:33:58 --> Invalid argument supplied for foreach()
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Device.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Device->senddevicenotification()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-19 05:35:21 --> Invalid argument supplied for foreach()
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Device.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Device->senddevicenotification()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-19 05:35:48 --> Invalid argument supplied for foreach()
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Device.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Device->senddevicenotification()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-19 05:35:55 --> Invalid argument supplied for foreach()
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Device.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Device->senddevicenotification()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-19 05:36:16 --> Invalid argument supplied for foreach()
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Device.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Device->senddevicenotification()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-19 07:23:49 --> Call to undefined function baas_url()
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/View/View.php(210): include()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Device.php(10): view()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Device->device()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-19 07:41:16 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')'
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(790): class_exists()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-19 07:49:10 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getParam()
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Device->device()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-19 07:56:26 --> Undefined variable: deviceids
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Controllers/Device.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(825): App\Controllers\Device->device()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-19 08:04:41 --> syntax error, unexpected 'die' (T_EXIT)
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(790): class_exists()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-19 08:21:04 --> unlink(/var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/writable/debugbar/debugbar_1660915158.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar/Collectors/History.php(74): unlink()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/system/CodeIgniter.php(302): CodeIgniter\Events\Events::trigger()
+#7 /var/www/vhosts/hosting.iptvbillingsolution.com/public/sbp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

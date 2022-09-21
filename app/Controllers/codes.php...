@@ -1,0 +1,1004 @@
+<?php 
+namespace App\Controllers;
+class Codes extends BaseController{
+    public function codes(){
+        echo view('includes/head', array("thiscontrol" => $this));
+        echo view('includes/header', array("thiscontrol" => $this,"menuactive" => "codes","submenuactive" => "codes"));
+        echo view("codes");
+        echo view("includes/footer");        
+    }
+
+
+
+
+
+    public function geneartenewcodes(){
+        $data = array();        
+        $data['allgroups'] =  $this->addgroupmodel->get()->getResult();
+
+        echo view('includes/head', array("thiscontrol" => $this));
+        echo view('includes/header', array("thiscontrol" => $this,"menuactive" => "codes","submenuactive" => "generatecodes"));
+        echo view("geneartenewcodes", $data);
+        echo view("includes/footer");
+    }
+
+
+
+    public function  generate_random_codes($length = 9, $add_dashes = false, $available_sets = 'lud') {
+        $sets = array();
+        if (strpos($available_sets, 'l') !== false)
+            $sets[] = 'abcdefghjkmnpqrstuvwxyz';
+        if (strpos($available_sets, 'u') !== false)
+            $sets[] = 'ABCDEFGHJKMNPQRSTUVWXYZ';
+        if (strpos($available_sets, 'd') !== false)
+            $sets[] = '123456789';
+        $all = '';
+        $password = '';
+        foreach ($sets as $set) {
+            $password .= $set[array_rand(str_split($set))];
+            $all .= $set;
+        }
+        $all = str_split($all);
+        for ($i = 0; $i < $length - count($sets); $i++)
+            $password .= $all[array_rand($all)];
+        $password = str_shuffle($password);
+        if (!$add_dashes)
+            return $password;
+        $dash_len = floor(sqrt($length));
+        $dash_str = '';
+        while (strlen($password) > $dash_len) {
+            $dash_str .= substr($password, 0, $dash_len) . '-';
+            $password = substr($password, $dash_len);
+        }
+        $dash_str .= $password;
+        return $dash_str;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    public function addcodestofile(){
+        //here should be condition to check admin logged in 
+        $session = Session();
+        $currentadminid = $session->get("adminid");
+        if(isset($currentadminid) && !empty($currentadminid))
+        {  
+            $errorsdata = array();
+            $file_id = $this->request->getPost("fileidis");
+            $coderadio = $this->request->getPost("codesradio");
+            $no_of_codes = $this->request->getPost("no_of_codes");
+            $manualcodes = $this->request->getPost("manualcodes");
+            $codesformat = (!empty($this->request->getPost("codesformat")))?$this->request->getPost("codesformat"):"d";
+            $codes_length = (!empty($this->request->getPost("codes_length")))?$this->request->getPost("codes_length"):"10";
+
+            if($coderadio == "manualcode")
+            {
+                if(empty($manualcodes))
+                {
+                    $errorsdata["manualcodes[]"] = "Manual Codes Required";
+                } 
+                else
+                {
+                    $anyfilled = "";
+                    $alreayexists = "";
+                    foreach($manualcodes as $ncnc)
+                    {
+                        if(!empty($ncnc))
+                        {
+                             $codcount = $this->codemodel->checkcodeexistsalrady($ncnc);
+                             if($codcount > 0)
+                             {
+                                $alreayexists = $ncnc;
+                             }
+                             else
+                             {
+                                $anyfilled = "yes";
+                             }
+                             
+                        }
+                    }
+
+                    if($alreayexists != "")
+                    {   $errorsdata["extra"] = $alreayexists." Code already in use";
+                        $returnData["result"] = "error";
+                        $returnData["data"] = $errorsdata;
+                        echo json_encode($returnData);
+                        die();
+                    }
+
+                    if($anyfilled == "")
+                    {
+                        $errorsdata["manualcodes[]"] = "Manual Codes Required";
+                    }                   
+                }
+
+                 if(!empty($errorsdata))
+                {
+                    $returnData["result"] = "error";
+                    $returnData["data"] = $errorsdata;
+                   echo json_encode($returnData);die();   
+                }
+                else
+                {
+                    $insertdata = array();
+                    foreach($manualcodes as $mcodes)
+                    {
+                        if(!empty($mcodes))
+                        {
+                           $code = $mcodes;
+                            $nnarr["file_id"] = $file_id;
+                            $nnarr["status"] = "inactive";
+                            $nnarr["activationcode"] = $code;
+                            $nnarr["mac_address"] = null;
+                            $nnarr["created_by"] = $currentadminid;
+                            $nnarr["created_at"] = date("Y-m-d");
+                            $nnarr["updated_at"] = "";
+                            $insertdata[] = $nnarr; 
+                        }
+                        
+                    }
+
+                    $insertquery = $this->codemodel->insertBatch($insertdata);
+                    if ($insertquery) {
+                        $returnData["result"] = "success";
+                        $returnData["data"] = "Codes Created Successfully";
+                        $returnData["loop"] = "no";
+                        $returnData["field_id"] = $file_id;
+                        echo json_encode($returnData);
+                        die();
+                    }
+                    else {
+                        $errorsdata["extra"] = "Unable to add codes";
+                        $returnData["result"] = "error";
+                        $returnData["data"] = $errorsdata;
+                        echo json_encode($returnData);
+                        die();
+                    }
+
+                }
+            }
+            else
+            {
+                if($no_of_codes <= 500)
+                {  
+                    $insertdata = array();
+                    for($i = 1; $i <= $no_of_codes; $i++)
+                    {
+                        $code = $this->generate_random_codes($codes_length, "", $codesformat);
+                        $nnarr["file_id"] = $file_id;
+                        $nnarr["status"] = "inactive";
+                        $nnarr["activationcode"] = $code;
+                        $nnarr["mac_address"] = null;
+                        $nnarr["created_by"] = $currentadminid;
+                        $nnarr["created_at"] = date("Y-m-d");
+                        $nnarr["updated_at"] = "";
+                        $insertdata[] = $nnarr;
+                    }
+
+                    $insertquery = $this->codemodel->insertBatch($insertdata);
+                    if($insertquery)
+                    {
+                        $returnData["result"] = "success";
+                        $returnData["data"] = "Codes Created Successfully";
+                        $returnData["loop"] = "no";
+                        $returnData["field_id"] = $file_id;
+                        echo json_encode($returnData);die(); 
+                    }
+                    else
+                    {
+                        $errorsdata["extra"] = "Unable to add codes"; 
+                        $returnData["result"] = "error";
+                        $returnData["data"] = $errorsdata;
+                        echo json_encode($returnData);die(); 
+                    }                   
+                
+                }
+                else
+                {
+
+                    $pendingcodes = $no_of_codes - 500;
+                    $insertdata = array();
+                    for($i = 1; $i <= 500; $i++)
+                    {
+                        $code = $this->generate_random_codes($codes_length, "", $codesformat);
+                        $nnarr["file_id"] = $file_id;
+                        $nnarr["status"] = "inactive";
+                        $nnarr["activationcode"] = $code;
+                        $nnarr["mac_address"] = null;
+                        $nnarr["created_by"] = $currentadminid;
+                        $nnarr["created_at"] = date("Y-m-d");
+                        $nnarr["updated_at"] = "";
+                        $insertdata[] = $nnarr;
+                    }
+                    $insertquery = $this->codemodel->insertBatch($insertdata);
+                    if ($insertquery) {
+                        $returnData["result"] = "success";
+                        $returnData["data"] = "Codes Created Successfully";
+                        $returnData["loop"] = "yes";
+                        $returnData["field_id"] = $file_id;
+                        $returnData["pendingcodes"] = $pendingcodes;
+                        echo json_encode($returnData);
+                        die();
+                    }
+                    else {
+                        $errorsdata["extra"] = "Unable to add codes";
+                        $returnData["result"] = "error";
+                        $returnData["data"] = $errorsdata;
+                        echo json_encode($returnData);
+                        die();
+                    }
+                }
+                die();
+
+            }
+            die();
+        }
+    }
+
+
+
+
+    public function loopcodesprocess(){
+        //here should be condition to check admin logged in 
+        $session = Session();
+        $currentadminid = $session->get("adminid");
+        if(isset($currentadminid) && !empty($currentadminid))
+        {   
+            $codesformat = $this->request->getPost("codesformat");
+            $codes_length = $this->request->getPost("codeslengthis");
+            $no_of_codes = $this->request->getPost("pendingcodes");
+            $field_id = $this->request->getPost("field_id");
+
+            if($no_of_codes <= 500)
+            {   
+                $insertdata = array();
+                for($i = 1; $i <= $no_of_codes; $i++)
+                {
+                    $code = $this->generate_random_codes($codes_length, "", $codesformat);
+                    $nnarr["file_id"] = $field_id;
+                    $nnarr["status"] = "inactive";
+                    $nnarr["activationcode"] = $code;
+                    $nnarr["mac_address"] = null;
+                    $nnarr["created_by"] = $currentadminid;
+                    $nnarr["created_at"] = date("Y-m-d");
+                    $nnarr["updated_at"] = "";
+                    $insertdata[] = $nnarr;
+                }
+                $insertquery = $this->codemodel->insertBatch($insertdata);
+                if($insertquery)
+                {
+                    $returnData["result"] = "success";
+                    $returnData["data"] = "Codes Created Successfully";
+                    $returnData["loop"] = "no";
+                    $returnData["file_id"] = $field_id;
+                    echo json_encode($returnData);die(); 
+                }
+                else
+                {
+                    $errorsdata["extra"] = "Unable to add codes"; 
+                    $returnData["result"] = "error";
+                    $returnData["data"] = $errorsdata;
+                    echo json_encode($returnData);die(); 
+                }
+                
+            }
+            else
+            {
+                $pendingcodes = $no_of_codes - 500;
+                $insertdata = array();
+                for($i = 1; $i <= 500; $i++)
+                {
+                    $code = $this->generate_random_codes($codes_length, "", $codesformat);
+                    $nnarr["file_id"] = $field_id;
+                    $nnarr["status"] = "inactive";
+                    $nnarr["activationcode"] = $code;
+                    $nnarr["mac_address"] = null;
+                    $nnarr["created_by"] = $currentadminid;
+                    $nnarr["created_at"] = date("Y-m-d");
+                    $nnarr["updated_at"] = "";
+                    $insertdata[] = $nnarr;
+                }
+                $insertquery = $this->codemodel->insertBatch($insertdata);
+                if($insertquery)
+                {
+                    $returnData["result"] = "success";
+                    $returnData["data"] = "Codes Created Successfully";
+                    $returnData["loop"] = "yes";
+                    $returnData["file_id"] = $field_id;
+                    $returnData["pendingcodes"] = $pendingcodes;
+                    echo json_encode($returnData);die(); 
+                }
+                else
+                {
+                    $errorsdata["extra"] = "Unable to add codes"; 
+                    $returnData["result"] = "error";
+                    $returnData["data"] = $errorsdata;
+                    echo json_encode($returnData);die(); 
+                }                
+            }
+        }
+        die();
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    public function loaddatafortable()
+    {
+        $params['draw'] = $_REQUEST['draw'];
+        $start = $_REQUEST['start'];
+        $length = $_REQUEST['length'];
+        //$orderby = $_REQUEST['orderby'];
+        $orderby = (isset($_REQUEST['order'][0]['dir']) && !empty($_REQUEST['order'][0]['dir']))?$_REQUEST['order'][0]['dir']:"desc";
+        /* If we pass any extra data in request from ajax */
+        //$value1 = isset($_REQUEST['key1'])?$_REQUEST['key1']:"";
+
+        /* Value we will get from typing in search */
+        $search_value = $_REQUEST['search']['value'];
+
+        if (!empty($search_value)) {
+            $search_value = trim($search_value);
+            
+            $baselinkmu = base_url('uploads/M3U');
+            $bar = "/";
+            if(substr($baselinkmu, -1) == "/")
+            {
+                $bar =  "";
+            }
+            $baselinkmu = $baselinkmu.$bar;
+            $search_value = str_replace($baselinkmu, "", $search_value);
+
+
+            // If we have value in search, searching by id, name, email, mobile
+            $total_count = $data = $this->filedatamodel->totalcountforsearrchone($search_value,$orderby);
+         }
+        else {
+
+            $total_count =  $this->filedatamodel->dataifsearchnot($orderby);
+            $data = $this->filedatamodel->perpagedataifsearchnot($orderby,$start, $length);
+        }
+
+        $json_data = array(
+            "draw" => intval($params['draw']),
+            "recordsTotal" => count($total_count),
+            "recordsFiltered" => count($total_count),
+            "data" => $data // total data array
+        );
+
+        echo json_encode($json_data);
+    }
+
+
+
+
+
+
+
+
+    public function getcodeslist()
+    {
+
+        $filterformdata = (isset($_REQUEST["filterformdata"]) && !empty($_REQUEST["filterformdata"]))?$_REQUEST["filterformdata"]:array();
+        if(!empty($filterformdata))
+        {
+            $filterformdata = json_decode($filterformdata);
+            $filterformdata = json_decode(json_encode($filterformdata), TRUE);
+        }
+
+
+
+        $params['draw'] = $_REQUEST['draw'];
+        $start = $_REQUEST['start'];
+        $length = $_REQUEST['length'];
+        $fieldid = $_REQUEST['fieldid'];
+        //$orderby = $_REQUEST['orderby'];
+        $orderby = (isset($_REQUEST['order'][0]['dir']) && !empty($_REQUEST['order'][0]['dir']))?$_REQUEST['order'][0]['dir']:"desc";
+        /* If we pass any extra data in request from ajax */
+        //$value1 = isset($_REQUEST['key1'])?$_REQUEST['key1']:"";
+
+        /* Value we will get from typing in search */
+        $search_value = $_REQUEST['search']['value'];
+
+        if (!empty($search_value)) {
+
+
+            $search_value = trim($search_value);
+           
+            $baselinkmu = base_url('uploads/M3U');
+            $bar = "/";
+            if(substr($baselinkmu, -1) == "/")
+            {
+                $bar =  "";
+            }
+            $baselinkmu = $baselinkmu.$bar;
+            $search_value = str_replace($baselinkmu, "", $search_value);
+
+
+            // If we have value in search, searching by id, name, email, mobile
+            $total_count = $data = $this->codemodel->totalcountforsearrchone($search_value,$orderby,$fieldid,$filterformdata);
+         }
+        else {
+
+            $total_count =  $this->codemodel->dataifsearchnot($orderby,$fieldid,$filterformdata);
+            $data = $this->codemodel->perpagedataifsearchnot($orderby,$start, $length,$fieldid,$filterformdata);
+        }
+
+        $json_data = array(
+            "draw" => intval($params['draw']),
+            "recordsTotal" => count($total_count),
+            "recordsFiltered" => count($total_count),
+            "data" => $data // total data array
+        );
+
+        echo json_encode($json_data);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    public function manualcodefunctionlity($postdata)
+    {
+        $session = Session();
+        $currentadminid = $session->get("adminid");
+        $returnData = array();
+        $validationRule = array();
+        $errorsdata = array();
+        $filetype = "";
+        $filecondition = array("m3u","M3U");
+
+        $title = (!empty($this->request->getPost("title")))?$this->request->getPost("title"):"";
+        $group = (!empty($this->request->getPost("group"))) ? $this->request->getPost("group") : "";
+        $status = (!empty($this->request->getPost("status"))) ? $this->request->getPost("status") : "";
+        $expiredate = (!empty($this->request->getPost("expiredate"))) ? $this->request->getPost("expiredate") : "";
+        $uploadfileradio = (!empty($this->request->getPost("uploadfileradio")))?$this->request->getPost("uploadfileradio"):"";
+        $filepath = (!empty($this->request->getPost("filepath")))?$this->request->getPost("filepath"):"";
+        $manualcodes = (!empty($this->request->getPost("manualcodes")))?$this->request->getPost("manualcodes"):array();
+
+
+
+        if($uploadfileradio == "uploadfile")
+        {
+            $filetype = "0";
+            $validationRule["filename"] = array('label' => 'M3U file','rules' => 'uploaded[filename]');
+        }
+        elseif($uploadfileradio == "externallink")
+        {
+            $filetype = "1";
+            $validationRule["filepath"] = array('label' => 'External file path', 'rules' => 'required');
+        }
+
+        if (!$this->validate($validationRule)) {
+            $errorsdata = $this->validator->getErrors();
+        }  
+
+
+
+        if(empty($manualcodes))
+        {
+            $errorsdata["manualcodes[]"] = "Manual Codes Required";
+        } 
+        else
+        {
+            $anyfilled = "";
+            $alreayexists = "";
+            foreach($manualcodes as $ncnc)
+            {
+                if(!empty($ncnc))
+                {
+                     $codcount = $this->codemodel->checkcodeexistsalrady($ncnc);
+                     if($codcount > 0)
+                     {
+                        $alreayexists = $ncnc;
+                     }
+                     else
+                     {
+                        $anyfilled = "yes";
+                     }
+                     
+                }
+            }
+
+            if($alreayexists != "")
+            {   $errorsdata["extra"] = $alreayexists." Code already in use";
+                $returnData["result"] = "error";
+                $returnData["data"] = $errorsdata;
+                echo json_encode($returnData);
+                die();
+            }
+
+            if($anyfilled == "")
+            {
+                $errorsdata["manualcodes[]"] = "Manual Codes Required";
+            }
+           
+        }
+
+        //custom validation for the file extension here
+        if($uploadfileradio == "uploadfile")
+        {
+            $filetoupload = $this->request->getFile('filename');
+            $filetoupload->getClientExtension();
+            if(!in_array($filetoupload->getClientExtension(), $filecondition))
+            {
+                if(!isset($errorsdata["filename"]))
+                {
+                   $errorsdata["filename"] = "Only M3U file is allowed to upload!"; 
+                }
+            }
+        }
+
+        if(!empty($errorsdata))
+        {
+            $returnData["result"] = "error";
+            $returnData["data"] = $errorsdata;
+           echo json_encode($returnData);die();   
+        }
+        else
+        {
+            if($expiredate != "")
+            {
+                $expiredate = str_replace('/', '-', $expiredate);
+                $expiredate = date("Y-m-d",strtotime($expiredate));
+            }
+
+            $insertcommondata = array();
+            $insertcommondata["title"] = $title;
+            $insertcommondata["group_id"] = $group;
+            $insertcommondata["status"] = $status;
+            $insertcommondata["expiry_date"] = $expiredate;
+            $insertcommondata["created_by"] = $currentadminid;
+            $insertcommondata["created_at"] = date("Y-m-d");
+            $insertcommondata["filetype"] = $filetype;
+
+            if($uploadfileradio == "uploadfile")
+            {
+                $filename = $filetoupload->getRandomName();
+                $path = getcwd();
+                $uploadpath = $path . "/uploads/M3U";
+              
+                $filetoupload->move($uploadpath, $filename);
+                if ($filetoupload->hasMoved()) {
+                    $insertcommondata["filepath"] = $filename;
+                }
+                else
+                {
+                    $errorsdata["filename"] = "Unable to upload file"; 
+                    $returnData["result"] = "error";
+                    $returnData["data"] = $errorsdata;
+                    echo json_encode($returnData);die(); 
+                }
+            }
+            elseif($uploadfileradio == "externallink")
+            {
+               $insertcommondata["filepath"] = $filepath;
+            }
+
+            $this->filedatamodel->insert($insertcommondata);
+            $lastinsertidfiledata = $this->filedatamodel->getInsertID();
+
+            $insertdata = array();
+            foreach($manualcodes as $mcodes)
+            {
+                if(!empty($mcodes))
+                {
+                    $code = $mcodes;
+                    $nnarr["file_id"] = $lastinsertidfiledata;
+                    $nnarr["status"] = "inactive";
+                    $nnarr["activationcode"] = $code;
+                    $nnarr["mac_address"] = null;
+                    $nnarr["created_by"] = $currentadminid;
+                    $nnarr["created_at"] = date("Y-m-d");
+                    $nnarr["updated_at"] = "";
+                    $insertdata[] = $nnarr;
+                }
+            }
+            $insertquery = $this->codemodel->insertBatch($insertdata);
+            if ($insertquery) {
+                $returnData["result"] = "success";
+                $returnData["data"] = "Codes Created Successfully";
+                $returnData["loop"] = "no";
+                $returnData["field_id"] = $lastinsertidfiledata;
+                echo json_encode($returnData);
+                die();
+            }
+            else {
+                $errorsdata["extra"] = "Unable to add codes";
+                $returnData["result"] = "error";
+                $returnData["data"] = $errorsdata;
+                echo json_encode($returnData);
+                die();
+            }
+
+
+
+        }
+
+
+    }
+
+
+    public function processingcodes(){
+
+        //here should be condition to check admin logged in 
+        $session = Session();
+        $currentadminid = $session->get("adminid");
+        if(isset($currentadminid) && !empty($currentadminid))
+        {
+            $returnData = array();
+            $validationRule = array();
+            $errorsdata = array();
+            $filetype = "";
+            $filecondition = array("m3u","M3U");
+
+
+
+            $coderadio = $this->request->getPost("codesradio");
+            if($coderadio == "manualcode")
+            {
+                return $this->manualcodefunctionlity($this->request->getPost());
+            }
+
+
+            $title = (!empty($this->request->getPost("title")))?$this->request->getPost("title"):"";
+            $group = (!empty($this->request->getPost("group"))) ? $this->request->getPost("group") : "";
+            $status = (!empty($this->request->getPost("status"))) ? $this->request->getPost("status") : "";
+            $expiredate = (!empty($this->request->getPost("expiredate"))) ? $this->request->getPost("expiredate") : "";
+            $no_of_codes = (!empty($this->request->getPost("no_of_codes")))?$this->request->getPost("no_of_codes"):"";
+            $uploadfileradio = (!empty($this->request->getPost("uploadfileradio")))?$this->request->getPost("uploadfileradio"):"";
+            $filepath = (!empty($this->request->getPost("filepath")))?$this->request->getPost("filepath"):"";
+            $codesformat = (!empty($this->request->getPost("codesformat")))?$this->request->getPost("codesformat"):"d";
+            $codes_length = (!empty($this->request->getPost("codes_length")))?$this->request->getPost("codes_length"):"10";
+
+
+            if($uploadfileradio == "uploadfile")
+            {
+                $filetype = "0";
+                $validationRule["filename"] = array('label' => 'M3U file','rules' => 'uploaded[filename]');
+            }
+            elseif($uploadfileradio == "externallink")
+            {
+                $filetype = "1";
+                $validationRule["filepath"] = array('label' => 'External file path', 'rules' => 'required');
+            }
+
+            $validationRule["no_of_codes"] = array('label' => 'Number of codes', 'rules' => 'required');
+
+            //Till here default validation rules will work 
+            if (!$this->validate($validationRule)) {
+                $errorsdata = $this->validator->getErrors();
+            }
+
+            //custom validation for the file extension here
+            if($uploadfileradio == "uploadfile")
+            {
+                $filetoupload = $this->request->getFile('filename');
+                $filetoupload->getClientExtension();
+                if(!in_array($filetoupload->getClientExtension(), $filecondition))
+                {
+                    if(!isset($errorsdata["filename"]))
+                    {
+                       $errorsdata["filename"] = "Only M3U file is allowed to upload!"; 
+                    }
+                }
+            }
+
+            if(!empty($errorsdata))
+            {
+                $returnData["result"] = "error";
+                $returnData["data"] = $errorsdata;
+               echo json_encode($returnData);die();   
+            }
+            else
+            {
+                if($expiredate != "")
+                {
+                    $expiredate = str_replace('/', '-', $expiredate);
+                    $expiredate = date("Y-m-d",strtotime($expiredate));
+                }
+
+                $insertcommondata = array();
+                $insertcommondata["title"] = $title;
+                $insertcommondata["group_id"] = $group;
+                $insertcommondata["status"] = $status;
+                $insertcommondata["expiry_date"] = $expiredate;
+                $insertcommondata["created_by"] = $currentadminid;
+                $insertcommondata["created_at"] = date("Y-m-d");
+                $insertcommondata["filetype"] = $filetype;
+
+                if($uploadfileradio == "uploadfile")
+                {
+                   $filename = $filetoupload->getRandomName();
+                    $path = getcwd();
+                    $uploadpath = $path . "/uploads/M3U";
+                    $filetoupload->move($uploadpath, $filename);
+                    if ($filetoupload->hasMoved()) {
+                        $insertcommondata["filepath"] = $filename;
+                    }
+                    else
+                    {
+                        $errorsdata["filename"] = "Unable to upload file"; 
+                        $returnData["result"] = "error";
+                        $returnData["data"] = $errorsdata;
+                        echo json_encode($returnData);die(); 
+                    }
+                }
+                elseif($uploadfileradio == "externallink")
+                {
+                   $insertcommondata["filepath"] = $filepath;
+                }
+                
+                $this->filedatamodel->insert($insertcommondata);
+                $lastinsertidfiledata = $this->filedatamodel->getInsertID();
+
+
+                if($no_of_codes <= 500)
+                {
+                    $insertdata = array();
+                    for($i = 1; $i <= $no_of_codes; $i++)
+                    {
+                        $code = $this->generate_random_codes($codes_length, "", $codesformat);
+                        $nnarr["file_id"] = $lastinsertidfiledata;
+                        $nnarr["status"] = "inactive";
+                        $nnarr["activationcode"] = $code;
+                        $nnarr["mac_address"] = null;
+                        $nnarr["created_by"] = $currentadminid;
+                        $nnarr["created_at"] = date("Y-m-d");
+                        $nnarr["updated_at"] = "";
+                        $insertdata[] = $nnarr;
+                        
+                    }
+
+                    $insertquery = $this->codemodel->insertBatch($insertdata);
+                    if ($insertquery) {
+                        $returnData["result"] = "success";
+                        $returnData["data"] = "Codes Created Successfully";
+                        $returnData["loop"] = "no";
+                        $returnData["field_id"] = $lastinsertidfiledata;
+                        echo json_encode($returnData);
+                        die();
+                    }
+                    else {
+                        $errorsdata["extra"] = "Unable to add codes";
+                        $returnData["result"] = "error";
+                        $returnData["data"] = $errorsdata;
+                        echo json_encode($returnData);
+                        die();
+                    }
+
+                   
+                }
+                else
+                {
+                    $pendingcodes = $no_of_codes - 500;
+                    $insertdata = array();
+                    for($i = 1; $i <= 500; $i++)
+                    {
+
+                        $code = $this->generate_random_codes($codes_length, "", $codesformat);
+                        $nnarr["file_id"] = $lastinsertidfiledata;
+                        $nnarr["status"] = "inactive";
+                        $nnarr["activationcode"] = $code;
+                        $nnarr["mac_address"] = null;
+                        $nnarr["created_by"] = $currentadminid;
+                        $nnarr["created_at"] = date("Y-m-d");
+                        $nnarr["updated_at"] = "";
+                        $insertdata[] = $nnarr;
+                        
+                    
+                    }
+
+                
+                        $insertquery = $this->codemodel->insertBatch($insertdata);
+                        if ($insertquery) {
+                            $returnData["result"] = "success";
+                            $returnData["data"] = "Codes Created Successfully";
+                            $returnData["loop"] = "yes";
+                            $returnData["field_id"] = $lastinsertidfiledata;
+                            $returnData["pendingcodes"] = $pendingcodes;
+                            echo json_encode($returnData);
+                            die();
+                        }
+                        else {
+                            $errorsdata["extra"] = "Unable to add codes";
+                            $returnData["result"] = "error";
+                            $returnData["data"] = $errorsdata;
+                            echo json_encode($returnData);
+                            die();
+                        }
+
+                    }
+
+                
+            }
+        }
+        else
+        {
+            echo "Invalid Request";die();
+        }
+    }
+
+
+
+
+     
+
+
+    public function managerecords($id)
+    {
+        $filterData = array();
+        $getdata = $this->filedatamodel->where("id", $id)->get()->getResult();
+        if(!empty($getdata))
+        {
+            $totalcodes = $this->codemodel->where("file_id", $id)->countAllResults();
+            if(!empty($this->request->getPost()))
+            {
+                foreach($this->request->getPost() as $indexing => $valpost)
+                {
+                    if($valpost != "")
+                    {
+                        $filterData[$indexing] = $valpost;
+                    }
+                }
+                unset($filterData["filternow"]);
+            }
+            echo view('includes/head', array("thiscontrol" => $this));
+            echo view('includes/header', array("thiscontrol" => $this, "menuactive" => "codes", "submenuactive" => "list"));
+            echo view("managerecords", ["returndata" => $getdata,"total_codes" => $totalcodes,"filterData" => $filterData]); 
+            echo view("includes/footer");
+        }
+        else
+        {
+            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
+           
+        }
+      
+    }
+
+    public function editfile($id)
+    {
+
+
+        $getdata = $this->filedatamodel->where("id", $id)->get()->getResult();
+        if(!empty($getdata))
+        {
+            $data = array();        
+            $data['allgroups'] =  $this->addgroupmodel->get()->getResult();
+            $data['returndata'] =  $getdata;
+            echo view('includes/head', array("thiscontrol" => $this));
+            echo view('includes/header', array("thiscontrol" => $this, "menuactive" => "codes", "submenuactive" => "list"));
+            echo view("editfile", $data);
+            echo view("includes/footer");
+        }
+        else
+        {
+            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
+        }
+    }
+
+
+
+    public function addcodes($id)
+    {
+        $getdata = $this->filedatamodel->where("id", $id)->get()->getResult();
+        if(!empty($getdata))
+        {
+            $data = array();        
+            $data['allgroups'] =  $this->addgroupmodel->get()->getResult();
+            $data['returndata'] =  $getdata;
+            echo view('includes/head', array("thiscontrol" => $this));
+            echo view('includes/header', array("thiscontrol" => $this, "menuactive" => "codes", "submenuactive" => "list"));
+            echo view("addcodes", $data);
+            echo view("includes/footer");
+        }
+        else
+        {
+            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
+        }
+    }
+
+    public function deletecodes()
+    {
+        $session = Session();
+        $currentadminid = $session->get("adminid");
+        if(isset($currentadminid) && !empty($currentadminid))
+        {
+            $posdata = $this->request->getPost();
+            $clist = (isset($posdata["rowids"]) && !empty($posdata["rowids"]))?$posdata["rowids"]:"";
+            $explodeids = explode(",", $clist);
+            $deletedata = $this->codemodel->whereIn("id", $explodeids)->delete();
+            if($deletedata)
+            {
+                echo "success";
+            }
+            else
+            {
+                echo "error";
+            }
+        }
+        die();
+    }
+
+    public function createcsv()
+    {
+        $session = Session();
+        $currentadminid = $session->get("adminid");
+        if(isset($currentadminid) && !empty($currentadminid))
+        {
+            $posdata = $this->request->getPost();
+            if(isset($posdata["downloadselectedcodes"]) && $posdata["downloadselectedcodes"] == "downloadselectedcodes")
+            {
+                $clist = (isset($posdata["codesidsfordownload"]) && !empty($posdata["codesidsfordownload"]))?$posdata["codesidsfordownload"]:"";
+                $oodd = (isset($posdata["orderbyforthecsv"]) && $posdata["orderbyforthecsv"] == "ascending")?"asc":"desc";
+                if(!empty($clist))
+                {
+                    $explodeids = explode(",", $clist);
+                    $getdata = $this->codemodel->whereIn("id", $explodeids)->orderBy('id', $oodd)->get()->getResult();
+                    $this->createfilecsv($getdata,count($getdata));
+                }
+            }
+            elseif(isset($posdata["exportall"]) && $posdata["exportall"] == "exportall")
+            {
+                $oodd = (isset($posdata["orderbyforthecsv"]) && $posdata["orderbyforthecsv"] == "ascending")?"asc":"desc";
+                $file_id = $posdata["fileid"];
+                $getdata = $this->codemodel->where("file_id", $file_id)->orderBy('id', $oodd)->get()->getResult();
+                $this->createfilecsv($getdata,count($getdata));
+            }   
+        }
+    }
+
+    public function createfilecsv($dataarr = array(),$totalRecords = "")
+    {
+        header('Content-type: text/csv');
+        header('Content-Disposition: attachment; filename="'.date('Y-m-d g:i A')."-TotalRecord-".$totalRecords.'.csv"');
+         
+        // do not cache the file
+        header('Pragma: no-cache');
+        header('Expires: 0');
+         
+        // create a file pointer connected to the output stream
+        $file = fopen('php://output', 'w');
+        fputcsv($file, array('ActivationCode'));        
+        foreach($dataarr as $Key)
+        {
+            fputcsv($file, explode(',',$Key->activationcode));
+        }
+        exit;        
+    }
+}
+?>

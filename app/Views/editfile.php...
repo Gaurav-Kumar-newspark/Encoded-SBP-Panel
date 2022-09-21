@@ -1,0 +1,267 @@
+  <!-- main-content -->
+    <div class="main-content app-content">
+
+        <!-- container -->
+        <div class="main-container container-fluid">
+
+            <!-- breadcrumb -->
+            <div class="breadcrumb-header justify-content-between">
+                <div class="left-content">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item tx-15"><a href="<?php echo base_url("dashboard"); ?>">Dashboard</a></li>
+                        <li class="breadcrumb-item" aria-current="page"><a href="<?php echo base_url("codes"); ?>">M3U Files</a></li>
+                        <li class="breadcrumb-item" aria-current="page"><a href="<?php echo base_url("codes"); ?>">List</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Edit</li>
+                    </ol>
+                </div>
+            </div>
+            <!-- /breadcrumb -->
+            
+            
+            <!-- row -->
+            <div class="row row-sm">
+                <div class="col-lg-8 col-xl-8 col-md-12 col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div id="wizard1">
+                                <?php
+                                    $idis = (isset($returndata[0]->id) && !empty($returndata[0]->id))?$returndata[0]->id:"";
+                                    $titleis = (isset($returndata[0]->title) && !empty($returndata[0]->title))?$returndata[0]->title:"";
+                                    $groupis = (isset($returndata[0]->group_id) && !empty($returndata[0]->group_id))?$returndata[0]->group_id:"";
+                                    $filepathis = (isset($returndata[0]->filepath) && !empty($returndata[0]->filepath))?$returndata[0]->filepath:"";
+                                    $filetypeis = (isset($returndata[0]->filetype))?$returndata[0]->filetype:"0";
+                                    $statusis = (isset($returndata[0]->status) && !empty($returndata[0]->status))?$returndata[0]->status:"";
+                                    $expirydateis = (isset($returndata[0]->expiry_date) && !empty($returndata[0]->expiry_date))?$returndata[0]->expiry_date:"";
+
+                                    if($expirydateis != "")
+                                    {
+                                        $expirydateis = date("d/m/Y",strtotime($expirydateis));
+                                    }
+
+
+                                    if($filetypeis == "0")
+                                    {
+                                        $filepathis = "";
+                                    }
+                                ?>
+                                <?php
+                                    $attributes = ['id' => 'editinsertcodenewcode'];
+                                    echo form_open_multipart("", $attributes);
+                                ?>
+                                <?= csrf_field() ?>
+                                    <section>
+
+                                        <div class="control-group form-group">
+                                            <label>Title</label>
+                                            <input type="text" name="title" class="form-control" placeholder="Enter Title Name" value="<?php echo $titleis; ?>">
+                                                <!-- <span class="descexplain">Number of codes you want to generate</span> -->
+                                        </div>
+                                        <div class="control-group form-group">
+                                            
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <label style="float:left;">M3U Files:</label>
+                                                    <label class="rdiobox" style="float: left;margin-left:8px;">
+                                                        <input class="fileselector radioboxesinputs"type="radio" name="uploadfileradio" value="uploadfile" id="uploadfilesec" data-showforid="uploadfileinput" data-commoninput="commongroupinput2" <?php echo ($filetypeis == "0")?"checked":""; ?>> <span> Upload File</span>
+                                                    </label>
+                                                
+                                                    <label class="rdiobox" style="float: left; margin-left: 10px;">
+                                                        <input class="fileselector radioboxesinputs" name="uploadfileradio" type="radio" value="externallink" id="addexternalfilepath" data-showforid="externalepathinput" data-commoninput="commongroupinput2" <?php echo ($filetypeis == "1")?"checked":""; ?>> <span>Add External File Path </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+                                        <div class="mb-3">
+                                            <input class="form-control commongroupinput2" type="file" name="filename" id="uploadfileinput" >
+                                            <input type="text" class="form-control d-none commongroupinput2"  id="externalepathinput" placeholder="Add File Path" name="filepath" value="<?php echo $filepathis; ?>">
+                                        </div>
+
+
+                            
+                                        <div class="mb-3">
+                                            <p class="mg-b-10">Status</p>
+                                            <select class="SlectBox form-control" name="status">
+                                                <option value="active" <?php echo ($statusis == "active")?"selected":""; ?>>Active</option>
+                                                    <option value="inactive" <?php echo ($statusis == "inactive")?"selected":""; ?>>Inactive</option>
+                                            </select>
+                                        </div>
+                                        
+
+                                        <div class="control-group form-group">
+                                            <label>Expire Date</label>
+                                            <input type="text" name="expiredate" class="form-control" placeholder="Enter Expire Date" value="<?php echo $expirydateis; ?>" >
+                                                
+                                                <!-- <input type="date" value="<?php echo $expirydateis; ?>" load="(this.type='date')" onfocusout="(this.type='text')"> -->
+
+                                        </div>
+
+
+
+                                        <div class="mb-3">
+                                            <p class="mg-b-10">Groups</p>
+                                            <select class="SlectBox form-control" name="group">
+                                                <?php
+                                                    if(isset($allgroups) && !empty($allgroups)){
+                                                        foreach($allgroups as $result){
+                                                            ?>
+                                                                <option value="<?php echo $result->id; ?>" <?php echo ($groupis == $result->id)?"selected":""; ?>><?php echo ucfirst($result->groupname); ?></option>
+                                                            <?php
+                                                        }
+
+                                                    }
+                                                ?>
+                                                
+                                            </select>
+                                        </div>
+                                        
+                                        <input type="hidden" name="filedataid" value="<?php echo $idis; ?>">
+                                        <button type="submit" class="btn btn-primary mt-3 mb-0" id="generatecodesbtn" style="float: left; clear: both;">Update Changes</button>
+                                    </section>
+                                <?php 
+                                    echo form_close();
+                                ?>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- /row -->
+        </div>
+    </div>
+                    
+
+<script>
+
+
+    $(function() {
+        $('input[name="expiredate"]').daterangepicker({
+            autoUpdateInput: false,
+            toggleSelected: true,
+            singleDatePicker: true,
+            locale: { 
+                    cancelLabel: 'Clear',
+                    format:'DD/MM/YYYY',
+                }
+        });
+
+        $('input[name="expiredate"]').on('apply.daterangepicker', function(ev, picker) {
+            $(this).val(picker.startDate.format('DD/MM/YYYY'));
+        });
+
+        $('input[name="expiredate"]').on('cancel.daterangepicker', function(ev, picker) {
+            $(this).val('');
+        });
+
+    });
+    $(document).ready(function(){
+
+        $(".commongroupinput2").click(function(){
+            $(this).removeClass("is-invalid");
+        });
+
+        $(".radioboxesinputs").click(function(){
+            showhidedatafile();
+        });
+
+        showhidedatafile();
+
+
+        function showhidedatafile()
+        {
+            $(".invalid-feedback").remove();
+            $(".is-invalid").removeClass("is-invalid");
+            $("."+$(".radioboxesinputs:checked").data("commoninput")).addClass("d-none");
+            $("#"+$(".radioboxesinputs:checked").data("showforid")).removeClass("d-none");
+        }
+
+
+        $('#editinsertcodenewcode').submit(function(e)
+        {   
+            e.preventDefault();
+            $("#extraerror").html("");
+            $(".invalid-feedback").remove();
+            $(".is-invalid").removeClass("is-invalid");
+            $('#generatecodesbtn').html('Processing...').prop("disabled",true);
+            formData = new FormData(this);
+            jQuery.ajax({
+                type:"POST",
+                url:'<?php echo base_url("/editfiledataprocessing"); ?>',
+                processData:false,
+                contentType:false,
+                data:formData,
+                success:function(response)
+                {
+                    $('#generatecodesbtn').html('Update Changes').prop("disabled",false);
+
+                    var obj = $.parseJSON(response);  
+                    if(obj.result == "error")
+                    {
+                        $.each(obj.data, function( index, value ) {
+                            if(index == "extra")
+                            {
+                                $("#extraerror").html('<div class="alert alert-danger alert-dismissible"><button type="button" class="btn-close" data-bs-dismiss="alert"></button><strong>Error!</strong> '+value+'</div>');
+                            }
+
+                            $('[name="'+index+'"]').addClass("is-invalid");
+                            $('[name="'+index+'"]').after('<p class="invalid-feedback erroriden-'+index+'">'+value+'</p>');
+                        });
+                    }
+                    else
+                    {
+                        sss = obj.field_id;
+                        swal({
+                            title: "Success!",
+                            text: obj.message,
+                            type: "success"
+                        }).then(function() {
+                            window.location = "<?php echo base_url('/editfile'); ?>/"+sss;
+                        });
+                    }
+                },  
+            });  
+        });
+
+
+
+    $('#datepicker').daterangepicker({
+      singleDatePicker: true,
+      defaultDate: null,
+      locale: {
+          cancelLabel: 'Clear'
+      }
+  });
+
+    $('#datepicker').on('apply.daterangepicker', function(ev, picker) {
+        $(this).val(picker.format('YYYY-MM-DD'));
+    });
+
+    $('#datepicker').on('cancel.daterangepicker', function(ev, picker) {
+        $(this).val('');
+    });
+});
+    </script>
+
+    <div id="processingmodal" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-dialog-centered">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+         <!--  <div class="modal-header">
+            <h4 class="modal-title"><center>Generating Codes</center></h4>
+          </div> -->
+          <div class="modal-body">
+            <center style="margin-bottom: 20px;">
+              <h4 class="modal-title"><center>Generating Codes</center></h4>
+            </center>
+            <center>
+              <img src="assets/img/cupertino_activity_indicator.gif" style="width: 50px;">
+            </center>
+          </div>
+        </div>
+
+      </div>
+    </div>

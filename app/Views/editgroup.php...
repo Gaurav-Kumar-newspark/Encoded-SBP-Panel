@@ -1,0 +1,74 @@
+<!-- main-content -->
+<div class="main-content app-content">
+
+    <!-- container -->
+    <div class="main-container container-fluid">
+
+        <!-- breadcrumb -->
+        <div class="breadcrumb-header justify-content-between">
+            <div class="left-content" style="padding-left: 10px!important;">
+           
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item tx-15">Dashboard</li>
+                    <li class="breadcrumb-item" aria-current="page"><a href="<?php echo base_url('codes'); ?>">M3U File</a></li>
+                    <li class="breadcrumb-item" aria-current="page"><a href="<?php echo base_url('listgroups'); ?>">List Group</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Update Group</li>
+                </ol>
+           
+            </div>
+
+        </div>
+        <!-- /breadcrumb -->
+            
+            
+        <!-- row -->
+        <div class="row">
+            <div class="col-lg-8 col-xl-8 col-md-12 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-xl-12">
+                                <?php
+                                    if (isset($_SESSION['groupmsg']) && !empty($_SESSION['groupmsg'])) {
+                                        if ($_SESSION['groupmsg']['result'] == 'error') {
+                                            ?>
+                                                <div class="alert alert-danger alert-dismissible" style="width: 100%;">
+                                                    <b>Error!&nbsp;</b><?php echo $_SESSION['groupmsg']['message']; ?>
+                                                </div>
+                                            <?php
+
+                                        }
+                                    }
+                                ?>
+                                
+                                <?php echo form_open('editgroup/'.$groupdata[0]->id); ?>
+                                <?= csrf_field() ?>
+                                <label for="groupname" class="form-label mb-2">Update Group</label>
+                                <input type="text" class="form-control <?php if (isset($error) && !empty($error)) {
+                                echo "is-invalid";
+                                }?>"name="groupname" placeholder="Enter Group Name" value="<?php echo $groupdata[0]->groupname;?>">
+                                <p class="invalid-feedback"><?php if (isset($error) && !empty($error)) {
+                                    echo $error["groupname"];
+                                }?></p>
+
+                                <button type="submit" name="submit" class="btn btn-primary mt-2">Update</button>
+                                <?php echo form_close(); ?>
+						    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>
+<style>
+    .form-label{
+        margin: 0;
+        font-size: 0.81568rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #4a4a69;
+        text-align: left;
+    }
+
+</style>

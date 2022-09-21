@@ -1,0 +1,113 @@
+CRITICAL - 2022-05-16 01:23:31 --> Undefined variable: tagsresult
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(88): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-16 01:24:25 --> Undefined variable: tagsresult
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(88): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-16 01:59:57 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Images/Handlers/GDHandler.php(245): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(59): CodeIgniter\Images\Handlers\GDHandler->save()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-16 04:46:21 --> Cannot use object of type stdClass as array
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(210): include()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(10): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-16 04:46:55 --> Cannot use object of type stdClass as array
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(210): include()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(10): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-16 04:56:42 --> Undefined variable: file
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Views/media.php(70): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(10): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-16 04:57:00 --> Undefined variable: id
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Views/media.php(70): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(10): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-16 04:58:18 --> Undefined variable: id
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Views/media.php(70): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(10): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-16 05:34:41 --> Undefined variable: id
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Views/media.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(10): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-16 05:54:48 --> Too few arguments to function App\Controllers\Media::media(), 0 passed in /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-16 06:05:57 --> Illegal string offset 'message'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->deletemedia()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-16 06:06:29 --> Illegal string offset 'success'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->deletemedia()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-16 06:06:51 --> Illegal string offset 'success'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->deletemedia()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

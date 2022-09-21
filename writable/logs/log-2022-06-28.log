@@ -1,0 +1,401 @@
+CRITICAL - 2022-06-28 00:23:34 --> Array to string conversion
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Views/editgroups.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(120): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->editgroup()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 02:00:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`groupid`)' at line 3
+CRITICAL - 2022-06-28 02:00:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`groupid`)' at line 3
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(43): CodeIgniter\Model->__call()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->listusers()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-28 02:00:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`group_id`)' at line 3
+CRITICAL - 2022-06-28 02:00:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`group_id`)' at line 3
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(43): CodeIgniter\Model->__call()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->listusers()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-28 02:11:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id`)' at line 3
+CRITICAL - 2022-06-28 02:11:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id`)' at line 3
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->listusers()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 02:12:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`group_id`)' at line 3
+CRITICAL - 2022-06-28 02:12:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`group_id`)' at line 3
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->listusers()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 02:13:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id`)' at line 3
+CRITICAL - 2022-06-28 02:13:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id`)' at line 3
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->listusers()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 02:21:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id`
+FROM `line_username`
+JOIN `line_username_group` ON `line_username_group`.`' at line 1
+CRITICAL - 2022-06-28 02:21:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id`
+FROM `line_username`
+JOIN `line_username_group` ON `line_username_group`.`' at line 1
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->listusers()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 02:50:47 --> Undefined property: stdClass::$groupname
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Views/listusers.php(69): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(46): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->listusers()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 03:07:53 --> Undefined variable: data
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->listusers()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-28 03:31:48 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 1 passed in /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php on line 42 and at least 2 expected
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(42): CodeIgniter\Database\BaseBuilder->join()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->listusers()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-28 05:31:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`group_id`)' at line 3
+CRITICAL - 2022-06-28 05:31:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`group_id`)' at line 3
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->listusers()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 05:31:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`group_id`)' at line 3
+CRITICAL - 2022-06-28 05:31:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`group_id`)' at line 3
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->listusers()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 05:31:44 --> Unknown column 'line_username*' in 'field list'
+CRITICAL - 2022-06-28 05:31:44 --> Unknown column 'line_username*' in 'field list'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->listusers()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 05:34:05 --> Unknown column 'line_username_group*' in 'field list'
+CRITICAL - 2022-06-28 05:34:05 --> Unknown column 'line_username_group*' in 'field list'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->listusers()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 05:34:16 --> Unknown column 'line_username_group*' in 'field list'
+CRITICAL - 2022-06-28 05:34:16 --> Unknown column 'line_username_group*' in 'field list'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->listusers()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 05:34:27 --> Unknown column 'line_username*' in 'field list'
+CRITICAL - 2022-06-28 05:34:27 --> Unknown column 'line_username*' in 'field list'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->listusers()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 05:53:47 --> Undefined variable: pager
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Views/listgroups.php(93): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(137): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->listgroups()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 06:25:01 --> Unknown column 'line_username_group.username' in 'field list'
+CRITICAL - 2022-06-28 06:25:01 --> Unknown column 'line_username_group.username' in 'field list'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->listusers()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 06:27:00 --> Unknown column 'line_username_group.12' in 'on clause'
+CRITICAL - 2022-06-28 06:27:00 --> Unknown column 'line_username_group.12' in 'on clause'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->listusers()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 06:28:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->listusers()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-28 06:30:05 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 1 passed in /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php on line 42 and at least 2 expected
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(42): CodeIgniter\Database\BaseBuilder->join()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->listusers()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-28 06:31:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+CRITICAL - 2022-06-28 06:31:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->listusers()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 06:32:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`group_id`)' at line 3
+CRITICAL - 2022-06-28 06:32:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`group_id`)' at line 3
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->listusers()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 06:44:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OUTER JOIN `line_username_group` ON `line_username`.`group_id` = `line_username_' at line 3
+CRITICAL - 2022-06-28 06:44:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OUTER JOIN `line_username_group` ON `line_username`.`group_id` = `line_username_' at line 3
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->listusers()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 06:46:13 --> Not unique table/alias: 'line_username_group'
+CRITICAL - 2022-06-28 06:46:13 --> Not unique table/alias: 'line_username_group'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(45): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->listusers()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 06:55:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`line_username_group`.`id`' at line 3
+CRITICAL - 2022-06-28 06:55:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`line_username_group`.`id`' at line 3
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(45): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->listusers()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-28 07:15:26 --> Undefined property: stdClass::$id
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Views/listusers.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(46): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->listusers()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 07:37:43 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-06-28 07:37:43 --> Column 'id' in where clause is ambiguous
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(76): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->edituserlist()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 07:38:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"17" = line_username_group.id' at line 3
+CRITICAL - 2022-06-28 07:38:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"17" = line_username_group.id' at line 3
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->edituserlist()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 07:45:23 --> Unknown column 'line_username_group.id' in 'where clause'
+CRITICAL - 2022-06-28 07:45:23 --> Unknown column 'line_username_group.id' in 'where clause'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(56): CodeIgniter\Database\BaseBuilder->delete()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->deletelistuser()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 07:48:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''18' = `line_username_group`.`id`' at line 2
+CRITICAL - 2022-06-28 07:48:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''18' = `line_username_group`.`id`' at line 2
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(56): CodeIgniter\Database\BaseBuilder->delete()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->deletelistuser()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 07:48:34 --> Unknown column 'line_username_group.id' in 'where clause'
+CRITICAL - 2022-06-28 07:48:34 --> Unknown column 'line_username_group.id' in 'where clause'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(56): CodeIgniter\Database\BaseBuilder->delete()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->deletelistuser()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 07:48:59 --> Unknown column 'line_username_group.id' in 'where clause'
+CRITICAL - 2022-06-28 07:48:59 --> Unknown column 'line_username_group.id' in 'where clause'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(55): CodeIgniter\Database\BaseBuilder->delete()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->deletelistuser()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 07:49:19 --> Unknown column 'line_username_group.id' in 'where clause'
+CRITICAL - 2022-06-28 07:49:19 --> Unknown column 'line_username_group.id' in 'where clause'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(55): CodeIgniter\Database\BaseBuilder->delete()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->deletelistuser()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 07:50:10 --> Unknown column 'line_username_group.id' in 'where clause'
+CRITICAL - 2022-06-28 07:50:10 --> Unknown column 'line_username_group.id' in 'where clause'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Database/BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Manageappnotifications.php(55): CodeIgniter\Database\BaseBuilder->delete()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Manageappnotifications->deletelistuser()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

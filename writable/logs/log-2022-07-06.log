@@ -1,0 +1,37 @@
+ERROR - 2022-07-06 04:57:44 --> Email: sendWithSmtp throwed fsockopen() expects parameter 2 to be int, string given
+ERROR - 2022-07-06 04:58:54 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+CRITICAL - 2022-07-06 06:45:05 --> Class 'App\Models\Apimodel' not found
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(803): App\Controllers\BaseController->initController()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-07-06 06:47:29 --> Table 'smartersactivationpanel.am_api' doesn't exist
+CRITICAL - 2022-07-06 06:47:29 --> Table 'smartersactivationpanel.am_api' doesn't exist
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Models/Apimodel.php(29): CodeIgniter\Model->__call()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Generateapi.php(87): App\Models\Apimodel->getallapidetailslist()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Generateapi->generateapi()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-06 07:20:06 --> Table 'smartersactivationpanel.am_api' doesn't exist
+CRITICAL - 2022-07-06 07:20:06 --> Table 'smartersactivationpanel.am_api' doesn't exist
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Models/Apimodel.php(29): CodeIgniter\Model->__call()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Generateapi.php(87): App\Models\Apimodel->getallapidetailslist()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Generateapi->generateapi()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

@@ -1,0 +1,131 @@
+CRITICAL - 2022-07-12 01:39:46 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-12 01:40:25 --> Undefined property: App\Controllers\Codes::$reques
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Codes.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Codes->processingcodes()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 01:40:57 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-12 01:48:32 --> Array to string conversion
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Codes.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Codes->processingcodes()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 02:12:16 --> syntax error, unexpected '}'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(790): class_exists()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-12 02:12:25 --> syntax error, unexpected '}'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(790): class_exists()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-12 02:31:22 --> Array to string conversion
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Codes.php(89): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Codes->processingcodes()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 05:02:17 --> Undefined variable: session
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Codes.php(130): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Codes->processingcodes()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 05:11:59 --> Could not move file phpRTJUO1 to / ()
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Codes.php(141): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Codes->processingcodes()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-12 05:34:40 --> There is no data to insert.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Models/Batchmodel.php(38): CodeIgniter\Model->insert()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Codes.php(197): App\Models\Batchmodel->generatecodesadd()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Codes->processingcodes()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-12 05:35:16 --> There is no data to insert.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Models/Batchmodel.php(38): CodeIgniter\Model->insert()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Codes.php(197): App\Models\Batchmodel->generatecodesadd()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Codes->processingcodes()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-12 05:37:06 --> There is no data to insert.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Models/Codemodel.php(12): CodeIgniter\Model->insert()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Codes.php(197): App\Models\Codemodel->generatecodesadd()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Codes->processingcodes()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-12 05:38:32 --> Call to undefined method App\Models\Codemodel::insert_batch
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Models/Codemodel.php(12): CodeIgniter\Model->__call()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Codes.php(197): App\Models\Codemodel->generatecodesadd()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Codes->processingcodes()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-12 07:10:24 --> syntax error, unexpected '}', expecting ';' or ','
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(790): class_exists()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-12 07:11:00 --> Undefined variable: codes_length
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Codes.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Codes->loopcodesprocess()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 07:28:21 --> Undefined variable: insertquery
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Codes.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Codes->loopcodesprocess()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 07:28:44 --> Undefined variable: insertquery
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Codes.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Codes->loopcodesprocess()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

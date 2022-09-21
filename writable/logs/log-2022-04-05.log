@@ -1,0 +1,494 @@
+CRITICAL - 2022-04-05 01:01:56 --> Undefined property: App\Controllers\Home::$forge
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(321): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-05 01:02:41 --> Undefined property: App\Controllers\Home::$forge
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(322): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-05 01:02:59 --> Too-big precision 100 specified for 'created_at'. Maximum is 6.
+CRITICAL - 2022-04-05 01:02:59 --> Too-big precision 100 specified for 'created_at'. Maximum is 6.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/Forge.php(513): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(324): CodeIgniter\Database\Forge->createTable()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-05 01:04:14 --> Too-big precision 100 specified for 'expires'. Maximum is 6.
+CRITICAL - 2022-04-05 01:04:14 --> Too-big precision 100 specified for 'expires'. Maximum is 6.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/Forge.php(513): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(324): CodeIgniter\Database\Forge->createTable()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-05 01:39:08 --> Call to undefined function form_email()
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(331): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->Userform()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-05 01:47:35 --> Argument 3 passed to form_label() must be of the type array, string given, called in /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Views/Userform.php on line 14
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Views/Userform.php(14): form_label()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(331): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->Userform()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-05 02:40:48 --> Argument 2 passed to form_input() must be of the type string, array given, called in /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Views/Userform.php on line 29
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Views/Userform.php(29): form_input()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(331): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->Userform()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-05 03:15:02 --> Call to a member function listErrors() on array
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(385): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->insertform_data()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-05 03:15:53 --> Call to a member function showError() on array
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(385): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->insertform_data()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-05 03:22:18 --> Call to a member function hasError() on array
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(389): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->insertform_data()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-05 03:22:36 --> Table 'ankush_db.users' doesn't exist
+CRITICAL - 2022-04-05 03:22:36 --> Call to a member function getRow() on bool
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(368): CodeIgniter\Controller->validate()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->insertform_data()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-05 03:23:13 --> Table 'ankush_db.users' doesn't exist
+CRITICAL - 2022-04-05 03:23:13 --> Call to a member function getRow() on bool
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(368): CodeIgniter\Controller->validate()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->insertform_data()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-05 03:23:40 --> Table 'ankush_db.users' doesn't exist
+CRITICAL - 2022-04-05 03:23:40 --> Call to a member function getRow() on bool
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(368): CodeIgniter\Controller->validate()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->insertform_data()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-05 03:58:45 --> Table 'ankush_db.users' doesn't exist
+CRITICAL - 2022-04-05 03:58:45 --> Call to a member function getRow() on bool
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(338): CodeIgniter\Controller->validate()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->insertform_data()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-05 04:04:18 --> Table 'ankush_db.users' doesn't exist
+CRITICAL - 2022-04-05 04:04:18 --> Call to a member function getRow() on bool
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(338): CodeIgniter\Controller->validate()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->insertform_data()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-05 04:04:31 --> Table 'ankush_db.users' doesn't exist
+CRITICAL - 2022-04-05 04:04:31 --> Call to a member function getRow() on bool
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(338): CodeIgniter\Controller->validate()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->insertform_data()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-05 04:05:12 --> Table 'ankush_db.users' doesn't exist
+CRITICAL - 2022-04-05 04:05:12 --> Call to a member function getRow() on bool
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(338): CodeIgniter\Controller->validate()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->insertform_data()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-05 04:05:22 --> Table 'ankush_db.users' doesn't exist
+CRITICAL - 2022-04-05 04:05:22 --> Call to a member function getRow() on bool
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(338): CodeIgniter\Controller->validate()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->insertform_data()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-05 04:05:42 --> Table 'ankush_db.users' doesn't exist
+CRITICAL - 2022-04-05 04:05:42 --> Call to a member function getRow() on bool
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(338): CodeIgniter\Controller->validate()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->insertform_data()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-05 04:05:44 --> Table 'ankush_db.users' doesn't exist
+CRITICAL - 2022-04-05 04:05:44 --> Call to a member function getRow() on bool
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(338): CodeIgniter\Controller->validate()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->insertform_data()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-05 04:07:05 --> Table 'ankush_db.users' doesn't exist
+CRITICAL - 2022-04-05 04:07:05 --> Call to a member function getRow() on bool
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(338): CodeIgniter\Controller->validate()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->insertform_data()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-05 04:08:23 --> Table 'ankush_db.users' doesn't exist
+CRITICAL - 2022-04-05 04:08:23 --> Call to a member function getRow() on bool
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(338): CodeIgniter\Controller->validate()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->insertform_data()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-05 04:10:39 --> Table 'ankush_db.users' doesn't exist
+CRITICAL - 2022-04-05 04:10:39 --> Call to a member function getRow() on bool
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(338): CodeIgniter\Controller->validate()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->insertform_data()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-05 04:11:12 --> Table 'ankush_db.users' doesn't exist
+CRITICAL - 2022-04-05 04:11:12 --> Call to a member function getRow() on bool
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(338): CodeIgniter\Controller->validate()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->insertform_data()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-05 04:14:20 --> Table 'ankush_db.users' doesn't exist
+CRITICAL - 2022-04-05 04:14:20 --> Call to a member function getRow() on bool
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(338): CodeIgniter\Controller->validate()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->insertform_data()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-05 04:20:26 --> Call to a member function getError() on null
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(331): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->Userform()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-05 04:20:29 --> Call to a member function getError() on null
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(331): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->Userform()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-05 04:20:35 --> Call to a member function getError() on null
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(331): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->Userform()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-05 04:21:14 --> Call to a member function getError() on null
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(331): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->Userform()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-05 04:21:22 --> Call to a member function getError() on null
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(331): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->Userform()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-05 04:22:08 --> Call to a member function listErrors() on null
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(331): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->Userform()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-05 04:22:39 --> Firstname is not a valid Validation template.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(485): CodeIgniter\Validation\Exceptions\ValidationException::forInvalidTemplate()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Views/Userform.php(29): CodeIgniter\Validation\Validation->listErrors()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include('/var/www/vhosts...')
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(331): view()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->Userform()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-05 04:22:41 --> Firstname is not a valid Validation template.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(485): CodeIgniter\Validation\Exceptions\ValidationException::forInvalidTemplate()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Views/Userform.php(29): CodeIgniter\Validation\Validation->listErrors()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include('/var/www/vhosts...')
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(331): view()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->Userform()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-05 04:22:42 --> Firstname is not a valid Validation template.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(485): CodeIgniter\Validation\Exceptions\ValidationException::forInvalidTemplate()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Views/Userform.php(29): CodeIgniter\Validation\Validation->listErrors()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include('/var/www/vhosts...')
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(331): view()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->Userform()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-05 04:33:12 --> syntax error, unexpected '?>'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(347): view()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->insertform_data()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-05 04:33:27 --> syntax error, unexpected '?>'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(347): view()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->insertform_data()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-05 04:33:29 --> syntax error, unexpected '?>'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(347): view()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->insertform_data()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-05 04:33:31 --> syntax error, unexpected '?>'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(347): view()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->insertform_data()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-05 04:48:52 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(347): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->insertform_data()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-05 04:49:01 --> There is no data to insert.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(361): CodeIgniter\Model->insert()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->insertform_data()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-05 04:51:25 --> There is no data to insert.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(361): CodeIgniter\Model->insert()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->insertform_data()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-05 05:03:09 --> Table 'ankush_db.users' doesn't exist
+CRITICAL - 2022-04-05 05:03:09 --> Call to a member function getRow() on bool
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(338): CodeIgniter\Controller->validate()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->insertform_data()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-05 05:42:41 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(385): CodeIgniter\Model->insert()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->generate_randompassword()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-05 05:44:18 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(385): CodeIgniter\Model->insert()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->generate_randompassword()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-05 05:44:42 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(385): CodeIgniter\Model->insert()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->generate_randompassword()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-05 05:48:08 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(385): CodeIgniter\Model->insert()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->generate_randompassword()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-05 05:48:12 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(385): CodeIgniter\Model->insert()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->generate_randompassword()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-05 06:23:47 --> Argument 2 passed to form_input() must be of the type string, array given, called in /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Views/Userform.php on line 104
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Views/Userform.php(104): form_input()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(348): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->insertform_data()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

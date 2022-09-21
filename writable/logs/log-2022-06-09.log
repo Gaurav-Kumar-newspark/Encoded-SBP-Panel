@@ -1,0 +1,105 @@
+CRITICAL - 2022-06-09 01:00:36 --> unlink(/var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/writable/debugbar/debugbar_1654753724.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Debug/Toolbar/Collectors/History.php(74): unlink()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Debug/Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(302): CodeIgniter\Events\Events::trigger()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-09 02:11:57 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-09 02:16:37 --> Undefined variable: posedata
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Models/Appcustomizepushmodel.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/BaseController.php(517): App\Models\Appcustomizepushmodel->appcustomizationpushdata()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\BaseController->pushallchangescustomizeapp()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-09 02:18:45 --> Undefined variable: posedata
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Models/Appcustomizepushmodel.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/BaseController.php(517): App\Models\Appcustomizepushmodel->appcustomizationpushdata()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\BaseController->pushallchangescustomizeapp()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-09 02:19:40 --> Undefined variable: posedata
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Models/Appcustomizepushmodel.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/BaseController.php(518): App\Models\Appcustomizepushmodel->appcustomizationpushdata()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\BaseController->pushallchangescustomizeapp()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-09 02:23:07 --> unlink(/var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/writable/debugbar/debugbar_1654757790.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Debug/Toolbar/Collectors/History.php(74): unlink()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Debug/Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(302): CodeIgniter\Events\Events::trigger()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-09 03:23:57 --> syntax error, unexpected '.'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(790): class_exists()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-09 03:28:16 --> Undefined index: apicreatedid
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Generateapi.php(109): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Generateapi->generateapi()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 03:29:46 --> Undefined index: apicreatedid
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Generateapi.php(109): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Generateapi->generateapi()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 05:39:46 --> unlink(/var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/writable/debugbar/debugbar_1654770982.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Debug/Toolbar/Collectors/History.php(74): unlink()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Debug/Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(302): CodeIgniter\Events\Events::trigger()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-09 06:20:50 --> unlink(/var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/writable/debugbar/debugbar_1654772253.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Debug/Toolbar/Collectors/History.php(74): unlink()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Debug/Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(302): CodeIgniter\Events\Events::trigger()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-09 08:01:44 --> Undefined variable: fromeemail
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Views/generalsettings.php(217): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/app/Controllers/Settings.php(174): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(825): App\Controllers\Settings->generalsettings()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersbackend/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-09 08:03:58 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+ERROR - 2022-06-09 08:05:05 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+ERROR - 2022-06-09 08:07:19 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known

@@ -1,0 +1,4 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="Cp24.ca" tvg-name="CA: CP24*" tvg-logo="http://38.143.137.20/logo/prestige/Canada/cp_24_ca.png" group-title="ENGLISH",CA: CP24*
+http://qqtv.nl:8080/appletest/appletest/5020
+#EXTINF:-1 tvg

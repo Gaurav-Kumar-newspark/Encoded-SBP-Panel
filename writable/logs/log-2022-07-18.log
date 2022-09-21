@@ -1,0 +1,74 @@
+ERROR - 2022-07-18 05:14:05 --> Table 'smartercodeactivationpanel2.tbl_codelist' doesn't exist
+CRITICAL - 2022-07-18 05:14:05 --> Table 'smartercodeactivationpanel2.tbl_codelist' doesn't exist
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/Database/BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Models/Codemodel.php(21): CodeIgniter\Model->countAllResults()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Controllers/Dashboard.php(9): App\Models\Codemodel->gettotalcodesdata()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(825): App\Controllers\Dashboard->dashboard()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-18 05:17:19 --> Could not move file phpJTh9zU to /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/uploads/M3U/ ()
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Controllers/Codes.php(395): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(825): App\Controllers\Codes->processingcodes()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-18 05:17:50 --> Could not move file phpTty1u5 to /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/uploads/M3U/ ()
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Controllers/Codes.php(395): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(825): App\Controllers\Codes->processingcodes()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-07-18 05:38:17 --> Unknown column 'common' in 'field list'
+CRITICAL - 2022-07-18 05:38:17 --> Unknown column 'common' in 'field list'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/Database/BaseBuilder.php(1648): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/Model.php(272): CodeIgniter\Database\BaseBuilder->insertBatch()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/BaseModel.php(814): CodeIgniter\Model->doInsertBatch()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Models/Codemodel.php(12): CodeIgniter\BaseModel->insertBatch()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Controllers/Codes.php(447): App\Models\Codemodel->generatecodesadd()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(825): App\Controllers\Codes->processingcodes()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-07-18 05:45:20 --> Cannot use object of type stdClass as array
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/View/View.php(210): include()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Controllers/Codes.php(519): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(825): App\Controllers\Codes->managerecords()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-18 05:46:06 --> Cannot use object of type stdClass as array
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/View/View.php(210): include()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Controllers/Codes.php(519): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(825): App\Controllers\Codes->managerecords()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-07-18 05:51:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	`activationcode` VARCHAR(255) NULL,
+	`status` VARCHAR(255) N' at line 3
+CRITICAL - 2022-07-18 06:35:37 --> Too few arguments to function App\Controllers\Codes::editrecords(), 0 passed in /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(825): App\Controllers\Codes->editrecords()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -1,0 +1,241 @@
+CRITICAL - 2022-01-13 00:16:46 --> Invalid file: welcome_message.php
+#0 C:\xampp\htdocs\CINEW\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 C:\xampp\htdocs\CINEW\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\xampp\htdocs\CINEW\app\Controllers\Home.php(9): view('welcome_message')
+#3 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CINEW\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-13 00:22:39 --> Call to a member function view() on null
+#0 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CINEW\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-13 00:30:19 --> Class 'App\Controllers\admin\App\Controllers\BaseController' not found
+#0 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CINEW\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-13 00:32:38 --> Class 'App\Controllers\admin\App\Controllers\BaseController' not found
+#0 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CINEW\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-13 00:32:40 --> Class 'App\Controllers\admin\App\Controllers\BaseController' not found
+#0 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CINEW\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-13 00:33:52 --> Class 'App\Controllers\admin\App\Controllers\BaseController' not found
+#0 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CINEW\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-13 00:33:54 --> Class 'App\Controllers\admin\App\Controllers\BaseController' not found
+#0 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CINEW\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-13 00:36:19 --> Class 'App\Controllers\admin\App\Controllers\BaseController' not found
+#0 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CINEW\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\CINEW\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-13 00:37:03 --> Class 'App\Controllers\admin\App\Controllers\BaseController' not found
+#0 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CINEW\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-13 00:39:32 --> Class 'App\Controllers\admin\App\Controllers\BaseController' not found
+#0 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CINEW\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-13 00:39:40 --> Class 'App\Controllers\admin\App\Controllers\BaseController' not found
+#0 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CINEW\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-13 00:40:23 --> Class 'App\Controllers\admin\App\Controllers\BaseController' not found
+#0 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CINEW\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-13 00:40:28 --> Class 'App\Controllers\admin\App\Controllers\BaseController' not found
+#0 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CINEW\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-13 00:40:30 --> Class 'App\Controllers\admin\App\Controllers\BaseController' not found
+#0 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CINEW\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-13 00:40:55 --> Class 'App\Controllers\admin\App\Controllers\BaseController' not found
+#0 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CINEW\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-13 00:40:55 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\CINEW\app\Config\Events.php:32) in C:\xampp\htdocs\CINEW\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 112, Array)
+#1 C:\xampp\htdocs\CINEW\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-13 00:41:08 --> Class 'App\Controllers\admin\App\Controllers\BaseController' not found
+#0 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CINEW\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-13 00:41:55 --> Class 'App\Controllers\admin\App\Controllers\BaseController' not found
+#0 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CINEW\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-13 00:41:58 --> Class 'App\Controllers\admin\App\Controllers\BaseController' not found
+#0 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CINEW\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-13 00:42:15 --> Class 'App\Controllers\admin\App\Controllers\BaseController' not found
+#0 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CINEW\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CINEW\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-13 00:49:22 --> Invalid file: admin/main.php
+#0 C:\xampp\htdocs\CINEW\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/main.php')
+#1 C:\xampp\htdocs\CINEW\system\Common.php(1089): CodeIgniter\View\View->render('admin/main', Array, true)
+#2 C:\xampp\htdocs\CINEW\app\Controllers\admin\Login.php(10): view('admin/main')
+#3 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(825): App\Controllers\admin\Login->index()
+#4 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Login))
+#5 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CINEW\index.php(39): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-13 01:37:01 --> Invalid file: admin/main.php
+#0 C:\xampp\htdocs\CINEW\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/main.php')
+#1 C:\xampp\htdocs\CINEW\system\Common.php(1089): CodeIgniter\View\View->render('admin/main', Array, true)
+#2 C:\xampp\htdocs\CINEW\app\Controllers\admin\Login.php(10): view('admin/main')
+#3 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(825): App\Controllers\admin\Login->index()
+#4 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Login))
+#5 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CINEW\index.php(39): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-13 05:23:25 --> Undefined variable: data
+#0 C:\xampp\htdocs\CINEW\app\Views\main.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\CINEW\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CINEW\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CINEW\system\Common.php(1089): CodeIgniter\View\View->render('main', Array, true)
+#4 C:\xampp\htdocs\CINEW\app\Controllers\Home.php(12): view('main', Array)
+#5 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\CINEW\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CINEW\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}

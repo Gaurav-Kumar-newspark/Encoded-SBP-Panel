@@ -1,0 +1,11 @@
+ERROR - 2022-07-29 03:16:54 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-07-29 03:16:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/Database/Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/Database/Config.php(105): CodeIgniter\Database\Database->loadForge()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/app/Controllers/BaseController.php(71): CodeIgniter\Database\Config::forge()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(803): App\Controllers\BaseController->initController()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

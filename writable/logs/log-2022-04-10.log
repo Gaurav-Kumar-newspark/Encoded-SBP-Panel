@@ -1,0 +1,14 @@
+CRITICAL - 2022-04-10 23:36:20 --> Undefined variable: Password
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(165): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->Adminlogin()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-10 23:37:24 --> Undefined variable: Password
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(165): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->Adminlogin()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,92 @@
+CRITICAL - 2022-07-27 07:59:29 --> fopen(/var/www/vhosts/iptvbillingsolution.com/public/scapanel/writable/session/ci_sessiononegrpi7n3t7mah93g0ff6tdmu5rhgmo): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/Session/Handlers/FileHandler.php(129): fopen()
+#2 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/Session/Session.php(894): session_start()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/Session/Session.php(238): CodeIgniter\Session\Session->startSession()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/Config/Services.php(577): CodeIgniter\Session\Session->start()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/Config/BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/Config/Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/Config/BaseService.php(248): CodeIgniter\Config\Services::session()
+#10 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/app/Controllers/BaseController.php(62): CodeIgniter\Config\BaseService::__callStatic()
+#11 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(803): App\Controllers\BaseController->initController()
+#12 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#13 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#14 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2022-07-27 08:04:21 --> Undefined property: App\Filters\isLoggedIn::$adminconfigurationmodel
+#0 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/app/Filters/isLoggedIn.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/Filters/Filters.php(196): App\Filters\isLoggedIn->after()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(429): CodeIgniter\Filters\Filters->run()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-27 08:20:14 --> Call to undefined method App\Filters\isLoggedIn::checklicense()
+#0 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/Filters/Filters.php(196): App\Filters\isLoggedIn->after()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(429): CodeIgniter\Filters\Filters->run()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-27 08:28:09 --> Call to undefined method App\Filters\isLoggedIn::checklicense()
+#0 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/Filters/Filters.php(196): App\Filters\isLoggedIn->after()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(429): CodeIgniter\Filters\Filters->run()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-27 08:31:21 --> Call to undefined method App\Filters\isLoggedIn::checklicense()
+#0 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/Filters/Filters.php(196): App\Filters\isLoggedIn->after()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(429): CodeIgniter\Filters\Filters->run()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-27 08:32:22 --> Class 'App\Filters\isLoggedIn' not found
+#0 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-07-27 08:33:56 --> Class 'App\Filters\isLoggedIn' not found
+#0 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-07-27 08:34:12 --> Call to undefined method App\Filters\isLoggedIn::checklicense()
+#0 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/Filters/Filters.php(196): App\Filters\isLoggedIn->after()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(429): CodeIgniter\Filters\Filters->run()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-27 08:34:26 --> Class 'App\Filters\isLoggedIn' not found
+#0 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-07-27 08:36:13 --> Call to undefined method App\Filters\isLoggedIn::checklicense()
+#0 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/Filters/Filters.php(196): App\Filters\isLoggedIn->after()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(429): CodeIgniter\Filters\Filters->run()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-27 08:37:29 --> Call to undefined method App\Filters\isLoggedIn::checklicense()
+#0 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/Filters/Filters.php(196): App\Filters\isLoggedIn->after()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(429): CodeIgniter\Filters\Filters->run()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-27 08:38:14 --> Call to undefined method App\Filters\isLoggedIn::checklicense()
+#0 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/Filters/Filters.php(196): App\Filters\isLoggedIn->after()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(429): CodeIgniter\Filters\Filters->run()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-27 08:41:28 --> Class 'App\Filters\isLoggedIn' not found
+#0 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-07-27 08:45:26 --> Call to a member function checklicense() on array
+#0 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/Filters/Filters.php(196): App\Filters\isLoggedIn->after()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(429): CodeIgniter\Filters\Filters->run()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/scapanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

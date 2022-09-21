@@ -1,0 +1,201 @@
+CRITICAL - 2022-05-04 01:07:39 --> Undefined variable: mainlogo
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Views/login.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Login.php(7): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-04 01:07:52 --> syntax error, unexpected ';'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Login.php(7): view()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-04 03:02:13 --> Class 'App\Model\Loginmodel' not found
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(803): App\Controllers\BaseController->initController()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-04 03:04:26 --> Class 'App\Models\Loginattemptsmodel' not found
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(803): App\Controllers\BaseController->initController()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-04 03:06:45 --> Call to undefined method App\Controllers\Login::sendmail()
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-04 03:10:00 --> Undefined variable: Error
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Views/login.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Login.php(212): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-04 03:11:16 --> Undefined variable: error
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Views/login.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Login.php(212): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-04 03:11:41 --> Undefined variable: error
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Views/login.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Login.php(212): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-04 03:11:47 --> Undefined variable: error
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Views/login.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Login.php(212): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-04 03:14:12 --> Undefined property: CodeIgniter\View\View::$encrypter
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Views/login.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Login.php(212): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-04 03:15:22 --> Undefined property: CodeIgniter\View\View::$encrypter
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Views/login.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Login.php(212): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-04 03:15:22 --> Undefined property: CodeIgniter\View\View::$encrypter
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Views/login.php(104): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Login.php(212): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-04 04:21:46 --> Invalid file: errors/html/pages-error-404.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Config/Routes.php(24): view()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(842): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(334): CodeIgniter\CodeIgniter->display404errors()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-04 05:08:54 --> Undefined property: App\Controllers\Login::$testandsavesmtpmodal
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/BaseController.php(88): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Login.php(174): App\Controllers\BaseController->sendmail()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-04 05:14:02 --> Decrypting: authentication failed.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/BaseController.php(76): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/BaseController.php(96): App\Controllers\BaseController->customencrption()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Login.php(180): App\Controllers\BaseController->sendmail()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-04 06:02:04 --> isLoggedIn filter must have a matching alias defined.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-04 06:24:14 --> Invalid file: adminconfiguration.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Adminconfiguration.php(9): view()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Adminconfiguration->adminconfiguration()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-04 06:25:46 --> Invalid file: adminaccess.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Adminconfiguration.php(84): view()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Adminconfiguration->adminconfiguration()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-04 06:26:13 --> Invalid file: createadminlayout.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Adminconfiguration.php(79): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Adminconfiguration->adminconfiguration()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-04 07:41:08 --> Argument 4 passed to anchor() must be an instance of Config\App or null, string given, called in /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Views/includes/header.php on line 82
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Views/includes/header.php(82): anchor()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Dashboard.php(7): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Dashboard->dashboard()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-04 08:06:03 --> Undefined property: App\Controllers\Profile::$adminmodal
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Profile.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Profile->profile()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-04 23:53:25 --> Unknown database 'ankush_dbeee'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/BaseController.php(76): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/BaseController.php(52): App\Controllers\BaseController->checkdbconnection()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(803): App\Controllers\BaseController->initController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

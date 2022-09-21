@@ -1,0 +1,211 @@
+ERROR - 2022-04-26 00:10:05 --> Unknown column 'ip' in 'where clause'
+CRITICAL - 2022-04-26 00:10:05 --> Unknown column 'ip' in 'where clause'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Login.php(63): CodeIgniter\Model->countAllResults()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-26 00:45:22 --> Illegal string offset 'smtphost'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Views/checksmtpdetails.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Generalsettings.php(119): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Generalsettings->checksmtpdetails()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-26 00:54:48 --> Illegal string offset 'smtphost'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Views/checksmtpdetails.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Generalsettings.php(119): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Generalsettings->checksmtpdetails()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-26 00:59:57 --> Undefined offset: 0
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-26 00:59:59 --> Undefined offset: 0
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-26 01:00:38 --> Undefined offset: 0
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-26 01:00:48 --> Undefined index: attempts
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-26 01:02:19 --> Undefined index: attempts
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-26 01:04:21 --> Trying to get property 'attempts' of non-object
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Login.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-26 01:12:34 --> Illegal string offset 'smtphost'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Views/checksmtpdetails.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Generalsettings.php(120): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Generalsettings->checksmtpdetails()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-26 01:16:53 --> Undefined variable: encryptionTpeTLS
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Views/checksmtpdetails.php(123): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Generalsettings.php(120): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Generalsettings->checksmtpdetails()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-26 01:42:02 --> Email: sendWithSmtp throwed fsockopen() expects parameter 2 to be int, string given
+ERROR - 2022-04-26 01:42:13 --> Email: sendWithSmtp throwed fsockopen() expects parameter 2 to be int, string given
+ERROR - 2022-04-26 01:43:07 --> Email: sendWithSmtp throwed fsockopen() expects parameter 2 to be int, string given
+ERROR - 2022-04-26 01:53:56 --> Email: sendWithSmtp throwed fsockopen() expects parameter 2 to be int, string given
+ERROR - 2022-04-26 01:54:17 --> Email: sendWithSmtp throwed fsockopen() expects parameter 2 to be int, string given
+ERROR - 2022-04-26 01:54:26 --> Email: sendWithSmtp throwed fsockopen() expects parameter 2 to be int, string given
+ERROR - 2022-04-26 01:59:02 --> Email: sendWithSmtp throwed fsockopen() expects parameter 2 to be int, string given
+ERROR - 2022-04-26 02:00:26 --> Email: sendWithSmtp throwed fsockopen() expects parameter 2 to be int, string given
+ERROR - 2022-04-26 02:07:38 --> Email: sendWithSmtp throwed fsockopen() expects parameter 2 to be int, string given
+ERROR - 2022-04-26 02:10:21 --> Email: sendWithSmtp throwed A non well formed numeric value encountered
+ERROR - 2022-04-26 02:10:46 --> Email: sendWithSmtp throwed A non well formed numeric value encountered
+CRITICAL - 2022-04-26 02:14:35 --> syntax error, unexpected 'if' (T_IF)
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(790): class_exists()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-26 02:15:39 --> Email: sendWithSmtp throwed A non well formed numeric value encountered
+CRITICAL - 2022-04-26 02:30:49 --> Cannot use object of type CodeIgniter\Email\Email as array
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Generalsettings->checksmtpdetails()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-26 02:37:30 --> Call to undefined method App\Controllers\Generalsettings::insertsmtpdata()
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Generalsettings->checksmtpdetails()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-26 02:38:26 --> Call to undefined method App\Controllers\Generalsettings::testandsavesmtpmodal()
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Generalsettings->checksmtpdetails()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-26 02:38:46 --> Call to undefined method App\Controllers\Generalsettings::testandsavesmtpmodal()
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Generalsettings->checksmtpdetails()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-26 02:39:36 --> There is no data to insert.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Models/Testandsavesmtpmodal.php(19): CodeIgniter\Model->insert()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Generalsettings.php(153): App\Models\Testandsavesmtpmodal->insertsmtpdata()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Generalsettings->checksmtpdetails()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-26 02:40:39 --> Array to string conversion
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Models/Testandsavesmtpmodal.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Generalsettings.php(153): App\Models\Testandsavesmtpmodal->insertsmtpdata()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Generalsettings->checksmtpdetails()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-26 02:54:22 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+CRITICAL - 2022-04-26 03:01:08 --> There is no data to update.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Model.php(651): CodeIgniter\BaseModel->update()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Models/Testandsavesmtpmodal.php(21): CodeIgniter\Model->update()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Generalsettings.php(155): App\Models\Testandsavesmtpmodal->insertsmtpdata()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Generalsettings->checksmtpdetails()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-26 03:04:32 --> There is no data to update.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Model.php(651): CodeIgniter\BaseModel->update()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Models/Testandsavesmtpmodal.php(21): CodeIgniter\Model->update()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Generalsettings.php(155): App\Models\Testandsavesmtpmodal->insertsmtpdata()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Generalsettings->checksmtpdetails()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-26 03:05:50 --> There is no data to update.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Model.php(651): CodeIgniter\BaseModel->update()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Models/Testandsavesmtpmodal.php(21): CodeIgniter\Model->update()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Generalsettings.php(155): App\Models\Testandsavesmtpmodal->insertsmtpdata()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Generalsettings->checksmtpdetails()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-26 03:07:47 --> There is no data to update.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Model.php(651): CodeIgniter\BaseModel->update()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Models/Testandsavesmtpmodal.php(20): CodeIgniter\Model->update()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Generalsettings.php(155): App\Models\Testandsavesmtpmodal->insertsmtpdata()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Generalsettings->checksmtpdetails()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-26 04:38:18 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number

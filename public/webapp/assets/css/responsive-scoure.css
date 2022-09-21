@@ -1,0 +1,2183 @@
+/* .col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;} */
+
+
+@media only screen and  (min-width: 200px) {
+    .webplayer__dashboard__root{
+        display: none;
+    }
+    .webplayer__landscape{
+        color: white;
+        display: block;
+    }
+    .webplayer__landscape img{
+        width: 100%;
+        background-color: #2a2a2a;
+    }
+}
+
+@media only screen and  (min-width: 300px) {
+    .webplayer__dashboard__root{
+        display: block;
+    }
+    .webplayer__landscape{
+        display: none;
+    }
+    /* .webplayer__logo, .webplayer__TD, .webplayer__m_search, .webplayer__headerIcon{
+        width: 25%;
+    } */
+
+    .webplayer__logo{
+        width: 16.66%;
+    }
+    .webplayer__TD{
+        width: 33.33%;
+    }
+    .webplayer__m_search{
+        width: 25%;
+    }
+    .webplayer__headerIcon{
+        width: 25%;
+    }
+
+    .webplayer__footer__div{
+        width: 33.33%;
+    }
+
+    .webplayer__body__divLeft{
+        width: 33.33%;
+    }
+    .webplayer__body__divRight{
+        width: 66.66%;
+    }
+    .webplayer__body__in__div{
+        width: 50%;
+    }
+    .webplayer__body__down__div{
+        width: 33.3%;
+    }
+
+    .webplayer__dashboard__body .webplayer__body__row{
+        padding: 0px 48px;
+    }
+
+    .webplayer__icons img{
+        padding: 1px;
+    }
+    .webplayer__TD span, .webplayer__m_search span{
+        font-size: 6px;
+        line-height: 2;
+    }
+    .webplayer__headerIcon .webplayer__icons {
+        line-height: 1.5;
+    }
+    .webplayer__liveImg{
+        height: 120px;
+        border-radius: 8px;
+        border: 4px solid transparent;
+    }
+    .webplayer__moviesImg, .webplayer__seriesImg{
+        height: 75px;
+        border: 4px solid transparent;
+    }
+    .webplayer__live__logo {
+        width: 30%;
+        top: 25%;
+        right: 35%;
+    }
+    .webplayer__live__text {  
+        top: 53%;
+        left: 34%;
+        font-size: 8px;
+    }
+    .webplayer_epg, .webplayer__multiScreen, .webplayer__catchup{
+        font-size: 7px;
+        padding: 0px;
+        border: 4px solid transparent;
+    }
+    .webplayer__liveImg:hover, .webplayer__moviesImg:hover, .webplayer__seriesImg:hover{
+        border: 4px solid #FFFFFF;
+        border-radius: 10px;
+    }
+    .webplayer_epg:hover, .webplayer__multiScreen:hover, .webplayer__catchup:hover{
+        border: 4px solid #FFFFFF;
+    }
+    .webplayer__movies__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__movies__text {
+        top: 60%;
+        left: 35%;
+        font-size: 7px;
+    }
+    .webplayer__series__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__series__text {
+        top: 61%;
+        left: 36%;
+        font-size: 7px;
+    }
+    .webplayer__expiration, .webplayer__logged{
+        font-size: 8px;
+    }
+}
+
+@media only screen and  (min-width: 390px) {
+
+    .webplayer__dashboard__root{
+        display: block;
+    }
+    .webplayer__landscape{
+        display: none;
+    }
+
+    /* .webplayer__logo, .webplayer__TD, .webplayer__m_search, .webplayer__headerIcon{
+        width: 25%;
+    } */
+
+    .webplayer__logo{
+        width: 16.66%;
+    }
+    .webplayer__TD{
+        width: 33.33%;
+    }
+    .webplayer__m_search{
+        width: 25%;
+    }
+    .webplayer__headerIcon{
+        width: 25%;
+    }
+
+    .webplayer__footer__div{
+        width: 33.33%;
+    }
+
+    .webplayer__body__divLeft{
+        width: 33.33%;
+    }
+    .webplayer__body__divRight{
+        width: 66.66%;
+    }
+    .webplayer__body__in__div{
+        width: 50%;
+    }
+    .webplayer__body__down__div{
+        width: 33.3%;
+    }
+
+    .webplayer__dashboard__body .webplayer__body__row{
+        padding: 0px 48px;
+    }
+
+    .webplayer__icons img{
+        padding: 1px;
+    }
+    .webplayer__TD span, .webplayer__m_search span{
+        font-size: 6px;
+        line-height: 2;
+    }
+    .webplayer__headerIcon .webplayer__icons {
+        line-height: 1.5;
+    }
+    .webplayer__liveImg{
+        height: 120px;
+        border-radius: 8px;
+        border: 4px solid transparent;
+    }
+    .webplayer__moviesImg, .webplayer__seriesImg{
+        height: 75px;
+        border: 4px solid transparent;
+    }
+    .webplayer__live__logo {
+        width: 30%;
+        top: 25%;
+        right: 35%;
+    }
+    .webplayer__live__text {  
+        top: 53%;
+        left: 34%;
+        font-size: 8px;
+    }
+    .webplayer_epg, .webplayer__multiScreen, .webplayer__catchup{
+        font-size: 7px;
+        padding: 0px;
+        border: 4px solid transparent;
+    }
+    .webplayer__liveImg:hover, .webplayer__moviesImg:hover, .webplayer__seriesImg:hover{
+        border: 4px solid #FFFFFF;
+        border-radius: 10px;
+    }
+    .webplayer_epg:hover, .webplayer__multiScreen:hover, .webplayer__catchup:hover{
+        border: 4px solid #FFFFFF;
+    }
+    .webplayer__movies__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__movies__text {
+        top: 60%;
+        left: 35%;
+        font-size: 7px;
+    }
+    .webplayer__series__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__series__text {
+        top: 61%;
+        left: 36%;
+        font-size: 7px;
+    }
+    .webplayer__expiration, .webplayer__logged{
+        font-size: 8px;
+    }
+}
+
+@media only screen and  (min-width: 400px) {
+
+    /* .webplayer__logo, .webplayer__TD, .webplayer__m_search, .webplayer__headerIcon{
+        width: 25%;
+    } */
+
+    .webplayer__logo{
+        width: 16.66%;
+    }
+    .webplayer__TD{
+        width: 33.33%;
+    }
+    .webplayer__m_search{
+        width: 25%;
+    }
+    .webplayer__headerIcon{
+        width: 25%;
+    }
+
+    .webplayer__footer__div{
+        width: 33.33%;
+    }
+
+    .webplayer__body__divLeft{
+        width: 33.33%;
+    }
+    .webplayer__body__divRight{
+        width: 66.66%;
+    }
+    .webplayer__body__in__div{
+        width: 50%;
+    }
+    .webplayer__body__down__div{
+        width: 33.3%;
+    }
+
+    .webplayer__dashboard__body .webplayer__body__row{
+        padding: 0px 48px;
+    }
+
+    .webplayer__icons img{
+        padding: 1px;
+    }
+    .webplayer__TD span, .webplayer__m_search span{
+        font-size: 6px;
+        line-height: 2;
+    }
+    .webplayer__headerIcon .webplayer__icons {
+        line-height: 1.5;
+    }
+    .webplayer__liveImg{
+        height: 120px;
+        border-radius: 8px;
+        border: 4px solid transparent;
+    }
+    .webplayer__moviesImg, .webplayer__seriesImg{
+        height: 75px;
+        border: 4px solid transparent;
+    }
+    .webplayer__live__logo {
+        width: 30%;
+        top: 25%;
+        right: 35%;
+    }
+    .webplayer__live__text {  
+        top: 53%;
+        left: 34%;
+        font-size: 8px;
+    }
+    .webplayer_epg, .webplayer__multiScreen, .webplayer__catchup{
+        font-size: 7px;
+        padding: 0px;
+        border: 4px solid transparent;
+    }
+    .webplayer__liveImg:hover, .webplayer__moviesImg:hover, .webplayer__seriesImg:hover{
+        border: 4px solid #FFFFFF;
+        border-radius: 10px;
+    }
+    .webplayer_epg:hover, .webplayer__multiScreen:hover, .webplayer__catchup:hover{
+        border: 4px solid #FFFFFF;
+    }
+    .webplayer__movies__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__movies__text {
+        top: 60%;
+        left: 35%;
+        font-size: 7px;
+    }
+    .webplayer__series__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__series__text {
+        top: 61%;
+        left: 36%;
+        font-size: 7px;
+    }
+    .webplayer__expiration, .webplayer__logged{
+        font-size: 8px;
+    }
+}
+
+@media only screen and  (min-width: 420px) {
+
+    /* .webplayer__logo, .webplayer__TD, .webplayer__m_search, .webplayer__headerIcon{
+        width: 25%;
+    } */
+
+    .webplayer__logo{
+        width: 16.66%;
+    }
+    .webplayer__TD{
+        width: 33.33%;
+    }
+    .webplayer__m_search{
+        width: 25%;
+    }
+    .webplayer__headerIcon{
+        width: 25%;
+    }
+
+    .webplayer__footer__div{
+        width: 33.33%;
+    }
+
+    .webplayer__body__divLeft{
+        width: 33.33%;
+    }
+    .webplayer__body__divRight{
+        width: 66.66%;
+    }
+    .webplayer__body__in__div{
+        width: 50%;
+    }
+    .webplayer__body__down__div{
+        width: 33.3%;
+    }
+
+    .webplayer__dashboard__body .webplayer__body__row{
+        padding: 0px 48px;
+    }
+
+    .webplayer__icons img{
+        padding: 1px;
+    }
+    .webplayer__TD span, .webplayer__m_search span{
+        font-size: 6px;
+        line-height: 2;
+    }
+    .webplayer__headerIcon .webplayer__icons {
+        line-height: 1.5;
+    }
+    .webplayer__liveImg{
+        height: 120px;
+        border-radius: 8px;
+        border: 4px solid transparent;
+    }
+    .webplayer__moviesImg, .webplayer__seriesImg{
+        height: 75px;
+        border: 4px solid transparent;
+    }
+    .webplayer__live__logo {
+        width: 30%;
+        top: 25%;
+        right: 35%;
+    }
+    .webplayer__live__text {  
+        top: 55%;
+        left: 35%;
+        font-size: 8px;
+    }
+    .webplayer_epg, .webplayer__multiScreen, .webplayer__catchup{
+        font-size: 7px;
+        padding: 0px;
+        border: 4px solid transparent;
+    }
+    .webplayer__liveImg:hover, .webplayer__moviesImg:hover, .webplayer__seriesImg:hover{
+        border: 4px solid #FFFFFF;
+        border-radius: 10px;
+    }
+    .webplayer_epg:hover, .webplayer__multiScreen:hover, .webplayer__catchup:hover{
+        border: 4px solid #FFFFFF;
+    }
+    .webplayer__movies__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__movies__text {
+        top: 64%;
+        left: 36%;
+        font-size: 7px;
+    }
+    .webplayer__series__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__series__text {
+        top: 65%;
+        left: 38%;
+        font-size: 7px;
+    }
+    .webplayer__expiration, .webplayer__logged{
+        font-size: 8px;
+    }
+}
+
+@media only screen and  (min-width: 430px) {
+
+    /* .webplayer__logo, .webplayer__TD, .webplayer__m_search, .webplayer__headerIcon{
+        width: 25%;
+    } */
+
+    .webplayer__logo{
+        width: 16.66%;
+    }
+    .webplayer__TD{
+        width: 33.33%;
+    }
+    .webplayer__m_search{
+        width: 25%;
+    }
+    .webplayer__headerIcon{
+        width: 25%;
+    }
+
+    .webplayer__footer__div{
+        width: 33.33%;
+    }
+
+    .webplayer__body__divLeft{
+        width: 33.33%;
+    }
+    .webplayer__body__divRight{
+        width: 66.66%;
+    }
+    .webplayer__body__in__div{
+        width: 50%;
+    }
+    .webplayer__body__down__div{
+        width: 33.3%;
+    }
+
+    .webplayer__dashboard__body .webplayer__body__row{
+        padding: 0px 48px;
+    }
+
+    .webplayer__icons img{
+        padding: 1px;
+    }
+    .webplayer__TD span, .webplayer__m_search span{
+        font-size: 6px;
+        line-height: 2;
+    }
+    .webplayer__headerIcon .webplayer__icons {
+        line-height: 1.5;
+    }
+    .webplayer__liveImg{
+        height: 120px;
+        border-radius: 8px;
+        border: 4px solid transparent;
+    }
+    .webplayer__moviesImg, .webplayer__seriesImg{
+        height: 75px;
+        border: 4px solid transparent;
+    }
+    .webplayer__live__logo {
+        width: 30%;
+        top: 25%;
+        right: 35%;
+    }
+    .webplayer__live__text {  
+        top: 56%;
+        left: 35%;
+        font-size: 8px;
+    }
+    .webplayer_epg, .webplayer__multiScreen, .webplayer__catchup{
+        font-size: 7px;
+        padding: 0px;
+        border: 4px solid transparent;
+    }
+    .webplayer__liveImg:hover, .webplayer__moviesImg:hover, .webplayer__seriesImg:hover{
+        border: 4px solid #FFFFFF;
+        border-radius: 10px;
+    }
+    .webplayer_epg:hover, .webplayer__multiScreen:hover, .webplayer__catchup:hover{
+        border: 4px solid #FFFFFF;
+    }
+    .webplayer__movies__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__movies__text {
+        top: 65%;
+        left: 36%;
+        font-size: 7px;
+    }
+    .webplayer__series__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__series__text {
+        top: 66%;
+        left: 38%;
+        font-size: 7px;
+    }
+    .webplayer__expiration, .webplayer__logged{
+        font-size: 8px;
+    }
+}
+
+@media only screen and  (min-width: 440px) {
+
+    /* .webplayer__logo, .webplayer__TD, .webplayer__m_search, .webplayer__headerIcon{
+        width: 25%;
+    } */
+
+    .webplayer__logo{
+        width: 16.66%;
+    }
+    .webplayer__TD{
+        width: 33.33%;
+    }
+    .webplayer__m_search{
+        width: 25%;
+    }
+    .webplayer__headerIcon{
+        width: 25%;
+    }
+
+    .webplayer__footer__div{
+        width: 33.33%;
+    }
+
+    .webplayer__body__divLeft{
+        width: 33.33%;
+    }
+    .webplayer__body__divRight{
+        width: 66.66%;
+    }
+    .webplayer__body__in__div{
+        width: 50%;
+    }
+    .webplayer__body__down__div{
+        width: 33.3%;
+    }
+
+    .webplayer__dashboard__body .webplayer__body__row{
+        padding: 0px 48px;
+    }
+
+    .webplayer__icons img{
+        padding: 1px;
+    }
+    .webplayer__TD span, .webplayer__m_search span{
+        font-size: 6px;
+        line-height: 2;
+    }
+    .webplayer__headerIcon .webplayer__icons {
+        line-height: 1.5;
+    }
+    .webplayer__liveImg{
+        height: 120px;
+        border-radius: 8px;
+        border: 4px solid transparent;
+    }
+    .webplayer__moviesImg, .webplayer__seriesImg{
+        height: 75px;
+        border: 4px solid transparent;
+    }
+    .webplayer__live__logo {
+        width: 30%;
+        top: 25%;
+        right: 35%;
+    }
+    .webplayer__live__text {  
+        top: 56%;
+        left: 35%;
+        font-size: 9px;
+    }
+    .webplayer_epg, .webplayer__multiScreen, .webplayer__catchup{
+        font-size: 7px;
+        padding: 0px;
+        border: 4px solid transparent;
+    }
+    .webplayer__liveImg:hover, .webplayer__moviesImg:hover, .webplayer__seriesImg:hover{
+        border: 4px solid #FFFFFF;
+        border-radius: 10px;
+    }
+    .webplayer_epg:hover, .webplayer__multiScreen:hover, .webplayer__catchup:hover{
+        border: 4px solid #FFFFFF;
+    }
+    .webplayer__movies__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__movies__text {
+        top: 66%;
+        left: 35%;
+        font-size: 8px;
+    }
+    .webplayer__series__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__series__text {
+        top: 67%;
+        left: 37%;
+        font-size: 8px;
+    }
+    .webplayer__expiration, .webplayer__logged{
+        font-size: 8px;
+    }
+}
+
+@media only screen and  (min-width: 450px) {
+
+    /* .webplayer__logo, .webplayer__TD, .webplayer__m_search, .webplayer__headerIcon{
+        width: 25%;
+    } */
+
+    .webplayer__logo{
+        width: 16.66%;
+    }
+    .webplayer__TD{
+        width: 33.33%;
+    }
+    .webplayer__m_search{
+        width: 25%;
+    }
+    .webplayer__headerIcon{
+        width: 25%;
+    }
+
+    .webplayer__footer__div{
+        width: 33.33%;
+    }
+
+    .webplayer__body__divLeft{
+        width: 33.33%;
+    }
+    .webplayer__body__divRight{
+        width: 66.66%;
+    }
+    .webplayer__body__in__div{
+        width: 50%;
+    }
+    .webplayer__body__down__div{
+        width: 33.3%;
+    }
+
+    .webplayer__dashboard__body .webplayer__body__row{
+        padding: 0px 48px;
+    }
+
+    .webplayer__icons img{
+        padding: 1px;
+    }
+    .webplayer__TD span, .webplayer__m_search span{
+        font-size: 6px;
+        line-height: 2;
+    }
+    .webplayer__headerIcon .webplayer__icons {
+        line-height: 1.5;
+    }
+    .webplayer__liveImg{
+        height: 120px;
+        border-radius: 8px;
+        border: 4px solid transparent;
+    }
+    .webplayer__moviesImg, .webplayer__seriesImg{
+        height: 75px;
+        border: 4px solid transparent;
+    }
+    .webplayer__live__logo {
+        width: 30%;
+        top: 25%;
+        right: 35%;
+    }
+    .webplayer__live__text {  
+        top: 57%;
+        left: 35%;
+        font-size: 9px;
+    }
+    .webplayer_epg, .webplayer__multiScreen, .webplayer__catchup{
+        font-size: 7px;
+        padding: 0px;
+        border: 4px solid transparent;
+    }
+    .webplayer__liveImg:hover, .webplayer__moviesImg:hover, .webplayer__seriesImg:hover{
+        border: 4px solid #FFFFFF;
+        border-radius: 10px;
+    }
+    .webplayer_epg:hover, .webplayer__multiScreen:hover, .webplayer__catchup:hover{
+        border: 4px solid #FFFFFF;
+    }
+    .webplayer__movies__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__movies__text {
+        top: 67%;
+        left: 35%;
+        font-size: 8px;
+    }
+    .webplayer__series__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__series__text {
+        top: 68%;
+        left: 37%;
+        font-size: 8px;
+    }
+    .webplayer__expiration, .webplayer__logged{
+        font-size: 8px;
+    }
+}
+
+@media only screen and  (min-width: 470px) {
+
+    /* .webplayer__logo, .webplayer__TD, .webplayer__m_search, .webplayer__headerIcon{
+        width: 25%;
+    } */
+
+    .webplayer__logo{
+        width: 16.66%;
+    }
+    .webplayer__TD{
+        width: 33.33%;
+    }
+    .webplayer__m_search{
+        width: 25%;
+    }
+    .webplayer__headerIcon{
+        width: 25%;
+    }
+
+    .webplayer__footer__div{
+        width: 33.33%;
+    }
+
+    .webplayer__body__divLeft{
+        width: 33.33%;
+    }
+    .webplayer__body__divRight{
+        width: 66.66%;
+    }
+    .webplayer__body__in__div{
+        width: 50%;
+    }
+    .webplayer__body__down__div{
+        width: 33.3%;
+    }
+
+    .webplayer__dashboard__body .webplayer__body__row{
+        padding: 0px 48px;
+    }
+
+    .webplayer__icons img{
+        padding: 1px;
+    }
+    .webplayer__TD span, .webplayer__m_search span{
+        font-size: 6px;
+        line-height: 2;
+    }
+    .webplayer__headerIcon .webplayer__icons {
+        line-height: 1.5;
+    }
+    .webplayer__liveImg{
+        height: 120px;
+        border-radius: 8px;
+        border: 4px solid transparent;
+    }
+    .webplayer__moviesImg, .webplayer__seriesImg{
+        height: 75px;
+        border: 4px solid transparent;
+    }
+    .webplayer__live__logo {
+        width: 30%;
+        top: 25%;
+        right: 35%;
+    }
+    .webplayer__live__text {  
+        top: 59%;
+        left: 35%;
+        font-size: 10px;
+    }
+    .webplayer_epg, .webplayer__multiScreen, .webplayer__catchup{
+        font-size: 7px;
+        padding: 0px;
+        border: 4px solid transparent;
+    }
+    .webplayer__liveImg:hover, .webplayer__moviesImg:hover, .webplayer__seriesImg:hover{
+        border: 4px solid #FFFFFF;
+        border-radius: 10px;
+    }
+    .webplayer_epg:hover, .webplayer__multiScreen:hover, .webplayer__catchup:hover{
+        border: 4px solid #FFFFFF;
+    }
+    .webplayer__movies__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__movies__text {
+        top: 71%;
+        left: 35%;
+        font-size: 9px;
+    }
+    .webplayer__series__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__series__text {
+        top: 71%;
+        left: 37%;
+        font-size: 9px;
+    }
+    .webplayer__expiration, .webplayer__logged{
+        font-size: 8px;
+    }
+}
+
+@media only screen and  (min-width: 500px) {
+
+    /* .webplayer__logo, .webplayer__TD, .webplayer__m_search, .webplayer__headerIcon{
+        width: 25%;
+    } */
+
+    .webplayer__logo{
+        width: 16.66%;
+    }
+    .webplayer__TD{
+        width: 33.33%;
+    }
+    .webplayer__m_search{
+        width: 25%;
+    }
+    .webplayer__headerIcon{
+        width: 25%;
+    }
+
+    .webplayer__body__divLeft{
+        width: 33.33%;
+    }
+    .webplayer__body__divRight{
+        width: 66.66%;
+    }
+    .webplayer__body__in__div{
+        width: 50%;
+    }
+    .webplayer__body__down__div{
+        width: 33.3%;
+    }
+
+    .webplayer__icons img{
+        padding: 1px;
+    }
+    .webplayer__TD span, .webplayer__m_search span{
+        font-size: 9px;
+        line-height: 2;
+    }
+    .webplayer__headerIcon .webplayer__icons {
+        line-height: 1.5;
+    }
+    .webplayer__liveImg{
+        height: 175px;
+        border-radius: 8px;
+        border: 4px solid transparent;
+    }
+    .webplayer__moviesImg, .webplayer__seriesImg{
+        height: 128px;
+        border: 4px solid transparent;
+    }
+    .webplayer__live__logo {
+        width: 30%;
+        top: 25%;
+        right: 35%;
+    }
+    .webplayer__live__text {  
+        top: 52%;
+        left: 34%;
+        font-size: 11px;
+    }
+    .webplayer_epg, .webplayer__multiScreen, .webplayer__catchup{
+        font-size: 7px;
+        padding: 5px 0px;
+        border: 4px solid transparent;
+    }
+    .webplayer__liveImg:hover, .webplayer__moviesImg:hover, .webplayer__seriesImg:hover{
+        border: 4px solid #FFFFFF;
+        border-radius: 10px;
+    }
+    .webplayer_epg:hover, .webplayer__multiScreen:hover, .webplayer__catchup:hover{
+        border: 4px solid #FFFFFF;
+    }
+    .webplayer__movies__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__movies__text {
+        top: 55%;
+        left: 35%;
+        font-size: 10px;
+    }
+    .webplayer__series__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__series__text {
+        top: 55%;
+        left: 36%;
+        font-size: 11px;   
+    }
+    .webplayer__expiration, .webplayer__logged{
+        font-size: 12px;
+    }
+}
+
+@media only screen and  (min-width: 550px) {
+
+    /* .webplayer__logo, .webplayer__TD, .webplayer__m_search, .webplayer__headerIcon{
+        width: 25%;
+    } */
+
+    .webplayer__logo{
+        width: 16.66%;
+    }
+    .webplayer__TD{
+        width: 33.33%;
+    }
+    .webplayer__m_search{
+        width: 25%;
+    }
+    .webplayer__headerIcon{
+        width: 25%;
+    }
+
+    .webplayer__body__divLeft{
+        width: 33.33%;
+    }
+    .webplayer__body__divRight{
+        width: 66.66%;
+    }
+    .webplayer__body__in__div{
+        width: 50%;
+    }
+    .webplayer__body__down__div{
+        width: 33.3%;
+    }
+
+    .webplayer__icons img{
+        padding: 0px;
+    }
+    .webplayer__TD span, .webplayer__m_search span{
+        font-size: 9px;
+        line-height: 2;
+    }
+    .webplayer__headerIcon .webplayer__icons {
+        line-height: 1.5;
+    }
+    .webplayer__liveImg{
+        height: 175px;
+        border-radius: 8px;
+        border: 4px solid transparent;
+    }
+    .webplayer__moviesImg, .webplayer__seriesImg{
+        height: 128px;
+        border: 4px solid transparent;
+    }
+    .webplayer__live__logo {
+        width: 30%;
+        top: 25%;
+        right: 35%;
+    }
+    .webplayer__live__text {  
+        top: 55%;
+        left: 35%;
+        font-size: 12px;
+    }
+    .webplayer_epg, .webplayer__multiScreen, .webplayer__catchup{
+        font-size: 7px;
+        padding: 5px 0px;
+        border: 4px solid transparent;
+    }
+    .webplayer__liveImg:hover, .webplayer__moviesImg:hover, .webplayer__seriesImg:hover{
+        border: 4px solid #FFFFFF;
+        border-radius: 10px;
+    }
+    .webplayer_epg:hover, .webplayer__multiScreen:hover, .webplayer__catchup:hover{
+        border: 4px solid #FFFFFF;
+    }
+    .webplayer__movies__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__movies__text {
+        top: 58%;
+        left: 36%;
+        font-size: 11px;
+    }
+    .webplayer__series__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__series__text {
+        top: 58%;
+        left: 37%;
+        font-size: 12px;  
+    }
+    .webplayer__expiration, .webplayer__logged{
+        font-size: 12px;
+    }
+}
+
+@media only screen and  (min-width: 600px) {
+
+    .webplayer__body__divLeft{
+        width: 33.33%;
+    }
+    .webplayer__body__divRight{
+        width: 66.66%;
+    }
+    .webplayer__body__in__div{
+        width: 50%;
+    }
+    .webplayer__body__down__div{
+        width: 33.3%;
+    }
+
+    .webplayer__icons img{
+        padding: 1px;
+    }
+    .webplayer__TD span, .webplayer__m_search span{
+        font-size: 11px;
+        line-height: 2.8;
+    }
+    .webplayer__headerIcon .webplayer__icons {
+        line-height: 1.8;
+    }
+    .webplayer__liveImg{
+        height: 175px;
+        border-radius: 8px;
+        border: 4px solid transparent;
+    }
+    .webplayer__moviesImg, .webplayer__seriesImg{
+        height: 125px;
+        border: 4px solid transparent;
+    }
+    .webplayer__live__logo {
+        width: 30%;
+        top: 25%;
+        right: 35%;
+    }
+    .webplayer__live__text {  
+        top: 56%;
+        left: 34%;
+        font-size: 15px;
+    }
+    .webplayer_epg, .webplayer__multiScreen, .webplayer__catchup{
+        font-size: 8px;
+        padding: 6px;
+        border: 4px solid transparent;
+    }
+    .webplayer__liveImg:hover, .webplayer__moviesImg:hover, .webplayer__seriesImg:hover{
+        border: 4px solid #FFFFFF;
+        border-radius: 10px;
+    }
+    .webplayer_epg:hover, .webplayer__multiScreen:hover, .webplayer__catchup:hover{
+        border: 4px solid #FFFFFF;
+    }
+    .webplayer__movies__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__movies__text {
+        top: 62%;
+        left: 35%;
+        font-size: 13px;
+    }
+    .webplayer__series__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__series__text {
+        top: 61%;
+        left: 36%;
+        font-size: 14px;    
+    }
+    .webplayer__expiration, .webplayer__logged{
+        font-size: 14px;
+    }
+}
+
+@media only screen and  (min-width: 650px) {
+
+    .webplayer__body__divLeft{
+        width: 33.33%;
+    }
+    .webplayer__body__divRight{
+        width: 66.66%;
+    }
+    .webplayer__body__in__div{
+        width: 50%;
+    }
+    .webplayer__body__down__div{
+        width: 33.3%;
+    }
+
+    .webplayer__icons img{
+        padding: 1px;
+    }
+    .webplayer__TD span, .webplayer__m_search span{
+        font-size: 11px;
+        line-height: 2.8;
+    }
+    .webplayer__headerIcon .webplayer__icons {
+        line-height: 1.8;
+    }
+    .webplayer__liveImg{
+        height: 175px;
+        border-radius: 8px;
+        border: 4px solid transparent;
+    }
+    .webplayer__moviesImg, .webplayer__seriesImg{
+        height: 125px;
+        border: 4px solid transparent;
+    }
+    .webplayer__live__logo {
+        width: 30%;
+        top: 25%;
+        right: 35%;
+    }
+    .webplayer__live__text {  
+        top: 60%;
+        left: 35%;
+        font-size: 15px;
+    }
+    .webplayer_epg, .webplayer__multiScreen, .webplayer__catchup{
+        font-size: 8px;
+        padding: 6px;
+        border: 4px solid transparent;
+    }
+    .webplayer__liveImg:hover, .webplayer__moviesImg:hover, .webplayer__seriesImg:hover{
+        border: 4px solid #FFFFFF;
+        border-radius: 10px;
+    }
+    .webplayer_epg:hover, .webplayer__multiScreen:hover, .webplayer__catchup:hover{
+        border: 4px solid #FFFFFF;
+    }
+    .webplayer__movies__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__movies__text {
+        top: 67%;
+        left: 36%;
+        font-size: 14px;
+    }
+    .webplayer__series__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__series__text {
+        top: 67%;
+        left: 37%;
+        font-size: 15px;   
+    }
+    .webplayer__expiration, .webplayer__logged{
+        font-size: 14px;
+    }
+}
+
+@media only screen and  (min-width: 700px) {
+    .webplayer__icons img{
+        padding: 3px;
+    }
+    .webplayer__TD span, .webplayer__m_search span{
+        font-size: 14px;
+        line-height: 2.5;
+    }
+    .webplayer__headerIcon .webplayer__icons {
+        line-height: 2;
+    }
+    .webplayer__liveImg{
+        height: 200px;
+        border-radius: 8px;
+        border: 4px solid transparent;
+    }
+    .webplayer__moviesImg, .webplayer__seriesImg{
+        height: 145px;
+        border: 4px solid transparent;
+    }
+    .webplayer__live__logo {
+        width: 30%;
+        top: 25%;
+        right: 35%;
+    }
+    .webplayer__live__text {  
+        top: 58%;
+        left: 33%;
+        font-size: 19px;
+    }
+    .webplayer_epg, .webplayer__multiScreen, .webplayer__catchup{
+        font-size: 10px;
+        padding: 7px;
+        border: 4px solid transparent;
+    }
+    .webplayer__liveImg:hover, .webplayer__moviesImg:hover, .webplayer__seriesImg:hover{
+        border: 4px solid #FFFFFF;
+        border-radius: 10px;
+    }
+    .webplayer_epg:hover, .webplayer__multiScreen:hover, .webplayer__catchup:hover{
+        border: 4px solid #FFFFFF;
+    }
+    .webplayer__movies__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__movies__text {
+        top: 62%;
+        left: 35%;
+        font-size: 16px;
+    }
+    .webplayer__series__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__series__text {
+        top: 62%;
+        left: 36%;
+        font-size: 18px;
+    }
+    .webplayer__expiration, .webplayer__logged{
+        font-size: 18px;
+    }
+}
+
+@media only screen and  (min-width: 750px) {
+    .webplayer__icons img{
+        padding: 3px;
+    }
+    .webplayer__TD span, .webplayer__m_search span{
+        font-size: 14px;
+        line-height: 2.5;
+    }
+    .webplayer__headerIcon .webplayer__icons {
+        line-height: 2;
+    }
+    .webplayer__liveImg{
+        height: 200px;
+        border: 4px solid transparent;
+        border-radius: 8px;
+    }
+    .webplayer__moviesImg, .webplayer__seriesImg{
+        height: 145px;
+        border: 4px solid transparent;
+    }
+    .webplayer__live__logo {
+        width: 30%;
+        top: 25%;
+        right: 35%;
+    }
+    .webplayer__live__text {  
+        top: 61%;
+        left: 34%;
+        font-size: 19px;
+    }
+    .webplayer_epg, .webplayer__multiScreen, .webplayer__catchup{
+        font-size: 10px;
+        padding: 7px;
+        border: 4px solid transparent;
+    }
+    .webplayer__liveImg:hover, .webplayer__moviesImg:hover, .webplayer__seriesImg:hover{
+        border: 4px solid #FFFFFF;
+        border-radius: 10px;
+    }
+    .webplayer_epg:hover, .webplayer__multiScreen:hover, .webplayer__catchup:hover{
+        border: 4px solid #FFFFFF;
+    }
+    .webplayer__movies__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__movies__text {
+        top: 68%;
+        left: 36%;
+        font-size: 16px;
+    }
+    .webplayer__series__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__series__text {
+        top: 68%;
+        left: 37%;
+        font-size: 18px;
+    }
+    .webplayer__expiration, .webplayer__logged{
+        font-size: 18px;
+    }
+}
+
+@media only screen and  (min-width: 800px) {
+    .webplayer__icons img{
+        padding: 5px;
+    }
+    .webplayer__TD span, .webplayer__m_search span{
+        font-size: 14px;
+        line-height: 2.9;
+    }
+    .webplayer__headerIcon .webplayer__icons {
+        line-height: 2.6;
+    }
+    .webplayer__liveImg{
+        height: 220px;
+        border-radius: 8px;
+        border: 4px solid transparent;
+    }
+    .webplayer__moviesImg, .webplayer__seriesImg{
+        height: 157px;
+        border: 4px solid transparent;
+    }
+    .webplayer__live__logo {
+        width: 30%;
+        top: 25%;
+        right: 35%;
+    }
+    .webplayer__live__text {
+        top: 60%;
+        left: 34%;
+        font-size: 21px;
+    }
+    .webplayer_epg, .webplayer__multiScreen, .webplayer__catchup{
+        font-size: 12px;
+        padding: 10px 11px;
+        border: 4px solid transparent;
+    }
+    .webplayer__liveImg:hover, .webplayer__moviesImg:hover, .webplayer__seriesImg:hover{
+        border: 4px solid #FFFFFF;
+        border-radius: 10px;
+    }
+    .webplayer_epg:hover, .webplayer__multiScreen:hover, .webplayer__catchup:hover{
+        border: 4px solid #FFFFFF;
+    }
+    .webplayer__movies__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__movies__text {
+        top: 67%;
+        left: 35%;
+        font-size: 19px;
+    }
+    .webplayer__series__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__series__text {
+        top: 67%;
+        left: 35%;
+        font-size: 22px;
+    }
+    .webplayer__expiration, .webplayer__logged{
+        font-size: 18px;
+    }
+}
+
+@media only screen and  (min-width: 850px) {
+    .webplayer__icons img{
+        padding: 5px;
+    }
+    .webplayer__TD span, .webplayer__m_search span{
+        font-size: 14px;
+        line-height: 2.9;
+    }
+    .webplayer__headerIcon .webplayer__icons {
+        line-height: 2.6;
+    }
+    .webplayer__liveImg{
+        height: 215px;
+        border-radius: 8px;
+        border: 4px solid transparent;
+    }
+    .webplayer__moviesImg, .webplayer__seriesImg{
+        height: 152px;
+        border: 4px solid transparent;
+    }
+    .webplayer__live__logo {
+        width: 30%;
+        top: 25%;
+        right: 35%;
+    }
+    .webplayer__live__text {
+        top: 64%;
+        left: 35%;
+        font-size: 22px;
+    }
+    .webplayer_epg, .webplayer__multiScreen, .webplayer__catchup{
+        font-size: 12px;
+        padding: 8px 11px;
+        border: 4px solid transparent;
+    }
+    .webplayer__liveImg:hover, .webplayer__moviesImg:hover, .webplayer__seriesImg:hover{
+        border: 4px solid #FFFFFF;
+        border-radius: 10px;
+    }
+    .webplayer_epg:hover, .webplayer__multiScreen:hover, .webplayer__catchup:hover{
+        border: 4px solid #FFFFFF;
+    }
+    .webplayer__movies__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__movies__text {
+        top: 73%;
+        left: 36%;
+        font-size: 20px;
+    }
+    .webplayer__series__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__series__text {
+        top: 72%;
+        left: 37%;
+        font-size: 22px;
+    }
+    .webplayer__expiration, .webplayer__logged{
+        font-size: 18px;
+    }
+}
+
+@media only screen and  (min-width: 900px) {
+    .webplayer__icons img{
+        padding: 5px;
+    }
+    .webplayer__TD span, .webplayer__m_search span{
+        font-size: 18px;
+        line-height: 2.9;
+    }
+    .webplayer__headerIcon .webplayer__icons {
+        line-height: 2.9;
+    }
+    .webplayer__liveImg{
+        height: 207px;
+        border-radius: 8px;
+        border: 4px solid transparent;
+    }
+    .webplayer__moviesImg, .webplayer__seriesImg{
+        height: 143px;
+        border: 4px solid transparent;
+    }
+    .webplayer__live__logo {
+        width: 30%;
+        top: 25%;
+        right: 35%;
+    }
+    .webplayer__live__text {
+        top: 65%;
+        left: 35%;
+        font-size: 23px;
+    }
+    .webplayer_epg, .webplayer__multiScreen, .webplayer__catchup{
+        font-size: 12px;
+        padding: 8px;
+        border: 4px solid transparent;
+    }
+    .webplayer__liveImg:hover, .webplayer__moviesImg:hover, .webplayer__seriesImg:hover{
+        border: 4px solid #FFFFFF;
+        border-radius: 16px;
+    }
+    .webplayer_epg:hover, .webplayer__multiScreen:hover, .webplayer__catchup:hover{
+        border: 4px solid #FFFFFF;
+    }
+    .webplayer__movies__logo {
+        width: 28%;
+        top: 15%;
+        right: 34%;
+    }
+    .webplayer__movies__text {
+        top: 65%;
+        left: 36%;
+        font-size: 22px;
+    }
+    .webplayer__series__logo {
+        width: 28%;
+        top: 15%;
+        right: 34%;
+    }
+    .webplayer__series__text {
+        top: 65%;
+        left: 38%;
+        font-size: 22px;
+    }
+    .webplayer__expiration, .webplayer__logged{
+        font-size: 20px;
+    }
+}
+
+@media only screen and  (min-width: 950px) {
+    .webplayer__icons img{
+        padding: 5px;
+    }
+    .webplayer__TD span, .webplayer__m_search span{
+        font-size: 18px;
+        line-height: 2.9;
+    }
+    .webplayer__headerIcon .webplayer__icons {
+        line-height: 2.9;
+    }
+    .webplayer__liveImg{
+        height: 210px;
+        border-radius: 8px;
+        border: 4px solid transparent;
+    }
+    .webplayer__moviesImg, .webplayer__seriesImg{
+        height: 143px;
+        border: 4px solid transparent;
+    }
+    .webplayer__live__logo {
+        width: 30%;
+        top: 25%;
+        right: 35%;
+    }
+    .webplayer__live__text {
+        top: 69%;
+        left: 36%;
+        font-size: 23px;
+    }
+    .webplayer_epg, .webplayer__multiScreen, .webplayer__catchup{
+        font-size: 12px;
+        padding: 8px;
+        border: 4px solid transparent;
+    }
+    .webplayer__liveImg:hover, .webplayer__moviesImg:hover, .webplayer__seriesImg:hover{
+        border: 4px solid #FFFFFF;
+        border-radius: 16px;
+    }
+    .webplayer_epg:hover, .webplayer__multiScreen:hover, .webplayer__catchup:hover{
+        border: 4px solid #FFFFFF;
+    }
+    .webplayer__movies__logo {
+        width: 28%;
+        top: 15%;
+        right: 34%;
+    }
+    .webplayer__movies__text {
+        top: 68%;
+        left: 38%;
+        font-size: 21px;
+    }
+    .webplayer__series__logo {
+        width: 28%;
+        top: 15%;
+        right: 34%;
+    }
+    .webplayer__series__text {
+        top: 69%;
+        left: 39%;
+        font-size: 22px;
+    }
+    .webplayer__expiration, .webplayer__logged{
+        font-size: 20px;
+    }
+}
+
+@media only screen and  (min-width: 1000px) {
+    .webplayer__icons img{
+        padding: 5px;
+    }
+    .webplayer__TD span, .webplayer__m_search span{
+        font-size: 18px;
+        line-height: 3;
+    }
+    .webplayer__headerIcon .webplayer__icons {
+        line-height: 3;
+    }
+    .webplayer__liveImg{
+        height: 203px;
+        border-radius: 8px;
+        border: 4px solid transparent;
+    }
+    .webplayer__moviesImg, .webplayer__seriesImg{
+        height: 135px;
+        border: 4px solid transparent;
+    }
+    .webplayer__live__logo {
+        width: 27%;
+        top: 22%;
+        right: 37%;
+    }
+    .webplayer__live__text {
+        top: 63%;
+        left: 35%;
+        font-size: 25px;
+    }
+    .webplayer_epg, .webplayer__multiScreen, .webplayer__catchup{
+        font-size: 14px;
+        padding: 8px;
+        border: 4px solid transparent;
+    }
+    .webplayer__liveImg:hover, .webplayer__moviesImg:hover, .webplayer__seriesImg:hover{
+        border: 4px solid #FFFFFF;
+        border-radius: 16px;
+    }
+    .webplayer_epg:hover, .webplayer__multiScreen:hover, .webplayer__catchup:hover{
+        border: 4px solid #FFFFFF;
+    }
+    .webplayer__movies__logo {
+        width: 23%;
+        top: 14%;
+        right: 39%;
+    }
+    .webplayer__movies__text {
+        top: 64%;
+        left: 37%;
+        font-size: 20px;
+    }
+    .webplayer__series__logo {
+        width: 23%;
+        top: 14%;
+        right: 39%;
+    }
+    .webplayer__series__text {
+        top: 63%;
+        left: 38%;
+        font-size: 21px;
+    }
+    .webplayer__expiration, .webplayer__logged{
+        font-size: 20px;
+    }
+}
+
+@media only screen and  (min-width: 1100px) {
+    .webplayer__icons img{
+        padding: 5px;
+    }
+    .webplayer__TD span, .webplayer__m_search span{
+        font-size: 18px;
+        line-height: 3;
+    }
+    .webplayer__headerIcon .webplayer__icons {
+        line-height: 3;
+    }
+    .webplayer__liveImg{
+        height: 380px;
+        border-radius: 8px;
+        border: 4px solid transparent;
+    }
+    .webplayer__moviesImg, .webplayer__seriesImg{
+        height: 298px;
+        border: 4px solid transparent;
+    }
+    .webplayer__live__logo {
+        width: 30%;
+        top: 25%;
+        right: 35%;
+    }
+    .webplayer__live__text {
+        top: 52%;
+        left: 34%;
+        font-size: 30px;
+    }
+    .webplayer_epg, .webplayer__multiScreen, .webplayer__catchup{
+        font-size: 17px;
+        padding: 15px;
+        border: 4px solid transparent;
+    }
+    .webplayer__liveImg:hover, .webplayer__moviesImg:hover, .webplayer__seriesImg:hover{
+        border: 4px solid #FFFFFF;
+        border-radius: 16px;
+    }
+    .webplayer_epg:hover, .webplayer__multiScreen:hover, .webplayer__catchup:hover{
+        border: 4px solid #FFFFFF;
+    }
+    .webplayer__movies__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__movies__text {
+        top: 56%;
+        left: 35%;
+        font-size: 28px;
+    }
+    .webplayer__series__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__series__text {
+        top: 55%;
+        left: 36%;
+        font-size: 28px;
+    }
+    .webplayer__expiration, .webplayer__logged{
+        font-size: 20px;
+    }
+}
+
+@media only screen and  (min-width: 1200px) {
+    .webplayer__icons img{
+        padding: 5px;
+    }
+    .webplayer__TD span, .webplayer__m_search span{
+        font-size: 18px;
+        line-height: 4.6;
+    }
+    .webplayer__headerIcon .webplayer__icons {
+        line-height: 4.9;
+    }
+    .webplayer__liveImg{
+        height: 416px;
+        border-radius: 8px;
+        border: 4px solid transparent;
+    }
+    .webplayer__moviesImg, .webplayer__seriesImg{
+        height: 330px;
+        border: 4px solid transparent;
+    }
+    .webplayer__live__logo {
+        width: 30%;
+        top: 25%;
+        right: 35%;
+    }
+    .webplayer__live__text {
+        top: 53%;
+        left: 34%;
+        font-size: 32px;
+    }
+    .webplayer_epg, .webplayer__multiScreen, .webplayer__catchup{
+        font-size: 20px;
+        padding: 15px;
+        border: 4px solid transparent;
+    }
+    .webplayer__liveImg:hover, .webplayer__moviesImg:hover, .webplayer__seriesImg:hover{
+        border: 4px solid #FFFFFF;
+        border-radius: 16px;
+    }
+    .webplayer_epg:hover, .webplayer__multiScreen:hover, .webplayer__catchup:hover{
+        border: 4px solid #FFFFFF;
+    }
+    .webplayer__movies__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__movies__text {
+        top: 56%;
+        left: 35%;
+        font-size: 30px;
+    }
+    .webplayer__series__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__series__text {
+        top: 55%;
+        left: 37%;
+        font-size: 30px;
+    }
+    .webplayer__expiration, .webplayer__logged{
+        font-size: 20px;
+    }
+}
+
+@media only screen and  (min-width: 1300px) {
+    .webplayer__icons img{
+        padding: 10px;
+    }
+    .webplayer__TD span, .webplayer__m_search span{
+        font-size: 18px;
+        line-height: 4.6;
+    }
+    .webplayer__headerIcon .webplayer__icons {
+        line-height: 4.9;
+    }
+    .webplayer__liveImg{
+        height: 425px;
+        border-radius: 8px;
+        border: 4px solid transparent;
+    }
+    .webplayer__moviesImg, .webplayer__seriesImg{
+        height: 330px;
+        border: 4px solid transparent;
+    }
+    .webplayer__live__logo {
+        width: 30%;
+        top: 25%;
+        right: 35%;
+    }
+    .webplayer__live__text {
+        top: 55%;
+        left: 34%;
+        font-size: 37px;
+    }
+    .webplayer_epg, .webplayer__multiScreen, .webplayer__catchup{
+        font-size: 22px;
+        padding: 15px;
+        border: 4px solid transparent;
+    }
+    .webplayer__liveImg:hover, .webplayer__moviesImg:hover, .webplayer__seriesImg:hover{
+        border: 4px solid #FFFFFF;
+        border-radius: 16px;
+    }
+    .webplayer_epg:hover, .webplayer__multiScreen:hover, .webplayer__catchup:hover{
+        border: 4px solid #FFFFFF;
+    }
+    .webplayer__movies__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__movies__text {
+        top: 59%;
+        left: 34%;
+        font-size: 35px;
+    }
+    .webplayer__series__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__series__text {
+        top: 58%;
+        left: 36%;
+        font-size: 35px;
+    }
+    .webplayer__expiration, .webplayer__logged{
+        font-size: 20px;
+    }
+}
+
+@media only screen and  (min-width: 1400px) {
+    .webplayer__icons img{
+        padding: 10px;
+    }
+    .webplayer__TD span, .webplayer__m_search span{
+        font-size: 18px;
+        line-height: 4.6;
+    }
+    .webplayer__headerIcon .webplayer__icons {
+        line-height: 4.9;
+    }
+    .webplayer__liveImg{
+        height: 425px;
+        border-radius: 8px;
+        border: 4px solid transparent;
+    }
+    .webplayer__moviesImg, .webplayer__seriesImg{
+        height: 330px;
+        border: 4px solid transparent;
+    }
+    .webplayer__live__logo {
+        width: 30%;
+        top: 25%;
+        right: 35%;
+    }
+    .webplayer__live__text {
+        top: 57%;
+        left: 34%;
+        font-size: 40px;
+    }
+    .webplayer_epg, .webplayer__multiScreen, .webplayer__catchup{
+        font-size: 22px;
+        padding: 15px;
+        border: 4px solid transparent;
+    }
+    .webplayer__liveImg:hover, .webplayer__moviesImg:hover, .webplayer__seriesImg:hover{
+        border: 4px solid #FFFFFF;
+        border-radius: 16px;
+    }
+    .webplayer_epg:hover, .webplayer__multiScreen:hover, .webplayer__catchup:hover{
+        border: 4px solid #FFFFFF;
+    }
+    .webplayer__movies__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__movies__text {
+        top: 61%;
+        left: 35%;
+        font-size: 37px;
+    }
+    .webplayer__series__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__series__text {
+        top: 61%;
+        left: 36.5%;
+        font-size: 37px;
+    }
+    .webplayer__expiration, .webplayer__logged{
+        font-size: 20px;
+    }
+}
+
+@media only screen and  (min-width: 1500px) {
+    .webplayer__icons img{
+        padding: 10px;
+    }
+    .webplayer__TD span, .webplayer__m_search span{
+        font-size: 18px;
+        line-height: 4.6;
+    }
+    .webplayer__headerIcon .webplayer__icons {
+        line-height: 4.9;
+    }
+    .webplayer__liveImg{
+        height: 425px;
+        border-radius: 8px;
+        border: 4px solid transparent;
+    }
+    .webplayer__moviesImg, .webplayer__seriesImg{
+        height: 330px;
+        border: 4px solid transparent;
+    }
+    .webplayer__live__logo {
+        width: 30%;
+        top: 25%;
+        right: 35%;
+    }
+    .webplayer__live__text {
+        top: 59%;
+        left: 35%;
+        font-size: 40px;
+    }
+    .webplayer_epg, .webplayer__multiScreen, .webplayer__catchup{
+        font-size: 22px;
+        padding: 15px;
+        border: 4px solid transparent;
+    }
+    .webplayer__liveImg:hover, .webplayer__moviesImg:hover, .webplayer__seriesImg:hover{
+        border: 4px solid #FFFFFF;
+        border-radius: 16px;
+    }
+    .webplayer_epg:hover, .webplayer__multiScreen:hover, .webplayer__catchup:hover{
+        border: 4px solid #FFFFFF;
+    }
+    .webplayer__movies__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__movies__text {
+        top: 65%;
+        left: 36%;
+        font-size: 37px;
+    }
+    .webplayer__series__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__series__text {
+        top: 63%;
+        left: 38%;
+        font-size: 37px;
+    }
+    .webplayer__expiration, .webplayer__logged{
+        font-size: 20px;
+    }
+}
+
+@media only screen and  (min-width: 1600px) {
+    .webplayer__icons img{
+        padding: 10px;
+    }
+    .webplayer__TD span, .webplayer__m_search span{
+        font-size: 20px;
+        line-height: 4.6;
+    }
+    .webplayer__headerIcon .webplayer__icons {
+        line-height: 4.9;
+    }
+    .webplayer__liveImg{
+        height: 430px;
+        border-radius: 8px;
+        border: 4px solid transparent;
+    }
+    .webplayer__moviesImg, .webplayer__seriesImg{
+        height: 330px;
+        border: 4px solid transparent;
+    }
+    .webplayer__live__logo {
+        width: 30%;
+        top: 25%;
+        right: 35%;
+    }
+    .webplayer__live__text {
+        top: 62%;
+        left: 35%;
+        font-size: 43px;
+    }
+    .webplayer_epg, .webplayer__multiScreen, .webplayer__catchup{
+        font-size: 22px;
+        padding: 15px;
+        border: 4px solid transparent;
+    }
+    .webplayer__liveImg:hover, .webplayer__moviesImg:hover, .webplayer__seriesImg:hover{
+        border: 4px solid #FFFFFF;
+        border-radius: 16px;
+    }
+    .webplayer_epg:hover, .webplayer__multiScreen:hover, .webplayer__catchup:hover{
+        border: 4px solid #FFFFFF;
+    }
+    .webplayer__movies__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__movies__text {
+        top: 67%;
+        left: 36%;
+        font-size: 40px;
+    }
+    .webplayer__series__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__series__text {
+        top: 66%;
+        left: 38%;
+        font-size: 40px;
+    }
+    .webplayer__expiration, .webplayer__logged{
+        font-size: 20px;
+    }
+}
+
+@media only screen and  (min-width: 1700px) {
+    .webplayer__icons img{
+        padding: 10px;
+    }
+    .webplayer__TD span, .webplayer__m_search span{
+        font-size: 20px;
+        line-height: 4.6;
+    }
+    .webplayer__headerIcon .webplayer__icons {
+        line-height: 4.9;
+    }
+    .webplayer__liveImg{
+        height: 430px;
+        border-radius: 8px;
+        border: 4px solid transparent;
+    }
+    .webplayer__moviesImg, .webplayer__seriesImg{
+        height: 330px;
+        border: 4px solid transparent;
+    }
+    .webplayer__live__logo {
+        width: 30%;
+        top: 25%;
+        right: 35%;
+    }
+    .webplayer__live__text {
+        top: 64%;
+        left: 36%;
+        font-size: 43px;
+    }
+    .webplayer_epg, .webplayer__multiScreen, .webplayer__catchup{
+        font-size: 22px;
+        padding: 15px;
+        border: 4px solid transparent;
+    }
+    .webplayer__liveImg:hover, .webplayer__moviesImg:hover, .webplayer__seriesImg:hover{
+        border: 4px solid #FFFFFF;
+        border-radius: 16px;
+    }
+    .webplayer_epg:hover, .webplayer__multiScreen:hover, .webplayer__catchup:hover{
+        border: 4px solid #FFFFFF;
+    }
+    .webplayer__movies__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__movies__text {
+        top: 70%;
+        left: 36%;
+        font-size: 40px;
+    }
+    .webplayer__series__logo {
+        width: 30%;
+        top: 22%;
+        right: 34%;
+    }
+    .webplayer__series__text {
+        top: 69%;
+        left: 39%;
+        font-size: 40px;
+    }
+    .webplayer__expiration, .webplayer__logged{
+        font-size: 20px;
+    }
+}

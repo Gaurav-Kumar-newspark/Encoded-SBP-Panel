@@ -1,0 +1,244 @@
+CRITICAL - 2022-05-10 00:04:15 --> Undefined property: App\Controllers\Settings::$generalmodal
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Settings.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Settings->generalsettings()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-10 00:06:30 --> Table 'ankush_db.am_configurations' doesn't exist
+CRITICAL - 2022-05-10 00:06:30 --> Table 'ankush_db.am_configurations' doesn't exist
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Models/Generalmodalsettings.php(33): CodeIgniter\Model->__call()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Settings.php(65): App\Models\Generalmodalsettings->getaddgeneralsettings()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Settings->generalsettings()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-10 00:08:57 --> Table 'ankush_db.am_configurations' doesn't exist
+CRITICAL - 2022-05-10 00:08:57 --> Table 'ankush_db.am_configurations' doesn't exist
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Models/Generalmodalsettings.php(33): CodeIgniter\Model->__call()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Settings.php(65): App\Models\Generalmodalsettings->getaddgeneralsettings()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Settings->generalsettings()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-10 00:10:05 --> Invalid file: adminaccess.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Adminconfiguration.php(84): view()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Adminconfiguration->adminconfiguration()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-10 00:11:54 --> Invalid file: adminaccess.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Adminconfiguration.php(84): view()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Adminconfiguration->adminconfiguration()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-10 00:18:18 --> Invalid file: adminaccess.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Adminconfiguration.php(84): view()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Adminconfiguration->adminconfiguration()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-10 00:18:21 --> Invalid file: adminaccess.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Adminconfiguration.php(84): view()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Adminconfiguration->adminconfiguration()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-10 01:17:45 --> Array to string conversion
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Views/generalsettings.php(142): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Settings.php(76): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Settings->generalsettings()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-10 01:24:52 --> required| is not a valid rule.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Settings.php(17): CodeIgniter\Controller->validate()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Settings->generalsettings()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-10 01:55:18 --> Undefined variable: data
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Settings.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Settings->smtpsetting()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-10 02:08:23 --> Undefined variable: finalsettingsdata
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Settings.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Settings->smtpsetting()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-10 02:26:24 --> Undefined variable: data
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Settings.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Settings->settings()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-10 02:39:14 --> Invalid file: settings.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Settings.php(10): view()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Settings->settings()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-10 03:07:52 --> Undefined variable: tab
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Views/generalsettings.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Settings.php(48): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Settings->generalsettings()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-10 05:05:35 --> Undefined variable: storeddbdata
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Views/includes/header.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Settings.php(48): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Settings->generalsettings()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-10 05:32:28 --> Undefined variable: tab2active
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Views/generalsettings.php(153): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Settings.php(49): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Settings->generalsettings()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-10 05:58:18 --> Undefined variable: smtpsucces
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Views/generalsettings.php(172): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Settings.php(124): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Settings->generalsettings()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-10 06:04:07 --> Undefined variable: smtphost
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Views/generalsettings.php(203): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Settings.php(124): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Settings->generalsettings()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-10 06:04:57 --> Email: sendWithSmtp throwed fsockopen() expects parameter 2 to be int, string given
+ERROR - 2022-05-10 06:05:50 --> Email: sendWithSmtp throwed fsockopen() expects parameter 2 to be int, string given
+ERROR - 2022-05-10 06:06:01 --> Email: sendWithSmtp throwed fsockopen() expects parameter 2 to be int, string given
+ERROR - 2022-05-10 06:12:19 --> Email: sendWithSmtp throwed fsockopen() expects parameter 2 to be int, string given
+CRITICAL - 2022-05-10 06:18:10 --> Undefined index: smtppass
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Settings.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Settings->generalsettings()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-10 06:52:30 --> Undefined index: action
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Views/generalsettings.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Settings.php(128): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Settings->generalsettings()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-10 06:57:30 --> Undefined variable: tab1active
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Views/generalsettings.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Settings.php(128): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Settings->generalsettings()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-10 07:14:31 --> Undefined variable: finalsettingsdata
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Settings.php(128): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Settings->generalsettings()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-10 07:34:58 --> Undefined variable: tab1
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Views/generalsettings.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Settings.php(130): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Settings->generalsettings()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-10 07:36:38 --> Array to string conversion
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Views/generalsettings.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Settings.php(130): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Settings->generalsettings()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-10 08:02:42 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+ERROR - 2022-05-10 08:03:08 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+ERROR - 2022-05-10 23:58:19 --> Email: sendWithSmtp throwed A non well formed numeric value encountered

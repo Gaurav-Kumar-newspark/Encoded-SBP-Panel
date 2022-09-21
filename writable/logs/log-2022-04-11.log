@@ -1,0 +1,571 @@
+CRITICAL - 2022-04-11 00:07:54 --> Decrypting: authentication failed.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/BaseController.php(73): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(803): App\Controllers\BaseController->initController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-11 00:09:15 --> Decrypting: authentication failed.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/BaseController.php(73): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(803): App\Controllers\BaseController->initController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-11 00:13:38 --> Decrypting: authentication failed.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(108): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->Adminlogin()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-11 00:14:35 --> Decrypting: authentication failed.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(109): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->Adminlogin()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-11 00:21:50 --> Decrypting: authentication failed.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/BaseController.php(73): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(803): App\Controllers\BaseController->initController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-11 00:22:04 --> Decrypting: authentication failed.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/BaseController.php(73): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(803): App\Controllers\BaseController->initController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-11 00:23:07 --> Decrypting: authentication failed.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/BaseController.php(73): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(803): App\Controllers\BaseController->initController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-11 00:24:25 --> Decrypting: authentication failed.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/BaseController.php(74): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(803): App\Controllers\BaseController->initController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-11 00:27:44 --> Decrypting: authentication failed.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/BaseController.php(74): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(803): App\Controllers\BaseController->initController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-11 00:27:47 --> Decrypting: authentication failed.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/BaseController.php(74): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(803): App\Controllers\BaseController->initController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-11 00:29:07 --> Decrypting: authentication failed.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/BaseController.php(73): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(803): App\Controllers\BaseController->initController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-11 01:27:04 --> Undefined variable: style
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Views/dashboard.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(199): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->Dashboard()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-11 04:02:45 --> Undefined variable: Password
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(137): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->login()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-11 04:47:24 --> Use of undefined constant ADMINPERMISSION - assumed 'ADMINPERMISSION' (this will throw an Error in a future version of PHP)
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->Register()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-11 04:48:20 --> syntax error, unexpected '"file not exits"' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(790): class_exists()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-11 04:51:19 --> Undefined variable: file_content
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->Register()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-11 05:11:53 --> Argument 1 passed to symbolic_permissions() must be of the type int, string given, called in /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php on line 28
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(28): symbolic_permissions()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->Register()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-11 05:16:44 --> Undefined variable: data
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->Register()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-11 05:38:16 --> Table 'ankush_db.demouserform' doesn't exist
+CRITICAL - 2022-04-11 05:38:16 --> Table 'ankush_db.demouserform' doesn't exist
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(45): CodeIgniter\Controller->validate()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->Register()
+#10 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-04-11 05:51:44 --> Table 'ankush_db.demouserform' doesn't exist
+CRITICAL - 2022-04-11 05:51:44 --> Table 'ankush_db.demouserform' doesn't exist
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(45): CodeIgniter\Controller->validate()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->Register()
+#10 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-04-11 05:52:22 --> Table 'ankush_db.demouserform' doesn't exist
+CRITICAL - 2022-04-11 05:52:22 --> Table 'ankush_db.demouserform' doesn't exist
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(45): CodeIgniter\Controller->validate()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->Register()
+#10 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-04-11 05:52:43 --> Table 'ankush_db.demouserform' doesn't exist
+CRITICAL - 2022-04-11 05:52:43 --> Table 'ankush_db.demouserform' doesn't exist
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(45): CodeIgniter\Controller->validate()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->Register()
+#10 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-04-11 05:53:42 --> Table 'ankush_db.demouserform' doesn't exist
+CRITICAL - 2022-04-11 05:53:42 --> Table 'ankush_db.demouserform' doesn't exist
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(45): CodeIgniter\Controller->validate()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->Register()
+#10 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-04-11 05:54:00 --> Table 'ankush_db.demouserform' doesn't exist
+CRITICAL - 2022-04-11 05:54:00 --> Table 'ankush_db.demouserform' doesn't exist
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(45): CodeIgniter\Controller->validate()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->Register()
+#10 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-04-11 06:00:16 --> Undefined variable: result
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(73): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->Register()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-11 06:35:13 --> Undefined variable: Password
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(143): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->login()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-11 07:34:46 --> Undefined variable: base_url
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Views/login.php(111): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(168): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->login()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-11 07:35:03 --> Undefined variable: base_url
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Views/login.php(111): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(168): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->login()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-11 08:08:31 --> Decrypting: authentication failed.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Views/login.php(96): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include('/var/www/vhosts...')
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(168): view()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->login()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-11 08:08:40 --> Decrypting: authentication failed.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Views/login.php(96): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include('/var/www/vhosts...')
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(168): view()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->login()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-11 08:08:49 --> Decrypting: authentication failed.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Views/login.php(96): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include('/var/www/vhosts...')
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(168): view()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->login()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-11 08:12:10 --> Decrypting: authentication failed.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Views/login.php(96): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include('/var/www/vhosts...')
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(168): view()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->login()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-11 08:19:55 --> Decrypting: authentication failed.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Views/login.php(96): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include('/var/www/vhosts...')
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(168): view()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->login()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-11 08:23:55 --> Decrypting: authentication failed.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Views/login.php(96): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include('/var/www/vhosts...')
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(168): view()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->login()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-11 08:28:49 --> Unknown database 'ankush_dbccc'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/BaseController.php(136): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/BaseController.php(60): App\Controllers\BaseController->checkdbconnection()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(803): App\Controllers\BaseController->initController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-11 08:29:00 --> Invalid file: CreateAdminLayout.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(93): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->register()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-11 08:30:02 --> Invalid file: CreateAdminLayout.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(93): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->register()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-11 08:30:06 --> Invalid file: CreateAdminLayout.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(93): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->register()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-11 08:30:56 --> Invalid file: CreateAdminLayout.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(93): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->register()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-11 08:35:48 --> Invalid file: CreateAdminLayout.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(93): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->register()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-11 08:37:43 --> Invalid file: CreateAdminLayout.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(93): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->register()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-11 08:38:25 --> Invalid file: CreateAdminLayout.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(93): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->register()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-11 08:38:29 --> Invalid file: CreateAdminLayout.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(93): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->register()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-11 08:38:58 --> Invalid file: CreateAdminLayout.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(93): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->register()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-11 08:40:35 --> Invalid file: CreateAdminLayout.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(93): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->register()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-11 08:40:38 --> Invalid file: CreateAdminLayout.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(93): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->register()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-11 08:40:41 --> Invalid file: CreateAdminLayout.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(93): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->register()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-11 08:44:56 --> Invalid file: createadminlayout.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(93): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->register()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-11 08:44:59 --> Invalid file: createadminlayout.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(93): view()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->register()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-11 08:49:41 --> Class 'App\Models\createadmin' not found
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->register()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-11 23:14:51 --> Decrypting: authentication failed.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Views/login.php(96): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include('/var/www/vhosts...')
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(168): view()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->login()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-11 23:15:02 --> Decrypting: authentication failed.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Encryption/Handlers/OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Views/login.php(96): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(210): include('/var/www/vhosts...')
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(168): view()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->login()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-11 23:17:15 --> Invalid file: AddAdverticment.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(300): view()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->storevalue()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-11 23:17:50 --> Invalid file: AddAdverticment.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(300): view()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->storevalue()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-11 23:19:19 --> Invalid file: AddAdverticment.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(300): view()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->storevalue()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-11 23:21:16 --> Invalid file: AddAdverticment.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(300): view()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->storevalue()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-11 23:33:08 --> Invalid file: AddAdverticment.php
+#0 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/app/Controllers/Home.php(300): view()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(825): App\Controllers\Home->storevalue()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/ankush_ci/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

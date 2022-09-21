@@ -1,0 +1,389 @@
+CRITICAL - 2022-07-05 01:10:40 --> Undefined property: App\Controllers\Login::$loginmodel
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 01:13:16 --> Undefined property: App\Controllers\Login::$adminconfiguration
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 01:48:24 --> Undefined property: App\Controllers\Settings::$smtpmodel
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Settings.php(87): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Settings->generalsettings()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 01:51:41 --> Table 'smartersactivationpanel.am_smtp' doesn't exist
+CRITICAL - 2022-07-05 01:51:41 --> Table 'smartersactivationpanel.am_smtp' doesn't exist
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Models/Smtpmodel.php(15): CodeIgniter\Model->__call()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Settings.php(87): App\Models\Smtpmodel->getsmtpdetails()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Settings->generalsettings()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-05 02:16:27 --> Unknown column 'fromemail' in 'field list'
+CRITICAL - 2022-07-05 02:16:27 --> Unknown column 'fromemail' in 'field list'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Models/Smtpmodel.php(23): CodeIgniter\Model->insert()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Settings.php(160): App\Models\Smtpmodel->insertsmtpdata()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Settings->generalsettings()
+#10 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-07-05 02:26:07 --> Undefined variable: mainlogo
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Views/includes/header.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Dashboard.php(6): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Dashboard->dashboard()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-05 02:26:09 --> Undefined variable: mainlogo
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Views/includes/header.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Dashboard.php(6): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Dashboard->dashboard()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-05 02:45:12 --> Table 'smartersactivationpanel.am_mediafiles' doesn't exist
+CRITICAL - 2022-07-05 02:45:12 --> Table 'smartersactivationpanel.am_mediafiles' doesn't exist
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Models/Mediafilesmodel.php(43): CodeIgniter\Model->__call()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Media.php(162): App\Models\Mediafilesmodel->getallmediafilesbycat()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Media->listmedia()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-05 02:45:21 --> Table 'smartersactivationpanel.am_mediafiles' doesn't exist
+CRITICAL - 2022-07-05 02:45:21 --> Table 'smartersactivationpanel.am_mediafiles' doesn't exist
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Models/Mediafilesmodel.php(43): CodeIgniter\Model->__call()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Media.php(162): App\Models\Mediafilesmodel->getallmediafilesbycat()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Media->listmedia()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-05 02:46:47 --> Table 'smartersactivationpanel.am_mediafiles' doesn't exist
+CRITICAL - 2022-07-05 02:46:47 --> Table 'smartersactivationpanel.am_mediafiles' doesn't exist
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Models/Mediafilesmodel.php(43): CodeIgniter\Model->__call()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Media.php(162): App\Models\Mediafilesmodel->getallmediafilesbycat()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Media->listmedia()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-05 02:46:55 --> Table 'smartersactivationpanel.am_mediafiles' doesn't exist
+CRITICAL - 2022-07-05 02:46:55 --> Table 'smartersactivationpanel.am_mediafiles' doesn't exist
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Models/Mediafilesmodel.php(43): CodeIgniter\Model->__call()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Media.php(162): App\Models\Mediafilesmodel->getallmediafilesbycat()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Media->listmedia()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-05 02:50:17 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/HTTP/Files/UploadedFile.php(176): mkdir()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Media.php(69): CodeIgniter\HTTP\Files\UploadedFile->move()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-05 02:52:36 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/HTTP/Files/UploadedFile.php(176): mkdir()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Media.php(69): CodeIgniter\HTTP\Files\UploadedFile->move()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-05 02:54:49 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/HTTP/Files/UploadedFile.php(176): mkdir()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Media.php(69): CodeIgniter\HTTP\Files\UploadedFile->move()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-05 02:56:35 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/HTTP/Files/UploadedFile.php(176): mkdir()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Media.php(69): CodeIgniter\HTTP\Files\UploadedFile->move()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-05 02:59:58 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Images/Handlers/GDHandler.php(245): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Media.php(58): CodeIgniter\Images\Handlers\GDHandler->save()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-05 04:28:01 --> Undefined variable: firstnamedie
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Login.php(73): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 04:34:48 --> Trying to get property 'firstname' of non-object
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Login.php(73): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 04:35:31 --> Trying to get property 'firstname' of non-object
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Login.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 04:47:08 --> Class 'App\Models\Loginmodel' not found
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(803): App\Controllers\BaseController->initController()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-05 04:48:52 --> Class 'App\Controllers\Addsmodel' not found
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(803): App\Controllers\BaseController->initController()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-05 04:49:15 --> Undefined property: App\Controllers\Login::$loginmodel
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 05:39:22 --> Table 'smartersactivationpanel.am_admin' doesn't exist
+CRITICAL - 2022-07-05 05:39:22 --> Table 'smartersactivationpanel.am_admin' doesn't exist
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Adminconfiguration.php(35): CodeIgniter\Controller->validate()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Adminconfiguration->adminconfiguration()
+#10 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-07-05 05:42:05 --> Table 'smartersactivationpanel.am_admin' doesn't exist
+CRITICAL - 2022-07-05 05:42:05 --> Table 'smartersactivationpanel.am_admin' doesn't exist
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Adminconfiguration.php(35): CodeIgniter\Controller->validate()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Adminconfiguration->adminconfiguration()
+#10 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-07-05 05:43:11 --> Table 'smartersactivationpanel.am_admin' doesn't exist
+CRITICAL - 2022-07-05 05:43:11 --> Table 'smartersactivationpanel.am_admin' doesn't exist
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Adminconfiguration.php(35): CodeIgniter\Controller->validate()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Adminconfiguration->adminconfiguration()
+#10 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-07-05 05:43:37 --> Table 'smartersactivationpanel.am_admin' doesn't exist
+CRITICAL - 2022-07-05 05:43:37 --> Table 'smartersactivationpanel.am_admin' doesn't exist
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Adminconfiguration.php(35): CodeIgniter\Controller->validate()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Adminconfiguration->adminconfiguration()
+#10 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-07-05 05:44:32 --> Table 'smartersactivationpanel.am_admin' doesn't exist
+CRITICAL - 2022-07-05 05:44:32 --> Table 'smartersactivationpanel.am_admin' doesn't exist
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Adminconfiguration.php(35): CodeIgniter\Controller->validate()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Adminconfiguration->adminconfiguration()
+#10 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-07-05 05:44:36 --> Table 'smartersactivationpanel.am_admin' doesn't exist
+CRITICAL - 2022-07-05 05:44:36 --> Table 'smartersactivationpanel.am_admin' doesn't exist
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Adminconfiguration.php(35): CodeIgniter\Controller->validate()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Adminconfiguration->adminconfiguration()
+#10 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-07-05 05:46:21 --> Table 'smartersactivationpanel.am_admin' doesn't exist
+CRITICAL - 2022-07-05 05:46:21 --> Table 'smartersactivationpanel.am_admin' doesn't exist
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Adminconfiguration.php(35): CodeIgniter\Controller->validate()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Adminconfiguration->adminconfiguration()
+#10 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-07-05 05:46:46 --> Table 'smartersactivationpanel.am_admin' doesn't exist
+CRITICAL - 2022-07-05 05:46:46 --> Table 'smartersactivationpanel.am_admin' doesn't exist
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Adminconfiguration.php(35): CodeIgniter\Controller->validate()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Adminconfiguration->adminconfiguration()
+#10 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-07-05 05:47:57 --> Table 'smartersactivationpanel.am_api' doesn't exist
+CRITICAL - 2022-07-05 05:47:57 --> Table 'smartersactivationpanel.am_api' doesn't exist
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Models/Apimodel.php(29): CodeIgniter\Model->__call()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Dashboard.php(9): App\Models\Apimodel->getallapidetailslist()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Dashboard->dashboard()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-05 05:56:39 --> Class 'App\Models\Addsmodel' not found
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(803): App\Controllers\BaseController->initController()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-05 05:59:04 --> Could not move file phpltjC1M to /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/uploads/media/ ()
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Media.php(69): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-05 05:59:58 --> Could not move file phpd7AyXu to /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/uploads/media/ ()
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Media.php(69): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-05 06:01:32 --> Could not move file phpXyvRLT to /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/uploads/media/ ()
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/app/Controllers/Media.php(69): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartersactivationpanel/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

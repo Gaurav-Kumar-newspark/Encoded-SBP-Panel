@@ -1,0 +1,105 @@
+CRITICAL - 2022-08-04 00:24:51 --> Undefined variable: response
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/app/Controllers/Login.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-04 00:28:49 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(790): class_exists()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-04 00:34:43 --> Please Confirm Your Are Human Or Robot is not a valid rule.
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/app/Controllers/Login.php(49): CodeIgniter\Controller->validate()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-04 00:35:38 --> Please Confirm Your Are Human Or Robot is not a valid rule.
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/app/Controllers/Login.php(49): CodeIgniter\Controller->validate()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-04 00:39:08 --> Please Confirm Your Are Human Or Robot is not a valid rule.
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/app/Controllers/Login.php(49): CodeIgniter\Controller->validate()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(825): App\Controllers\Login->login()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-04 02:13:31 --> Undefined variable: email
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/app/Views/security.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/app/Controllers/Security.php(12): view()
+#5 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(825): App\Controllers\Security->security()
+#6 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 03:08:48 --> Undefined property: App\Controllers\Security::$validate
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/app/Controllers/Security.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(825): App\Controllers\Security->security()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-04 03:24:41 --> Array to string conversion
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/app/Controllers/Security.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(825): App\Controllers\Security->security()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-04 08:29:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getResultArrays()
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(825): App\Controllers\Testing->test()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-04 08:33:22 --> Call to undefined method App\Models\Adminconfigurationmodel::hasWhere
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/app/Controllers/Testing.php(10): CodeIgniter\Model->__call()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(825): App\Controllers\Testing->test()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-04 08:33:37 --> Call to undefined method App\Models\Adminconfigurationmodel::hasWhere
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/app/Controllers/Testing.php(10): CodeIgniter\Model->__call()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(825): App\Controllers\Testing->test()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-04 08:33:51 --> Call to undefined method App\Models\Adminconfigurationmodel::hasWhere
+#0 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/app/Controllers/Testing.php(10): CodeIgniter\Model->__call()
+#1 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(825): App\Controllers\Testing->test()
+#2 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/hosting.iptvbillingsolution.com/public/testingsca/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-04 23:58:17 --> Cannot declare class App\Models\Smtpmodel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-04 23:59:38 --> Cannot declare class App\Models\Smtpmodel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

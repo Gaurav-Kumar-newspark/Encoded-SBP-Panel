@@ -1,0 +1,423 @@
+CRITICAL - 2022-05-13 01:55:26 --> jpeg is not a valid rule.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(32): CodeIgniter\Controller->validate()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-13 01:56:46 --> syntax error, unexpected 'if' (T_IF)
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(790): class_exists()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-13 01:57:04 --> Image File is not a valid uploaded file. is not a valid rule.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(40): CodeIgniter\Controller->validate()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-13 02:04:22 --> Only Images Are Allowed To Upoaded! is not a valid rule.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(41): CodeIgniter\Controller->validate()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-13 02:05:23 --> filename is not a valid rule.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(41): CodeIgniter\Controller->validate()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-13 02:10:17 --> preg_match() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Validation/Validation.php(269): preg_match()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(50): CodeIgniter\Controller->validate()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-13 02:15:52 --> Array callback has to contain indices 0 and 1
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 02:17:47 --> preg_match() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Validation/Validation.php(269): preg_match()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(48): CodeIgniter\Controller->validate()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-13 02:18:14 --> Your password is too short. You want to get hacked? is not a valid rule.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(48): CodeIgniter\Controller->validate()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-13 02:18:46 -->  is not a valid rule.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(48): CodeIgniter\Controller->validate()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-13 02:19:24 --> filename is not a valid rule.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(48): CodeIgniter\Controller->validate()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-13 02:36:16 --> Call to a member function getRandomName() on string
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 02:37:40 --> Call to a member function getRandomName() on string
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 02:37:55 --> Call to a member function getRandomName() on string
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 02:39:48 --> Call to a member function move() on string
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 02:46:51 --> Call to a member function getRandomName() on string
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 02:48:40 --> Call to undefined function App\Controllers\generateRandomString()
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 02:58:59 --> Call to a member function move() on string
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 03:00:51 --> Call to a member function save() on string
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 03:03:27 --> File not found: /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/uploads/media/31367.jpg
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Images/Handlers/BaseHandler.php(148): CodeIgniter\Files\File->__construct()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(76): CodeIgniter\Images\Handlers\BaseHandler->withFile()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-13 03:03:44 --> File not found: /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/uploads/media/avatar-admin.png
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Images/Handlers/BaseHandler.php(148): CodeIgniter\Files\File->__construct()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(76): CodeIgniter\Images\Handlers\BaseHandler->withFile()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-13 03:05:46 --> Argument 2 passed to CodeIgniter\Images\Handlers\GDHandler::save() must be of the type int, string given, called in /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php on line 75
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(75): CodeIgniter\Images\Handlers\GDHandler->save()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 03:06:21 --> You must specify a source image in your preferences.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Images/Handlers/BaseHandler.php(187): CodeIgniter\Images\Exceptions\ImageException::forMissingImage()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Images/Handlers/BaseHandler.php(709): CodeIgniter\Images\Handlers\BaseHandler->image()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(75): CodeIgniter\Images\Handlers\BaseHandler->__call()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-13 03:07:11 --> Undefined property: CodeIgniter\Images\Handlers\GDHandler::$avatar-admin.png
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 03:07:28 --> Undefined property: CodeIgniter\Images\Handlers\GDHandler::$img
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 03:07:50 --> Call to a member function move() on string
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 03:08:48 --> Call to a member function move() on string
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 03:10:23 --> Call to a member function getClientOriginalName() on string
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 03:11:14 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$img
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 03:13:30 --> Call to a member function move() on string
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 03:14:09 --> Call to a member function store() on string
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 03:14:34 --> Call to a member function save() on string
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 03:15:13 --> Call to a member function move_uploaded_file() on string
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 03:21:29 --> Call to a member function getTempName() on string
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 03:24:59 --> Illegal string offset 'tmp_name'
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 03:26:19 --> Array to string conversion
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(80): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 03:32:20 --> Call to a member function move() on string
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 04:44:10 --> Call to a member function getName() on null
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 05:00:47 --> Call to a member function getName() on string
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 05:21:01 --> Call to a member function getRandomName() on string
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 05:22:17 --> Undefined property: App\Controllers\Media::$img
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 05:32:49 --> Undefined property: App\Controllers\Media::$img
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 05:33:42 --> Call to a member function getRandomName() on string
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 05:35:05 --> Call to a member function move() on string
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 05:40:25 --> Call to a member function getTempName() on string
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 05:41:06 --> Undefined property: App\Controllers\Media::$avtar.png
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 05:41:55 --> Undefined property: App\Controllers\Media::$img
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 05:42:44 --> Call to undefined function App\Controllers\getTempName()
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 05:47:40 --> Call to a member function hasMoved() on string
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 05:51:39 --> Call to a member function getRandomName() on string
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 05:52:39 --> Call to a member function getRandomName() on string
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->media()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 06:37:47 --> Call to a member function getRandomName() on null
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 06:50:37 --> Call to a member function hasMoved() on bool
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 06:52:57 --> Call to a member function getName() on bool
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 06:53:08 --> Call to a member function getName() on bool
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 07:15:42 --> The uploaded file has already been moved.
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/HTTP/Files/UploadedFile.php(133): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/app/Controllers/Media.php(69): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(825): App\Controllers\Media->uploadmediadata()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-13 07:22:41 --> syntax error, unexpected 'die' (T_EXIT)
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(790): class_exists()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-13 07:22:44 --> syntax error, unexpected 'die' (T_EXIT)
+#0 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(790): class_exists()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/appbackendv2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-13 07:46:07 --> Column 'filename' cannot be null
+ERROR - 2022-05-13 07:47:53 --> Column 'filename' cannot be null
+ERROR - 2022-05-13 07:49:14 --> Column 'filename' cannot be null
+ERROR - 2022-05-13 07:50:25 --> Column 'filename' cannot be null

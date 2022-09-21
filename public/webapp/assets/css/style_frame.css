@@ -1,0 +1,248 @@
+@media only screen and (min-width: 300px) {
+  #appdatadefault {
+    width: 100%;
+    height: 349px;
+    padding: 45px 30px;
+  }
+}
+@media only screen and (min-width: 400px) {
+  #appdatadefault {
+    width: 100%;
+    height: 400px;
+    padding: 50px 55px;
+  }
+}
+@media only screen and (min-width: 500px) {
+  #appdatadefault {
+    width: 100%;
+    height: 285px;
+    padding: 35px 42px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #appdatadefault {
+    width: 100%;
+    height: 400px;
+    padding: 50px 55px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  #appdatadefault {
+    width: 100%;
+    height: 350px;
+    padding: 38px 50px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  #appdatadefault {
+    width: 100%;
+    height: 425px;
+    padding: 50px 55px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  #appdatadefault {
+    width: 100%;
+    height: 448px;
+    padding: 50px 55px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #appdatadefault {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  #appdatadefault {
+    width: 100%;
+    height: 375px;
+    padding: 50px 55px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #appdatadefault {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  #appdatadefault {
+    width: 100%;
+    height: 425px;
+    padding: 50px 60px;
+  }
+}
+
+/* @media only screen and (min-width: 1366px) {
+  #appdatadefault {
+    width: 102%;
+    height: 460px;
+    padding: 50px 60px;
+  }
+} */
+
+@media only screen and (min-width: 1366px) {
+  #appdatadefault {
+    width: 100%;
+    height: 500px;
+    padding: 70px 60px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  #appdatadefault {
+    width: 100%;
+    height: 455px;
+    padding: 60px 70px;
+  }
+}
+
+/* @media only screen and (min-width: 1500px) {
+  #appdatadefault {
+    width: 100%;
+    height: 480px;
+    padding: 60px 70px;
+  }
+} */
+
+@media only screen and (min-width: 1500px) {
+  #appdatadefault {
+    width: 100%;
+    height: 600px;
+    padding: 100px 70px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  #appdatadefault {
+    width: 100%;
+    height: 530px;
+    padding: 80px 80px;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  #appdatadefault {
+    width: 100%;
+    height: 645px;
+  }
+}
+
+/* @media only screen and (min-width: 1700px) {
+  #appdatadefault {
+    width: 100%;
+    height: 400px;
+  }
+} */
+
+/* @media only screen and (min-width: 1800px) {
+  #appdatadefault {
+    width: 100%;
+    height: 550px;
+    padding: 75px 88px;
+  }
+} */
+
+@media only screen and (min-width: 1800px) {
+  #appdatadefault {
+    width: 100%;
+    height: 740px;
+    padding: 75px 88px;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  #appdatadefault {
+    width: 100%;
+    height: 590px;
+    padding: 80px 90px;
+  }
+}
+
+/* @media only screen and (min-width: 2000px) {
+  #appdatadefault {
+    width: 100%;
+    height: 400px;
+  }
+} */
+
+@media only screen and (min-width: 2000px) {
+  #appdatadefault {
+    width: 100%;
+    height: 750px;
+  }
+}
+
+@media only screen and (min-width: 2100px) {
+  #appdatadefault {
+    width: 100%;
+    height: 670px;
+    padding: 80px 100px;
+  }
+}
+
+@media only screen and (min-width: 2200px) {
+  #appdatadefault {
+    width: 100%;
+    height: 820px;
+    padding: 87px 108px;
+  }
+}
+@media only screen and (min-width: 2300px) {
+  #appdatadefault {
+    width: 100%;
+    height: 400px;
+  }
+}
+@media only screen and (min-width: 2400px) {
+  #appdatadefault {
+    width: 100%;
+    height: 400px;
+  }
+}
+@media only screen and (min-width: 2500px) {
+  #appdatadefault {
+    width: 100%;
+    height: 400px;
+  }
+}
+@media only screen and (min-width: 2600px) {
+  #appdatadefault {
+    width: 100%;
+    height: 400px;
+  }
+}
+@media only screen and (min-width: 2700px) {
+  #appdatadefault {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 2800px) {
+  #appdatadefault {
+    width: 100%;
+    height: 940px;
+    padding: 125px 140px;
+  }
+}
+
+@media only screen and (min-width: 2900px) {
+  #appdatadefault {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 3000px) {
+  #appdatadefault {
+    width: 100%;
+    height: 1330px;
+    padding: 180px 220px;
+  }
+}

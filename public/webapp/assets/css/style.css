@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+}
+
+.p{
+    cursor: pointer;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+}
+
+.webplayer__dashboard__root{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+}
+.webplayer__dashboard__header{
+    justify-content: center;
+    align-items: center;
+}
+.webplayer__logo img{
+    width: 100%;
+}
+.webplayer__headerIcon .webplayer__icons{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.webplayer__radio, .webplayer__notifications, .webplayer__userInfo, .webplayer__recording, .webplayer__serttings, .webplayer__multiUser{
+    width: 16.6%;
+    padding: 0;
+    transition: 0.2s;
+}
+.webplayer__radio:hover, .webplayer__notifications:hover, .webplayer__userInfo:hover, .webplayer__recording:hover, .webplayer__serttings:hover, .webplayer__multiUser:hover{
+    transition: 0.2s;
+    transform: scale(1.3);
+}
+.webplayer__icons img{
+    width: 100%;
+}
+.webplayer__m_search{
+    text-align: center;
+}
+.webplayer__m_search i{
+    transition: 0.2s;
+}
+.webplayer__m_search:hover i{
+    transition: 0.2s;
+    transform: scale(1.2);
+}
+.webplayer__TD{
+    text-align: end;
+}
+.webplayer__liveImg{
+    position: relative;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.webplayer__moviesImg{
+    position: relative;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.webplayer__seriesImg{
+    position: relative;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.webplayer_epg, .webplayer__multiScreen, .webplayer__catchup{
+    width: 100%;
+    color: #f8f8f8;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.webplayer__live__logo, .webplayer__movies__logo, .webplayer__series__logo {
+    position: absolute;
+}
+.webplayer__live__text, .webplayer__movies__text, .webplayer__series__text {
+    position: absolute;
+    color: #f8f8f8;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.webplayer_epg:hover, .webplayer__multiScreen:hover, .webplayer__catchup:hover{
+    color: #f8f8f8;
+}
+.webplayer__epg__logo, .webplayer__ms__logo, .webplayer__catchup__logo{
+    width: 17%;
+}
+
+
+.webplayer__next__icon{
+    color: #ffff;
+    position: absolute;
+    z-index: 9999999999;
+    font-size: 20px;
+    right: 0;
+    cursor: pointer;
+    background: black;
+    padding: 10px 25px;
+    border-bottom-left-radius: 30px;
+}
+
+.webplayer__next__icon a{
+    text-decoration: none;
+    color: #ccc;
+}
+.webplayer__next__icon:hover{
+    background: #414641b5;
+}
+
+
+span.commonselforall.editbuttonfor-Logo
+{
+    line-height: 0 !important;
+}

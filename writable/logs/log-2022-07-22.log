@@ -1,0 +1,162 @@
+CRITICAL - 2022-07-22 01:19:38 --> Argument 2 passed to view() must be of the type array, string given, called in /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Controllers/Addgroup.php on line 110
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Controllers/Addgroup.php(110): view()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(825): App\Controllers\Addgroup->editgroup()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-22 01:25:09 --> Undefined variable: groupdata
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Views/editgroup.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Controllers/Addgroup.php(94): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(825): App\Controllers\Addgroup->editgroup()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-22 01:31:47 --> Undefined variable: groupdata
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Views/editgroup.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Controllers/Addgroup.php(118): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(825): App\Controllers\Addgroup->updategroup()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-22 01:32:57 --> Undefined variable: groupdata
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Views/editgroup.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Controllers/Addgroup.php(118): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(825): App\Controllers\Addgroup->updategroup()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-22 01:39:15 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::with() must be of the type string, array given, called in /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Controllers/Addgroup.php on line 101
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Controllers/Addgroup.php(101): CodeIgniter\HTTP\RedirectResponse->with()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(825): App\Controllers\Addgroup->updategroup()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-22 02:39:40 --> unlink(/var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/writable/debugbar/debugbar_1658475089.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/Debug/Toolbar/Collectors/History.php(74): unlink()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/Debug/Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(302): CodeIgniter\Events\Events::trigger()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-22 04:25:08 --> Undefined variable: fieldid
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Views/managerecords.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Controllers/Codes.php(863): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(825): App\Controllers\Codes->managerecords()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-22 04:25:08 --> Undefined variable: fieldid
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Views/managerecords.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Controllers/Codes.php(863): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(825): App\Controllers\Codes->managerecords()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-22 04:25:16 --> Undefined variable: fieldid
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Views/managerecords.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Controllers/Codes.php(863): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(825): App\Controllers\Codes->managerecords()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-22 05:29:56 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-22 05:41:07 --> Undefined variable: filterdata
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Views/managerecords.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Controllers/Codes.php(868): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(825): App\Controllers\Codes->managerecords()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-22 05:41:25 --> Undefined variable: filterdata
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Views/managerecords.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Controllers/Codes.php(868): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(825): App\Controllers\Codes->managerecords()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-22 05:43:59 --> Undefined variable: filterData
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Views/managerecords.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Controllers/Codes.php(868): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(825): App\Controllers\Codes->managerecords()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-22 05:44:54 --> Undefined variable: filterData
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Views/managerecords.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/View/View.php(210): include('/var/www/vhosts...')
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Controllers/Codes.php(868): view()
+#5 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(825): App\Controllers\Codes->managerecords()
+#6 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-22 08:28:51 --> Undefined variable: img
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/app/Controllers/Settings.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(825): App\Controllers\Settings->generalsettings()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-22 08:29:28 --> Call to a member function move() on string
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(825): App\Controllers\Settings->generalsettings()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-22 08:41:05 --> Call to a member function getRandomName() on null
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(825): App\Controllers\Settings->generalsettings()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-22 08:41:43 --> Call to a member function move() on null
+#0 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(825): App\Controllers\Settings->generalsettings()
+#1 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/vhosts/iptvbillingsolution.com/public/smartercodeactivationpanel2/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

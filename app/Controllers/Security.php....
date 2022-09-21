@@ -1,0 +1,20 @@
+<?php 
+namespace App\Controllers;
+
+class Security extends BaseController
+{
+ 
+    public function security(){
+
+        $data = array();
+        if(isset($_POST["savechnages"])){
+            echo"<pre>";print_r($_POST);echo"</pre>";die();   
+        }
+        echo view('includes/head', array("thiscontrol" => $this));
+        echo view('includes/header', array("thiscontrol" => $this,"menuactive" => "settings","submenuactive" => "security"));
+        echo view("security",$data);
+        echo view("includes/footer");
+
+    }
+}
+?>

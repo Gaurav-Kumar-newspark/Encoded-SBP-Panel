@@ -1,0 +1,399 @@
+    <!-- main-content -->
+    <div class="main-content app-content">
+
+        <!-- container -->
+        <div class="main-container container-fluid">
+
+            <!-- breadcrumb -->
+            <div class="breadcrumb-header justify-content-between">
+                <div class="left-content">
+                     <ol class="breadcrumb">
+                        <li class="breadcrumb-item tx-15"><a href="<?php echo base_url("dashboard"); ?>">Dashboard</a></li>
+                        <li class="breadcrumb-item"><a href="<?php echo base_url("codes"); ?>">M3U Files</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Add New</li>
+                    </ol>
+                </div>
+                <div class="justify-content-center mt-2">
+                   
+                </div>
+            </div>
+            <!-- /breadcrumb -->
+            
+            
+            <!-- row -->
+                    <div class="row row-sm">
+                        <div class="col-lg-8 col-xl-8 col-md-12 col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div id="wizard1">
+                                        <div id="extraerror"></div>
+                                        <?php
+                                            $attributes = ['id' => 'insertnewcode'];
+                                            echo form_open_multipart("insertnewcode", $attributes);
+                                            ?>
+                                            <?= csrf_field() ?>
+                                            <section>
+
+                                                <div class="control-group form-group">
+                                                    <label style="font-size: 15px;">Title</label>
+                                                    <input type="text" name="title" class="form-control" placeholder="Enter Title Name">
+                                                     <!-- <span class="descexplain">Number of codes you want to generate</span> -->
+                                                </div>
+                                                <div class="control-group form-group">
+                                                    
+                                                    <div class="row">
+                                                        <div class="col-lg-12">
+                                                            <label style="float:left;font-size: 15px;">M3U Files:</label>
+                                                            <label class="rdiobox" style="float: left;margin-left:8px;">
+                                                                <input class="fileselector radioboxesinputs"type="radio" name="uploadfileradio" value="uploadfile" id="uploadfilesec" data-showforid="uploadfileinput" data-commoninput="commongroupinput2" checked> <span> Upload File</span>
+                                                            </label>
+                                                        
+                                                            <label class="rdiobox" style="float: left; margin-left: 10px;">
+                                                                <input class="fileselector radioboxesinputs" name="uploadfileradio" type="radio" value="externallink" id="addexternalfilepath" data-showforid="externalepathinput" data-commoninput="commongroupinput2"> <span>Add External File Path </span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+
+                                                <div class="mb-3">
+                                                    <input class="form-control commongroupinput2" type="file" name="filename" id="uploadfileinput" >
+                                                    <input type="text" class="form-control d-none commongroupinput2"  id="externalepathinput" placeholder="Add File Path" name="filepath">
+                                                </div>
+
+
+                                                <div class="mb-3">
+                                                    <label style="font-size: 15px;">Status</label>
+                                                
+                                                    <select class="SlectBox form-control" name="status">
+                                                        <option value="active">Active</option>
+                                                         <option value="inactive">Inactive</option>
+                                                    </select>
+                                                </div>
+
+
+                                                <div class="control-group form-group">
+                                                   
+                                                    <label style="font-size: 15px;">Expire Date</label>
+                                                    <input type="text" name="expiredate" class="form-control" placeholder="Enter Expire Date" value="" autocomplete="off">
+                                                    
+                                                </div>
+
+
+                                                <div class="control-group form-group">            
+                                                    <label style="float:left;font-size: 15px;">Codes:</label>
+                                                        <label class="rdiobox" style="float: left;margin-left:8px;">
+                                                        <input class="codesselector radioboxesinputs"type="radio" name="codesradio" value="nofocodes"  data-showforid="noofcodesidsel" data-commoninput="commongroupinput3" checked> <span>Auto Generated</span>
+                                                        </label>
+
+                                                        <label class="rdiobox" style="float: left; margin-left: 10px;">
+                                                        <input class="codesselector radioboxesinputs" name="codesradio" type="radio" value="manualcode"  data-showforid="manualcodesec" data-commoninput="commongroupinput3"> <span>Manual</span>
+                                                        </label>
+                                                    <div id="noofcodesidsel" class="commongroupinput3">
+                                                        <input type="number" id="numofcodes" name="no_of_codes" class="form-control" placeholder="Number Of Codes" min="1" value="1">
+                                                    </div>
+                                                    <div id="manualcodesec" class="d-none commongroupinput3">
+                                                        <div class="row" style="width:100%;">
+                                                            <div class="col-md-11">
+                                                                <input type="text"  name="manualcodes[]" class="form-control" placeholder="Enter Your Code Or Mac Address">
+                                                            </div>
+                                                            <div class="col-md-1">
+                                                                <button id="addRow" type="button" class="btn btn-primary"><i class="fa fa-plus"></i></button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+
+
+                                                <div class="mb-3">
+                                                     <label style="font-size: 15px;">Group</label>
+                                                  
+                                                    <select class="SlectBox form-control" name="group">
+                                                        <?php
+                                                            if(isset($allgroups) && !empty($allgroups)){
+                                                                foreach($allgroups as $result){
+                                                                    ?>
+                                                                        <option value="<?php echo $result->id; ?>"><?php echo ucfirst($result->groupname); ?></option>
+                                                                    <?php
+                                                                }
+
+                                                            }
+                                                        ?>
+                                                        
+                                                    </select>
+                                                </div>
+                                    
+
+                                               
+
+
+
+                                                
+                                                <div class="control-group form-group">
+                                                    <a href="#" id="advancedsettings">Advance Settings <i class="angle fe fe-chevron-down" style="position: relative; top: 3px;"></i></a>
+                                                </div>
+                                                <div class="advanced-settings d-none">
+                                                    <div class="control-group form-group">
+                                                       
+                                                        <label style="font-size: 15px;">Codes Format</label>
+                                                        
+                                                        <div class="col-lg-12    px-0" >
+                                                            <label class="rdiobox" >
+                                                                <input class="formatforcodes" id="cf1" type="radio" name="codesformat" value="d" checked> <span>Only numeric values ( 0 -9 digits ) </span>
+                                                            </label>
+                                                            <label class="rdiobox" >
+                                                                <input class="formatforcodes" id="cf2"  type="radio" name="codesformat" value="lu"> <span>Only Alphabets ( A - Z, a-z )</span>
+                                                            </label>
+                                                            <label class="rdiobox" >
+                                                                <input class="formatforcodes" id="cf3" type="radio" name="codesformat" value="lud"> <span>Alpha-numeric ( A-Z, a-z , 0-9) </span>
+                                                            </label>
+                                                                                
+                                                        </div>
+                                                    </div>                                                    
+                                                    <div class="control-group form-group">
+                                                        <label>Codes Length</label>
+                                                        <input type="number" id="codeslengthis" name="codes_length" class="form-control" placeholder="Codes Length" min="8" value="10">
+                                                    </div>
+                                                </div>
+                                                <button type="submit" class="btn btn-primary mt-0 mb-0" id="generatecodesbtn" style="float: left; clear: both;">Generate</button>
+                                            </section>
+                                        <?php 
+                                            echo form_close();
+                                        ?>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /row -->
+        </div>
+    </div>
+                    
+
+<script>
+    $(function() {
+        $('input[name="expiredate"]').daterangepicker({
+            autoUpdateInput: false,
+            singleDatePicker: true,
+            locale: { 
+                    cancelLabel: 'Clear',
+                    format:'DD/MM/YYYY',
+                }
+        });
+
+        $('input[name="expiredate"]').on('apply.daterangepicker', function(ev, picker) {
+            $(this).val(picker.startDate.format('DD/MM/YYYY'));
+        });
+
+        $('input[name="expiredate"]').on('cancel.daterangepicker', function(ev, picker) {
+            $(this).val('');
+        });
+
+    });
+        $(document).ready(function(){
+            $("#addRow").click(function(){
+                inputhtml = '<div class="row inputcall" style="width:100%;">';
+                inputhtml+= '<div class="col-md-11" style="margin-top:10px;">';
+                inputhtml+= '<input type="text"  name="manualcodes[]" class="form-control" placeholder="Enter Your Code Or Mac Address">';
+                inputhtml+= '</div>';
+                inputhtml+= '<div class="col-md-1" style="margin-top:10px;">';
+                inputhtml+= '<button type="button" class="btn btn-danger deleterow"><i class="fa fa-trash"></i></button>';
+                inputhtml+= '</div>'; 
+                inputhtml+= '</div>'; 
+                $("#manualcodesec").append(inputhtml);    
+                $(".deleterow").click(function(){
+                    $(this).parent().parent().remove();
+                });                                                      
+                                                                
+            });
+            
+
+
+            $(".commongroupinput2").click(function(){
+                $(this).removeClass("is-invalid");
+            });
+
+            $(".radioboxesinputs").click(function(){
+                $(".invalid-feedback").remove();
+                $(".is-invalid").removeClass("is-invalid");
+                $("."+$(this).data("commoninput")).addClass("d-none");
+                $("#"+$(this).data("showforid")).removeClass("d-none");
+            });
+
+            $(".codesselector").click(function(){
+                if($(this).val() == "manualcode")
+                {
+                    $("#advancedsettings").hide();
+                    $(".advanced-settings").addClass('d-none');
+                }
+                else
+                {
+                    $("#advancedsettings").show();
+                }
+            });
+
+            $("#advancedsettings").click(function(s){
+                s.preventDefault();
+                $(".advanced-settings").toggleClass("d-none");
+                 
+            });
+
+            $('#insertnewcode').submit(function(e)
+            {   
+
+                e.preventDefault();
+               
+                $("#extraerror").html("");
+                $(".invalid-feedback").remove();
+                $(".is-invalid").removeClass("is-invalid");
+                $('#generatecodesbtn').html('Processing...').prop("disabled",true);
+                formData = new FormData(this);
+                console.log(formData);
+                jQuery.ajax({
+                    type:"POST",
+                    url:'<?php echo base_url("/processingcodes"); ?>',
+                    processData:false,
+                    contentType:false,
+                    data:formData,
+                    success:function(response)
+                    {
+                        var obj = $.parseJSON(response);  
+                        if(obj.result == "error")
+                        {
+                           $.each(obj.data, function( index, value ) {
+                                if(index == "extra")
+                                {   
+
+                                    $("#extraerror").html('<div class="alert alert-danger alert-dismissible"><button type="button" class="btn-close" data-bs-dismiss="alert"></button><strong>Error!</strong> '+value+'</div>');
+                                    $('html, body').animate({scrollTop:$('#extraerror').position().top}, 'slow');
+                                }
+
+                                $('[name="'+index+'"]').addClass("is-invalid");
+                                $('[name="'+index+'"]').after('<p class="invalid-feedback erroriden-'+index+'">'+value+'</p>');
+                            });
+                        }
+                        else
+                        {
+                            if(obj.loop == "no")
+                            {
+                                sss = obj.field_id;
+                               swal({
+                                    title: "Success!",
+                                    text: obj.data,
+                                    type: "success"
+                                }).then(function() {
+                                    window.location = "<?php echo base_url('/managerecords'); ?>/"+sss;
+                                });
+                            }
+                            else if(obj.loop == "yes")
+                            {
+                                numofcodes = $("#numofcodes").val();
+                                codeslengthis = $("#codeslengthis").val();
+                                codesformat = $(".formatforcodes:checked").val();
+
+                                loopcodesprocess(codesformat,codeslengthis,numofcodes,obj.pendingcodes,obj.field_id);
+                            }
+                        }
+                       $('#generatecodesbtn').html('Generate').prop("disabled",false);
+                    },  
+                });  
+            });
+
+            function loopcodesprocess(codesformat="",codeslengthis="",totalcodes = "",pendingcodes = "",field_id = "")
+            {
+
+                $("#processingmodal").modal({
+                    show:false,
+                    backdrop:'static'
+                    });
+                $("#processingmodal").modal("show");
+
+
+
+                jQuery.ajax({
+                type:"POST",
+                url:'<?php echo base_url("/loopcodesprocess"); ?>',
+                dataType:"text",
+                data:{
+                codesformat:codesformat,
+                codeslengthis:codeslengthis,
+                field_id:field_id,
+                pendingcodes:pendingcodes
+                }, 
+                success:function(response){
+
+                        var obj = $.parseJSON(response);  
+                        if(obj.result == "error")
+                        {
+                           $.each(obj.data, function( index, value ) {
+                                if(index == "extra")
+                                {
+                                    $("#extraerror").html('<div class="alert alert-danger alert-dismissible"><button type="button" class="btn-close" data-bs-dismiss="alert"></button><strong>Error!</strong> '+value+'</div>');
+                                    $('html, body').animate({scrollTop:$('#extraerror').position().top}, 'slow');
+                                }
+
+                                $('[name="'+index+'"]').addClass("is-invalid");
+                                $('[name="'+index+'"]').after('<p class="invalid-feedback erroriden-'+index+'">'+value+'</p>');
+                            });
+                           setTimeout(function(){
+                            $("#processingmodal").modal('hide');
+                           }, 1000);
+                            
+                        }
+                        else
+                        {
+                            console.log(obj);
+                            if(obj.loop == "no")
+                            {
+                                setTimeout(function(){
+                                $("#processingmodal").modal('hide');
+                                    swal({
+                                    title: "Success!",
+                                    text: obj.data,
+                                    type: "success"
+                                    }).then(function() {
+                                    window.location = "<?php echo base_url('/managerecords'); ?>/"+field_id;
+                                    });
+                               }, 1000);
+                            }
+                            else if(obj.loop == "yes")
+                            {
+                                numofcodes = $("#numofcodes").val();
+                                codeslengthis = $("#codeslengthis").val();
+                                codesformat = $(".formatforcodes:checked").val();
+                                loopcodesprocess(codesformat,codeslengthis,numofcodes,obj.pendingcodes,obj.file_id);
+                            }
+                        }
+                       // $('#generatecodesbtn').html('Generate').prop("disabled",false);
+                    
+                }
+              });
+            }
+
+});
+</script>
+
+    <div id="processingmodal" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-dialog-centered">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+         <!--  <div class="modal-header">
+            <h4 class="modal-title"><center>Generating Codes</center></h4>
+          </div> -->
+          <div class="modal-body">
+            <center style="margin-bottom: 20px;">
+              <h4 class="modal-title"><center>Generating Codes</center></h4>
+            </center>
+            <center>
+              <img src="<?php echo base_url(); ?>/assets/img/cupertino_activity_indicator.gif" style="width: 50px;">
+            </center>
+          </div>
+        </div>
+
+      </div>
+    </div>

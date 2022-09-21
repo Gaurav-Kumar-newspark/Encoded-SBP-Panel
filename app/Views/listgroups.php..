@@ -1,0 +1,249 @@
+<!-- main-content -->
+<div class="main-content app-content">
+    <!-- container -->
+    <div class="main-container container-fluid">
+        <!-- breadcrumb -->
+        <div class="breadcrumb-header justify-content-between">
+            <div class="left-content">
+           
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item tx-15">Dashboard</li>
+                    <li class="breadcrumb-item"><a href="<?php echo base_url('codes'); ?>">M3U File</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">List Groups</li>
+                </ol>
+            </div>
+            <div class="justify-content-center">
+                <a href="<?php echo base_url('addgroup'); ?>" class="btn btn-primary"><i class="fa fa-plus"></i> Add New</a>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: -10px;">
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
+                <?php
+                if (isset($_SESSION['groupmsg']) && !empty($_SESSION['groupmsg'])) {
+                    if ($_SESSION['groupmsg']['result'] == 'success') {
+                    ?>
+                            <div class="alert alert-success alert-dismissible" style="width: 100%;">
+                            <b>Success!&nbsp;</b><?php echo $_SESSION['groupmsg']['message']; ?>
+                            </div>
+                        <?php
+                    }
+                }
+                ?>
+                <div class="card custom-card">
+                    <div class="card-body"> 
+                        <div class="table-responsive  export-table">
+                            <table id="listgroupdata" class="listgroupdata table table-bordered text-nowrap key-buttons border-bottom">
+                                <thead style="text-align: center;">
+                                    <tr>
+                                    
+                                        <th>ID</th>
+                                        <th>Groupname</th>                                                   
+                                        <th >created_at</th>
+                                        <th >updated_on</th>
+                                        <th style="width: 20%;">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody style="text-align: center;">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+
+        </div>                                   
+                 
+    </div>
+</div>
+
+<script>
+
+var site_url = "<?php echo site_url(); ?>";
+
+$(document).ready( function () {
+
+    $('#listgroupdata').DataTable({
+       
+        lengthMenu: [[ 10, 30, 50,100], [ 10, 30,50,100]], // page length options
+        bProcessing: true,
+        serverSide: true,
+        order: [0,"desc"],
+
+        scrollCollapse: false,
+        ajax: {
+        url: site_url + "/loade-data", // json datasource
+        type: "post",
+        data: {}
+        },
+        columns: [
+
+        { data: "id" },
+        { data: "groupname" },
+        { data: "formatecreated_at" },
+        { data: "formateupdated_on" },
+
+        ],
+        columnDefs: [
+    
+            {
+                orderable: false,
+                targets:4,
+                render: function ( data, type, row, meta ) {
+                    if(row.groupname!== "Default"){
+                        data ='<a href="<?php echo base_url('/editgroup'); ?>/'+row.id+'"class="btn btn-info btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-edit"></i></a>';
+                        data+='&nbsp;';
+                        data+='<a href="#"class="btn btn-danger btn-sm" data-toggle="tooltip" data-placement="top" title="Delete" onclick="deletegroup(event,'+row.id+');"><i class="fa fa-trash"></i></a>';
+                    }else{
+                        data='';
+                    }
+                  
+                    
+                    return  data;
+                }
+            },
+
+            {
+                orderable: false,
+                targets:1,
+                render: function ( data, type, row, meta ) {
+
+                    
+                  
+                    let result = make_firstlettercapital(row.groupname);//.toUpperCase();
+                    
+                    return  result;
+                }
+            },
+            { 
+                orderable: false,
+                targets:[1,2,3,4],
+            },
+        ],
+        
+        
+        bFilter: true, // to display datatable search
+    });
+
+
+
+    $("#checkallinpouts").click(function()
+    {
+    
+      if($(this).is(':checked'))
+      {
+        $(".allcheckboxed").prop("checked",true);
+
+      }
+      else
+      {
+        $(".allcheckboxed").prop("checked",false);
+
+
+      }
+
+    });
+
+
+
+    
+
+
+    function make_firstlettercapital(str) {
+      strVal = '';
+      str = str.split(' ');
+      for (var chr = 0; chr < str.length; chr++) {
+        strVal += str[chr].substring(0, 1).toUpperCase() + str[chr].substring(1, str[chr].length) + ' '
+      }
+      return strVal
+    }
+});
+
+
+function deletegroup(e,rowid = "")
+{
+    e.preventDefault();
+    jQuery.ajax({
+        type:"POST",
+        url:'<?php echo base_url("/checkgroupexitsbeforedelete"); ?>',
+        dataType:"text",
+        data:{
+        rowid:rowid
+        },  
+        success:function(response){
+            var obj = $.parseJSON(response);  
+            if(obj.result == "error")
+            {
+                 swal({
+                     icon: "warning",
+                    text: obj.data,
+                    type: "warning"
+                });
+            }
+            else
+            {
+                swal({
+                  title: "Are you sure you want to delete?",
+                  text: "",
+                  icon: "warning",
+                  buttons: true,
+                  dangerMode: true,
+                })
+                .then((willDelete) => 
+                {
+                    if (willDelete) 
+                    {  
+                            swal.close();
+                           swal({
+                                text: 'Processing....',
+                                showCancelButton: false,
+                                showConfirmButton: false,
+                                buttons: false
+
+                            });
+
+                            jQuery.ajax({
+                                type:"POST",
+                                url:'<?php echo base_url("/deletefilegroupdata"); ?>',
+                                data:
+                                {
+                                    rowid:rowid,
+                                },
+                                success:function(response)
+                                {
+                                swal.close();
+                                if(response != "")
+                                {
+                                    var obj = $.parseJSON(response);  
+                                    if(obj.result == "error")
+                                    {
+                                        swal({
+                                          title: "Error",
+                                          text: obj.message,
+                                          icon: "error",
+                                          buttons: true,
+                                         dangerMode: true,
+                                        });
+                                    }
+                                    else
+                                    {
+/*                                            setTimeout(function(){*/
+                                            swal({
+                                            title: "Success!",
+                                            text: obj.message,
+                                            type: "success"
+                                            }).then(function() {
+                                            window.location = "<?php echo base_url('/listgroups'); ?>";
+                                            });
+/*                                           }, 1000);*/
+                                    }
+                                }
+                            },
+                        });  
+                    }
+                });                 
+            }   
+        }
+      });
+}
+</script>
