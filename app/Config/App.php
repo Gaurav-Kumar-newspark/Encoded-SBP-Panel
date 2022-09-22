@@ -24,7 +24,7 @@ class App extends BaseConfig
      * @var string
      */
 
-    public $baseURL = 'https://hosting.iptvbillingsolution.com/sbp/';
+    public $baseURL = 'https://YOURLINK/';
 
     /**
      * --------------------------------------------------------------------------
